@@ -1,0 +1,47 @@
+,0
+Start,2022-09-15 00:00:00
+End,2023-09-15 00:00:00
+Duration,365 days 00:00:00
+Exposure Time [%],72.50996015936255
+Equity Final [$],15440161.600000001
+Equity Peak [$],18185397.8
+Return [%],54.40161600000002
+Buy & Hold Return [%],64.58015267175573
+Return (Ann.) [%],54.66905867782859
+Volatility (Ann.) [%],51.486926732157166
+Sharpe Ratio,1.0618046589229408
+Sortino Ratio,2.813989202136321
+Calmar Ratio,2.9635958122906305
+Max. Drawdown [%],-18.44686729921299
+Avg. Drawdown [%],-4.308074959947119
+Max. Drawdown Duration,52 days 00:00:00
+Avg. Drawdown Duration,13 days 00:00:00
+# Trades,3
+Win Rate [%],66.66666666666666
+Best Trade [%],55.02702460248044
+Worst Trade [%],-1.0519622815035046
+Avg. Trade [%],15.599519868089562
+Max. Trade Duration,181 days 00:00:00
+Avg. Trade Duration,89 days 00:00:00
+Profit Factor,52.97965131922565
+Expectancy [%],18.22687753117642
+SQN,1.0002490410363842
+_strategy,SmaCross
+_equity_curve,"                Equity  DrawdownPct DrawdownDuration
+2022-09-15  10000000.0     0.000000              NaT
+2022-09-16  10000000.0     0.000000              NaT
+2022-09-19  10000000.0     0.000000              NaT
+2022-09-20  10000000.0     0.000000              NaT
+2022-09-21  10000000.0     0.000000              NaT
+...                ...          ...              ...
+2023-09-11  15744861.6     0.134203              NaT
+2023-09-12  15883361.6     0.126587              NaT
+2023-09-13  15661761.6     0.138773              NaT
+2023-09-14  15578661.6     0.143342              NaT
+2023-09-15  15440161.6     0.150958          52 days
+
+[251 rows x 3 columns]"
+_trades,"   Size  EntryBar  ExitBar  EntryPrice  ExitPrice        PnL  ReturnPct  EntryTime   ExitTime Duration
+0  -283        69       99     35229.4    35600.0  -104879.8  -0.010520 2022-12-23 2023-02-08  47 days
+1   277        99      223     35671.2    55300.0  5437177.6   0.550270 2023-02-08 2023-08-08 181 days
+2  -277       223      250     55189.4    54800.0   107863.8   0.007056 2023-08-08 2023-09-15  38 days"

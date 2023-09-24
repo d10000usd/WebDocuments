@@ -1,0 +1,47 @@
+,0
+Start,2022-09-15 00:00:00
+End,2023-09-15 00:00:00
+Duration,365 days 00:00:00
+Exposure Time [%],82.8
+Equity Final [$],13775784.100000003
+Equity Peak [$],15964099.600000001
+Return [%],37.75784100000003
+Buy & Hold Return [%],-27.368421052631582
+Return (Ann.) [%],38.11131436353803
+Volatility (Ann.) [%],40.320152267043305
+Sharpe Ratio,0.9452175207852396
+Sortino Ratio,2.1255031396108426
+Calmar Ratio,2.730064781072992
+Max. Drawdown [%],-13.959857153484545
+Avg. Drawdown [%],-3.9710764558678884
+Max. Drawdown Duration,54 days 00:00:00
+Avg. Drawdown Duration,14 days 00:00:00
+# Trades,3
+Win Rate [%],66.66666666666666
+Best Trade [%],31.538952675147726
+Worst Trade [%],-8.000710169956571
+Avg. Trade [%],11.2725404015658
+Max. Trade Duration,180 days 00:00:00
+Avg. Trade Duration,101 days 00:00:00
+Profit Factor,5.672857295707822
+Expectancy [%],12.462058962841779
+SQN,0.9099784175747848
+_strategy,SmaCross
+_equity_curve,"                Equity  DrawdownPct DrawdownDuration
+2022-09-15  10000000.0     0.000000              NaT
+2022-09-16  10000000.0     0.000000              NaT
+2022-09-19  10000000.0     0.000000              NaT
+2022-09-20  10000000.0     0.000000              NaT
+2022-09-21  10000000.0     0.000000              NaT
+...                ...          ...              ...
+2023-09-11  13856284.1     0.132035              NaT
+2023-09-12  13920684.1     0.128001              NaT
+2023-09-13  13767734.1     0.137582              NaT
+2023-09-14  13735534.1     0.139599              NaT
+2023-09-15  13775784.1     0.137077          51 days
+
+[250 rows x 3 columns]"
+_trades,"   Size  EntryBar  ExitBar  EntryPrice  ExitPrice        PnL  ReturnPct  EntryTime   ExitTime Duration
+0   419        43      114     23847.6    27150.0  1383705.6   0.138479 2022-11-17 2023-03-02 105 days
+1  -420       114      236     27095.7    18550.0  3589194.0   0.315390 2023-03-02 2023-08-29 180 days
+2   805       236      249     18587.1    17100.0 -1197115.5  -0.080007 2023-08-29 2023-09-15  17 days"

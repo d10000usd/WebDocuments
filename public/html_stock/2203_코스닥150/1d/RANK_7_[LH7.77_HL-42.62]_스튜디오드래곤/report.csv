@@ -1,0 +1,47 @@
+,0
+Start,2022-09-15 00:00:00
+End,2023-09-15 00:00:00
+Duration,365 days 00:00:00
+Exposure Time [%],63.2
+Equity Final [$],13499876.8
+Equity Peak [$],14092962.8
+Return [%],34.998768000000005
+Buy & Hold Return [%],-28.251748251748253
+Return (Ann.) [%],35.323257501518704
+Volatility (Ann.) [%],22.816294351950877
+Sharpe Ratio,1.5481592653321654
+Sortino Ratio,3.5678047918050297
+Calmar Ratio,6.2540240460659655
+Max. Drawdown [%],-5.648084695762956
+Avg. Drawdown [%],-2.2956322599984667
+Max. Drawdown Duration,35 days 00:00:00
+Avg. Drawdown Duration,11 days 00:00:00
+# Trades,3
+Win Rate [%],66.66666666666666
+Best Trade [%],36.86002141268838
+Worst Trade [%],-1.5784023843364636
+Avg. Trade [%],10.583123478633304
+Max. Trade Duration,210 days 00:00:00
+Avg. Trade Duration,76 days 00:00:00
+Profit Factor,23.601157065849463
+Expectancy [%],11.891240067166569
+SQN,0.93288209305985
+_strategy,SmaCross
+_equity_curve,"                Equity  DrawdownPct DrawdownDuration
+2022-09-15  10000000.0     0.000000              NaT
+2022-09-16  10000000.0     0.000000              NaT
+2022-09-19  10000000.0     0.000000              NaT
+2022-09-20  10000000.0     0.000000              NaT
+2022-09-21  10000000.0     0.000000              NaT
+...                ...          ...              ...
+2023-09-11  13581862.8     0.036266              NaT
+2023-09-12  13715876.8     0.026757              NaT
+2023-09-13  13634876.8     0.032505              NaT
+2023-09-14  13553876.8     0.038252              NaT
+2023-09-15  13499876.8     0.042084          16 days
+
+[250 rows x 3 columns]"
+_trades,"   Size  EntryBar  ExitBar  EntryPrice  ExitPrice        PnL  ReturnPct  EntryTime   ExitTime Duration
+0  -124        92      235     80139.4    50600.0  3662885.6   0.368600 2023-01-30 2023-08-28 210 days
+1   269       235      246     50701.2    50900.0    53477.2   0.003921 2023-08-28 2023-09-12  15 days
+2  -270       246      249     50798.2    51600.0  -216486.0  -0.015784 2023-09-12 2023-09-15   3 days"

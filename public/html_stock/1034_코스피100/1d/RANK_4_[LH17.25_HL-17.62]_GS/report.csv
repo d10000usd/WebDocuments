@@ -1,0 +1,48 @@
+,0
+Start,2022-09-15 00:00:00
+End,2023-09-15 00:00:00
+Duration,365 days 00:00:00
+Exposure Time [%],76.09561752988047
+Equity Final [$],11551147.7
+Equity Peak [$],12015750.9
+Return [%],15.511476999999992
+Buy & Hold Return [%],-11.391018619934282
+Return (Ann.) [%],15.577857504802562
+Volatility (Ann.) [%],19.845247159681513
+Sharpe Ratio,0.7849666662983785
+Sortino Ratio,1.448307171949217
+Calmar Ratio,1.3628893200001497
+Max. Drawdown [%],-11.43002390304214
+Avg. Drawdown [%],-3.1912224136645886
+Max. Drawdown Duration,93 days 00:00:00
+Avg. Drawdown Duration,23 days 00:00:00
+# Trades,4
+Win Rate [%],75.0
+Best Trade [%],11.344427986407602
+Worst Trade [%],-3.0195137979569187
+Avg. Trade [%],3.6812739820263785
+Max. Trade Duration,133 days 00:00:00
+Avg. Trade Duration,70 days 00:00:00
+Profit Factor,6.047263287150616
+Expectancy [%],3.8100702843681695
+SQN,1.2687857158442581
+_strategy,SmaCross
+_equity_curve,"                Equity  DrawdownPct DrawdownDuration
+2022-09-15  10000000.0     0.000000              NaT
+2022-09-16  10000000.0     0.000000              NaT
+2022-09-19  10000000.0     0.000000              NaT
+2022-09-20  10000000.0     0.000000              NaT
+2022-09-21  10000000.0     0.000000              NaT
+...                ...          ...              ...
+2023-09-11  11394947.7     0.051666              NaT
+2023-09-12  11238747.7     0.064665              NaT
+2023-09-13  11437547.7     0.048120              NaT
+2023-09-14  11465947.7     0.045757              NaT
+2023-09-15  11551147.7     0.038666          71 days
+
+[251 rows x 3 columns]"
+_trades,"   Size  EntryBar  ExitBar  EntryPrice  ExitPrice        PnL  ReturnPct  EntryTime   ExitTime Duration
+0  -217        60      151     45908.0    40700.0  1130136.0   0.113444 2022-12-12 2023-04-24 133 days
+1   272       151      166     40781.4    39550.0  -334940.8  -0.030195 2023-04-24 2023-05-17  23 days
+2  -273       166      221     39470.9    38650.0   224105.7   0.020798 2023-05-17 2023-08-04  79 days
+3   284       221      250     38727.3    40600.0   531846.8   0.048356 2023-08-04 2023-09-15  42 days"

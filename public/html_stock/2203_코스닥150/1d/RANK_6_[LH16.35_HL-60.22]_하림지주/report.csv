@@ -1,0 +1,48 @@
+,0
+Start,2022-09-15 00:00:00
+End,2023-09-15 00:00:00
+Duration,365 days 00:00:00
+Exposure Time [%],82.8
+Equity Final [$],10776023.599999998
+Equity Peak [$],17292924.12
+Return [%],7.760235999999978
+Buy & Hold Return [%],-6.923076923076923
+Return (Ann.) [%],7.824686004039183
+Volatility (Ann.) [%],52.987891178261826
+Sharpe Ratio,0.14766932274612288
+Sortino Ratio,0.20032694775754314
+Calmar Ratio,0.15621570603355586
+Max. Drawdown [%],-50.08898402545007
+Avg. Drawdown [%],-12.909825981512698
+Max. Drawdown Duration,161 days 00:00:00
+Avg. Drawdown Duration,36 days 00:00:00
+# Trades,4
+Win Rate [%],50.0
+Best Trade [%],22.830410275889466
+Worst Trade [%],-16.853819370584745
+Avg. Trade [%],1.8880603268184748
+Max. Trade Duration,129 days 00:00:00
+Avg. Trade Duration,76 days 00:00:00
+Profit Factor,1.5740308225362079
+Expectancy [%],2.9677513206301436
+SQN,0.2499463166406699
+_strategy,SmaCross
+_equity_curve,"                Equity  DrawdownPct DrawdownDuration
+2022-09-15  10000000.0     0.000000              NaT
+2022-09-16  10000000.0     0.000000              NaT
+2022-09-19  10000000.0     0.000000              NaT
+2022-09-20  10000000.0     0.000000              NaT
+2022-09-21  10000000.0     0.000000              NaT
+...                ...          ...              ...
+2023-09-11  10785593.6     0.376300              NaT
+2023-09-12  10785593.6     0.376300              NaT
+2023-09-13  10776023.6     0.376854              NaT
+2023-09-14  10756883.6     0.377960              NaT
+2023-09-15  10776023.6     0.376854         161 days
+
+[250 rows x 3 columns]"
+_trades,"   Size  EntryBar  ExitBar  EntryPrice  ExitPrice         PnL  ReturnPct  EntryTime   ExitTime Duration
+0  1343        43       77     7444.86     7160.0  -382566.98  -0.038263 2022-11-17 2023-01-05  49 days
+1 -1345        77       80     7145.68     8350.0 -1619810.40  -0.168538 2023-01-05 2023-01-10   5 days
+2   955        80      160     8366.70     9180.0   776701.50   0.097207 2023-01-10 2023-05-09 119 days
+3  -957       160      249     9161.64     7070.0  2001699.48   0.228304 2023-05-09 2023-09-15 129 days"

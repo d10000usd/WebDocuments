@@ -1,0 +1,49 @@
+,0
+Start,2022-09-15 00:00:00
+End,2023-09-15 00:00:00
+Duration,365 days 00:00:00
+Exposure Time [%],82.8
+Equity Final [$],14276561.600000001
+Equity Peak [$],16231761.600000001
+Return [%],42.765616000000016
+Buy & Hold Return [%],-31.497175141242938
+Return (Ann.) [%],43.172831018766146
+Volatility (Ann.) [%],67.80146345620554
+Sharpe Ratio,0.6367536748915815
+Sortino Ratio,1.6272227150681422
+Calmar Ratio,1.5529179602026846
+Max. Drawdown [%],-27.801102263722477
+Avg. Drawdown [%],-7.6655892081672325
+Max. Drawdown Duration,127 days 00:00:00
+Avg. Drawdown Duration,24 days 00:00:00
+# Trades,5
+Win Rate [%],60.0
+Best Trade [%],38.65281583575314
+Worst Trade [%],-4.81793079246049
+Avg. Trade [%],7.38071470212045
+Max. Trade Duration,152 days 00:00:00
+Avg. Trade Duration,61 days 00:00:00
+Profit Factor,6.390987565055866
+Expectancy [%],8.461362175436147
+SQN,1.1279857986889497
+_strategy,SmaCross
+_equity_curve,"                Equity  DrawdownPct DrawdownDuration
+2022-09-15  10000000.0     0.000000              NaT
+2022-09-16  10000000.0     0.000000              NaT
+2022-09-19  10000000.0     0.000000              NaT
+2022-09-20  10000000.0     0.000000              NaT
+2022-09-21  10000000.0     0.000000              NaT
+...                ...          ...              ...
+2023-09-11  13726661.6     0.154333              NaT
+2023-09-12  14001611.6     0.137394              NaT
+2023-09-13  14429311.6     0.111045              NaT
+2023-09-14  14307111.6     0.118573              NaT
+2023-09-15  14276561.6     0.120455          28 days
+
+[250 rows x 3 columns]"
+_trades,"   Size  EntryBar  ExitBar  EntryPrice  ExitPrice        PnL  ReturnPct  EntryTime   ExitTime Duration
+0   297        43       87     33567.0    32550.0  -302049.0  -0.030298 2022-11-17 2023-01-19  63 days
+1  -298        87      108     32484.9    34050.0  -466399.8  -0.048179 2023-01-19 2023-02-21  33 days
+2   270       108      120     34118.1    34300.0    49113.0   0.005331 2023-02-21 2023-03-10  17 days
+3  -271       120      223     34231.4    21000.0  3585709.4   0.386528 2023-03-10 2023-08-09 152 days
+4   611       223      249     21042.0    23350.0  1410188.0   0.109685 2023-08-09 2023-09-15  37 days"

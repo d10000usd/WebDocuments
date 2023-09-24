@@ -1,0 +1,22 @@
+|                        | 0                                             |
+|:-----------------------|:----------------------------------------------|
+| Start                  | 2022-08-13 09:00:00                           |
+| End                    | 2023-09-16 09:00:00                           |
+| Duration               | 399 days 00:00:00                             |
+| Exposure Time [%]      | 93.25                                         |
+| Equity Final [$]       | 8787061.976                                   |
+| Equity Peak [$]        | 13861120.16                                   |
+| Return [%]             | -12.129380240000003                           |
+| Buy & Hold Return [%]  | -35.82089552238806                            |
+| Return (Ann.) [%]      | -11.129552567477564                           |
+| Volatility (Ann.) [%]  | 75.01129351956021                             |
+| Sharpe Ratio           | 0.0                                           |
+| Sortino Ratio          | 0.0                                           |
+| Calmar Ratio           | 0.0                                           |
+| Max. Drawdown [%]      | -57.531993388332346                           |
+| Avg. Drawdown [%]      | -57.531993388332346                           |
+| Max. Drawdown Duration | 370 days 00:00:00                             |
+| Avg. Drawdown Duration | 370 days 00:00:00                             |
+| # Trades               | 20                                            |
+| ticker                 | RANK_6_[LH24.04_HL-54.58]_KRW-AERGO           |
+| explain                | # Explain RANK_6_[LH24.04_HL-54.58]_KRW-AERGO |

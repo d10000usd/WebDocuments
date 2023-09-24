@@ -1,0 +1,47 @@
+,0
+Start,2022-09-15 00:00:00
+End,2023-09-15 00:00:00
+Duration,365 days 00:00:00
+Exposure Time [%],77.29083665338645
+Equity Final [$],11588249.9532
+Equity Peak [$],11985049.9532
+Return [%],15.882499531999994
+Buy & Hold Return [%],-14.882684227133907
+Return (Ann.) [%],15.950574659909744
+Volatility (Ann.) [%],29.42158047563206
+Sharpe Ratio,0.5421386071737562
+Sortino Ratio,1.0580489904413444
+Calmar Ratio,1.3933256827187555
+Max. Drawdown [%],-11.44784371503571
+Avg. Drawdown [%],-5.170204517361191
+Max. Drawdown Duration,89 days 00:00:00
+Avg. Drawdown Duration,28 days 00:00:00
+# Trades,3
+Win Rate [%],100.0
+Best Trade [%],9.53790221028854
+Worst Trade [%],2.301662339481436
+Avg. Trade [%],5.094676308070922
+Max. Trade Duration,124 days 00:00:00
+Avg. Trade Duration,94 days 00:00:00
+Profit Factor,
+Expectancy [%],5.141376034992192
+SQN,2.241442761802705
+_strategy,SmaCross
+_equity_curve,"                  Equity  DrawdownPct DrawdownDuration
+2022-09-15  1.000000e+07     0.000000              NaT
+2022-09-16  1.000000e+07     0.000000              NaT
+2022-09-19  1.000000e+07     0.000000              NaT
+2022-09-20  1.000000e+07     0.000000              NaT
+2022-09-21  1.000000e+07     0.000000              NaT
+...                  ...          ...              ...
+2023-09-11  1.148585e+07     0.041652              NaT
+2023-09-12  1.168425e+07     0.025098              NaT
+2023-09-13  1.168425e+07     0.025098              NaT
+2023-09-14  1.159465e+07     0.032574              NaT
+2023-09-15  1.158825e+07     0.033108          23 days
+
+[251 rows x 3 columns]"
+_trades,"   Size  EntryBar  ExitBar    EntryPrice  ExitPrice          PnL  ReturnPct  EntryTime   ExitTime Duration
+0   -60        57      141  165533.65922   159600.0  356019.5532   0.035846 2022-12-07 2023-04-10 124 days
+1    64       141      192  159919.20000   163600.0  235571.2000   0.023017 2023-04-10 2023-06-26  77 days
+2   -64       192      250  163272.80000   147700.0  996659.2000   0.095379 2023-06-26 2023-09-15  81 days"

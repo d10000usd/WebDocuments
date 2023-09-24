@@ -1,0 +1,49 @@
+,0
+Start,2022-09-15 00:00:00
+End,2023-09-15 00:00:00
+Duration,365 days 00:00:00
+Exposure Time [%],73.30677290836654
+Equity Final [$],9254566.0
+Equity Peak [$],10671190.0
+Return [%],-7.454339999999999
+Buy & Hold Return [%],-12.917933130699089
+Return (Ann.) [%],-7.482898664517146
+Volatility (Ann.) [%],28.204254305363285
+Sharpe Ratio,0.0
+Sortino Ratio,0.0
+Calmar Ratio,0.0
+Max. Drawdown [%],-32.95437528523061
+Avg. Drawdown [%],-9.265518703774738
+Max. Drawdown Duration,253 days 00:00:00
+Avg. Drawdown Duration,67 days 00:00:00
+# Trades,5
+Win Rate [%],40.0
+Best Trade [%],14.752582087251431
+Worst Trade [%],-11.067429915652681
+Avg. Trade [%],-1.659607858305856
+Max. Trade Duration,106 days 00:00:00
+Avg. Trade Duration,54 days 00:00:00
+Profit Factor,0.7312338691573615
+Expectancy [%],-1.228132782874125
+SQN,-0.37920781447152835
+_strategy,SmaCross
+_equity_curve,"                Equity  DrawdownPct DrawdownDuration
+2022-09-15  10000000.0     0.000000              NaT
+2022-09-16  10000000.0     0.000000              NaT
+2022-09-19  10000000.0     0.000000              NaT
+2022-09-20  10000000.0     0.000000              NaT
+2022-09-21  10000000.0     0.000000              NaT
+...                ...          ...              ...
+2023-09-11   9158566.0     0.141748              NaT
+2023-09-12   9182566.0     0.139499              NaT
+2023-09-13   9410566.0     0.118133              NaT
+2023-09-14   9254566.0     0.132752              NaT
+2023-09-15   9254566.0     0.132752         253 days
+
+[251 rows x 3 columns]"
+_trades,"   Size  EntryBar  ExitBar  EntryPrice  ExitPrice        PnL  ReturnPct  EntryTime   ExitTime Duration
+0   -15        67       95    625746.0   695000.0 -1038810.0  -0.110674 2022-12-21 2023-02-02  43 days
+1    12        95      168    696390.0   710000.0   163320.0   0.019544 2023-02-02 2023-05-19 106 days
+2   -12       168      190    708580.0   721000.0  -149040.0  -0.017528 2023-05-19 2023-06-22  34 days
+3    12       190      202    722442.0   650000.0  -869304.0  -0.100274 2023-06-22 2023-07-10  18 days
+4   -12       202      250    648700.0   553000.0  1148400.0   0.147526 2023-07-10 2023-09-15  67 days"

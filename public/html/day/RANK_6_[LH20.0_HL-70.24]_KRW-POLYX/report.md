@@ -1,0 +1,22 @@
+|                        | 0                                            |
+|:-----------------------|:---------------------------------------------|
+| Start                  | 2022-08-13 09:00:00                          |
+| End                    | 2023-09-16 09:00:00                          |
+| Duration               | 399 days 00:00:00                            |
+| Exposure Time [%]      | 93.25                                        |
+| Equity Final [$]       | 2930497.207999997                            |
+| Equity Peak [$]        | 10213488.195999999                           |
+| Return [%]             | -70.69502792000003                           |
+| Buy & Hold Return [%]  | -53.987730061349694                          |
+| Return (Ann.) [%]      | -67.37248882019107                           |
+| Volatility (Ann.) [%]  | 52.69161014885656                            |
+| Sharpe Ratio           | 0.0                                          |
+| Sortino Ratio          | 0.0                                          |
+| Calmar Ratio           | 0.0                                          |
+| Max. Drawdown [%]      | -86.23786987338485                           |
+| Avg. Drawdown [%]      | -86.23786987338485                           |
+| Max. Drawdown Duration | 370 days 00:00:00                            |
+| Avg. Drawdown Duration | 370 days 00:00:00                            |
+| # Trades               | 18                                           |
+| ticker                 | RANK_6_[LH20.0_HL-70.24]_KRW-POLYX           |
+| explain                | # Explain RANK_6_[LH20.0_HL-70.24]_KRW-POLYX |
