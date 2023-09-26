@@ -64,12 +64,12 @@ def main():
     nav_structure = [{'MD': nav_structure[0]['md']}]
     # print(nav_structure)
 
-    p = f'/Users/hg/DEV/Web/hg-project-bootstrap/src/assets/mkdocs_posts_nav.json'
+    p = f'/Users/hg/DEV/Web/hg-project-bootstrap/public/json/mkdocs_posts_nav.json'
     nav_yaml = yaml.dump({'nav': nav_structure}, allow_unicode=True, sort_keys=False)
     with open(f'{p}', 'w') as json_file:
         json_file.write(json.dumps(nav_structure[0], indent=4, ensure_ascii=False,))
 
-    with open('/Users/hg/DEV/Web/hg-project-bootstrap/src/assets/mkdocs_posts_nav.yml', 'w', encoding='utf-8') as file:
+    with open('/Users/hg/DEV/Web/hg-project-bootstrap/public/json/mkdocs_posts_nav.yml', 'w', encoding='utf-8') as file:
         file.write(nav_yaml)
     print(f"nav_structure saved : {p}")
 

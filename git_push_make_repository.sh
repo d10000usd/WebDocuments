@@ -26,8 +26,8 @@ if [ "$repo_name" = "" ]; then
   # 디폴트로 'Init'이 커밋 메세지로 들어가게 했어요.
   # 이 부분 또한 편의에 맞게 바꿔 주시면 됩니다!
   git commit -m "Init"
-  git branch -M main
-  git remote add origin https://github.com/${GITHUB_USERNAME}/$repo_name.git
+  # git branch -M main
+  # git remote add origin https://github.com/${GITHUB_USERNAME}/$repo_name.git
   echo "[Info] Pushing local repository main branch to Github origin/main branch..."
 
   git push -u origin main
