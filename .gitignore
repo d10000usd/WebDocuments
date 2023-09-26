@@ -13,6 +13,7 @@ dist
 dist-ssr
 coverage
 *.local
+*.sh
 
 /cypress/videos/
 /cypress/screenshots/
@@ -26,4 +27,3 @@ coverage
 *.njsproj
 *.sln
 *.sw?
-*.sh
