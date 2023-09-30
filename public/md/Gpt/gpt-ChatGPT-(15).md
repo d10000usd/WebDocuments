@@ -1,7 +1,0 @@
-# ChatGPT
-
-RESPONSE:
-
-RESPONSE:
-
-RESPONSE:
