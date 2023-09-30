@@ -4,16 +4,11 @@ nav:
     - Gpt:
       - md/Gpt/3-etf.md
       - md/Gpt/Add Google link.md
-      - md/Gpt/ChatGPT-log---Mermaid-사용법-및-예제---2023-09-15-09-59-54.md
-      - md/Gpt/ChatGPT-log---Modificar-código-para-pestañas---2023-09-15-09-51-14.md
-      - md/Gpt/ChatGPT-log---Vue-코드-개선建议---2023-09-15-09-51-58.md
-      - md/Gpt/ChatGPT-log---정렬된-코인-정보---2023-09-15-09-53-01.md
-      - md/Gpt/Sep-18,-2023-02-45-54-PM-Conversation-with-ChatGPT.md
-      - md/Gpt/Sep-18,-2023-02-46-33-PM-Conversation-with-ChatGPT.md
       - md/Gpt/Welcome!!.md
       - md/Gpt/gpt-Add-Scatterplot-Annotation.md
       - md/Gpt/gpt-Add-_hadf_-column.-(1).md
       - md/Gpt/gpt-Add-_hadf_-column..md
+      - md/Gpt/gpt-All-CSS로-NaviFooter-숨기기-2023.md
       - md/Gpt/gpt-All-Divide-HTML-into-Columns-2023.md
       - md/Gpt/gpt-All-색상-변경-및-버튼-수정-2023.md
       - md/Gpt/gpt-Asynchronous-Company-Data-Retrieval.md
@@ -68,15 +63,6 @@ nav:
       - md/Gpt/gpt-FULL-Bootstrap-버튼-컨테이너-생성-17.md
       - md/Gpt/gpt-FULL-ChatGPT-0019-(1).md
       - md/Gpt/gpt-FULL-ChatGPT-0019.md
-      - md/Gpt/gpt-FULL-Format-Responses-in-Markdown-SEO-0027-(1).md
-      - md/Gpt/gpt-FULL-Format-Responses-in-Markdown-SEO-0027.md
-      - md/Gpt/gpt-FULL-Format-Responses-in-Markdown-SEO-17.md
-      - md/Gpt/gpt-FULL-Set-Engineering-Prompt-0018.md
-      - md/Gpt/gpt-FULL-User-request_-Summarize-conversation-title.-0013-(1).md
-      - md/Gpt/gpt-FULL-User-request_-Summarize-conversation-title.-0013.md
-      - md/Gpt/gpt-FULL-User-request_-Summarize-conversation-title.-0036-(1).md
-      - md/Gpt/gpt-FULL-User-request_-Summarize-conversation-title.-0036.md
-      - md/Gpt/gpt-FULL-User-request_-Summarize-conversation-title.-0042.md
       - md/Gpt/gpt-FULL-Vue-3-Tab-Data-17.md
       - md/Gpt/gpt-FULL-랜덤-알파벳-추가-코드-17.md
       - md/Gpt/gpt-FULL-버튼-스타일-수정-0021.md
@@ -90,9 +76,6 @@ nav:
       - md/Gpt/gpt-File-Not-Found-Fix.md
       - md/Gpt/gpt-Find-Min-Low-Row.md
       - md/Gpt/gpt-Fix-NoneType-to_csv-Error.md
-      - md/Gpt/gpt-Format-Responses-in-Markdown-SEO-2-0031.md
-      - md/Gpt/gpt-Format-Responses-in-Markdown-SEO-4-0021.md
-      - md/Gpt/gpt-Format-Responses-in-Markdown-SEO-4-17.md
       - md/Gpt/gpt-JSON-Data-Sorting.md
       - md/Gpt/gpt-Mermaid-다이어그램-그리기.md
       - md/Gpt/gpt-Object-Update-with-Spread.md
@@ -102,20 +85,6 @@ nav:
       - md/Gpt/gpt-Parallel-Upbit-Data-Processing.md
       - md/Gpt/gpt-Pattern-Analysis-of-Stocks.md
       - md/Gpt/gpt-Pattern-Classification-Analysis.md
-      - md/Gpt/gpt-RESPONSES-Bootstrap-버튼-컨테이너-생성-0008-(1).md
-      - md/Gpt/gpt-RESPONSES-Bootstrap-버튼-컨테이너-생성-0008.md
-      - md/Gpt/gpt-RESPONSES-Bootstrap-버튼-컨테이너-생성-17.md
-      - md/Gpt/gpt-RESPONSES-Format-Responses-in-Markdown-SEO-17-(1).md
-      - md/Gpt/gpt-RESPONSES-Format-Responses-in-Markdown-SEO-17.md
-      - md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0004.md
-      - md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0008-(1).md
-      - md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0008.md
-      - md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0023.md
-      - md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0043-(1).md
-      - md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0043.md
-      - md/Gpt/gpt-RESPONSES-User-request_-Summarize-conversation-title.-0012.md
-      - md/Gpt/gpt-RESPONSES-User-request_-Summarize-conversation-title.-0043-(1).md
-      - md/Gpt/gpt-RESPONSES-User-request_-Summarize-conversation-title.-0043.md
       - md/Gpt/gpt-RESPONSES-Vue-3-Tab-Data-17.md
       - md/Gpt/gpt-RESPONSES-랜덤-알파벳-추가-코드-17-(1).md
       - md/Gpt/gpt-RESPONSES-랜덤-알파벳-추가-코드-17.md
@@ -147,11 +116,6 @@ nav:
       - md/Gpt/gpt-Trading-Patterns-Analysis.md
       - md/Gpt/gpt-Update-Item-API.md
       - md/Gpt/gpt-Update-Strategies-Pattern.md
-      - md/Gpt/gpt-User-request_-Summarize-conversation-title.-4-0016-(1).md
-      - md/Gpt/gpt-User-request_-Summarize-conversation-title.-4-0016.md
-      - md/Gpt/gpt-User-request_-Summarize-conversation-title.-6-0030.md
-      - md/Gpt/gpt-User-request_-Summarize-conversation-title.-6-0033.md
-      - md/Gpt/gpt-User-request_-Summarize-conversation-title.-6-0047.md
       - md/Gpt/gpt-Vue-3-Tab-Data-2-17-(1).md
       - md/Gpt/gpt-Vue-3-Tab-Data-2-17.md
       - md/Gpt/gpt-Vue-3-Tab-Data-4-17.md
@@ -161,9 +125,7 @@ nav:
       - md/Gpt/gpt-Vue-CSS-Responsive-Update.md
       - md/Gpt/gpt-Vue-Mermaid-Diagram-Setup.md
       - md/Gpt/gpt-Vue.js-Image-Display-Issue..md
-      - md/Gpt/gpt-Vue.js-Mermaid-Diagram-Component.md
       - md/Gpt/gpt-Vue.js-코드-수정.md
-      - md/Gpt/gpt-Vue.js로-외부-데이터-가져오기---2023-09-18-12-26-34.md
       - md/Gpt/gpt-Vue3-FastAPI-Axios-Connection.md
       - md/Gpt/gpt-Vue3-Mermaid-Markdown-Example.md
       - md/Gpt/gpt-Vue3-props-전달-방법-(1).md
@@ -210,16 +172,11 @@ nav:
         3-etf.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/3-etf.md
         Add Google link.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/Add
           Google link.md
-        ChatGPT-log---Mermaid-사용법-및-예제---2023-09-15-09-59-54.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Mermaid-사용법-및-예제---2023-09-15-09-59-54.md
-        ChatGPT-log---Modificar-código-para-pestañas---2023-09-15-09-51-14.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Modificar-código-para-pestañas---2023-09-15-09-51-14.md
-        ChatGPT-log---Vue-코드-개선建议---2023-09-15-09-51-58.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Vue-코드-개선建议---2023-09-15-09-51-58.md
-        ChatGPT-log---정렬된-코인-정보---2023-09-15-09-53-01.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---정렬된-코인-정보---2023-09-15-09-53-01.md
-        Sep-18,-2023-02-45-54-PM-Conversation-with-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/Sep-18,-2023-02-45-54-PM-Conversation-with-ChatGPT.md
-        Sep-18,-2023-02-46-33-PM-Conversation-with-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/Sep-18,-2023-02-46-33-PM-Conversation-with-ChatGPT.md
         Welcome!!.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/Welcome!!.md
         gpt-Add-Scatterplot-Annotation.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-Scatterplot-Annotation.md
         gpt-Add-_hadf_-column.-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-_hadf_-column.-(1).md
         gpt-Add-_hadf_-column..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-_hadf_-column..md
+        gpt-All-CSS로-NaviFooter-숨기기-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-CSS로-NaviFooter-숨기기-2023.md
         gpt-All-Divide-HTML-into-Columns-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Divide-HTML-into-Columns-2023.md
         gpt-All-색상-변경-및-버튼-수정-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-색상-변경-및-버튼-수정-2023.md
         gpt-Asynchronous-Company-Data-Retrieval.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Asynchronous-Company-Data-Retrieval.md
@@ -274,15 +231,6 @@ nav:
         gpt-FULL-Bootstrap-버튼-컨테이너-생성-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-Bootstrap-버튼-컨테이너-생성-17.md
         gpt-FULL-ChatGPT-0019-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-ChatGPT-0019-(1).md
         gpt-FULL-ChatGPT-0019.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-ChatGPT-0019.md
-        gpt-FULL-Format-Responses-in-Markdown-SEO-0027-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-Format-Responses-in-Markdown-SEO-0027-(1).md
-        gpt-FULL-Format-Responses-in-Markdown-SEO-0027.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-Format-Responses-in-Markdown-SEO-0027.md
-        gpt-FULL-Format-Responses-in-Markdown-SEO-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-Format-Responses-in-Markdown-SEO-17.md
-        gpt-FULL-Set-Engineering-Prompt-0018.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-Set-Engineering-Prompt-0018.md
-        gpt-FULL-User-request_-Summarize-conversation-title.-0013-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-User-request_-Summarize-conversation-title.-0013-(1).md
-        gpt-FULL-User-request_-Summarize-conversation-title.-0013.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-User-request_-Summarize-conversation-title.-0013.md
-        gpt-FULL-User-request_-Summarize-conversation-title.-0036-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-User-request_-Summarize-conversation-title.-0036-(1).md
-        gpt-FULL-User-request_-Summarize-conversation-title.-0036.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-User-request_-Summarize-conversation-title.-0036.md
-        gpt-FULL-User-request_-Summarize-conversation-title.-0042.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-User-request_-Summarize-conversation-title.-0042.md
         gpt-FULL-Vue-3-Tab-Data-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-Vue-3-Tab-Data-17.md
         gpt-FULL-랜덤-알파벳-추가-코드-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-랜덤-알파벳-추가-코드-17.md
         gpt-FULL-버튼-스타일-수정-0021.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-FULL-버튼-스타일-수정-0021.md
@@ -296,9 +244,6 @@ nav:
         gpt-File-Not-Found-Fix.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-File-Not-Found-Fix.md
         gpt-Find-Min-Low-Row.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Find-Min-Low-Row.md
         gpt-Fix-NoneType-to_csv-Error.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Fix-NoneType-to_csv-Error.md
-        gpt-Format-Responses-in-Markdown-SEO-2-0031.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Format-Responses-in-Markdown-SEO-2-0031.md
-        gpt-Format-Responses-in-Markdown-SEO-4-0021.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Format-Responses-in-Markdown-SEO-4-0021.md
-        gpt-Format-Responses-in-Markdown-SEO-4-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Format-Responses-in-Markdown-SEO-4-17.md
         gpt-JSON-Data-Sorting.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-JSON-Data-Sorting.md
         gpt-Mermaid-다이어그램-그리기.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Mermaid-다이어그램-그리기.md
         gpt-Object-Update-with-Spread.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Object-Update-with-Spread.md
@@ -308,20 +253,6 @@ nav:
         gpt-Parallel-Upbit-Data-Processing.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Parallel-Upbit-Data-Processing.md
         gpt-Pattern-Analysis-of-Stocks.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Pattern-Analysis-of-Stocks.md
         gpt-Pattern-Classification-Analysis.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Pattern-Classification-Analysis.md
-        gpt-RESPONSES-Bootstrap-버튼-컨테이너-생성-0008-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Bootstrap-버튼-컨테이너-생성-0008-(1).md
-        gpt-RESPONSES-Bootstrap-버튼-컨테이너-생성-0008.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Bootstrap-버튼-컨테이너-생성-0008.md
-        gpt-RESPONSES-Bootstrap-버튼-컨테이너-생성-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Bootstrap-버튼-컨테이너-생성-17.md
-        gpt-RESPONSES-Format-Responses-in-Markdown-SEO-17-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Format-Responses-in-Markdown-SEO-17-(1).md
-        gpt-RESPONSES-Format-Responses-in-Markdown-SEO-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Format-Responses-in-Markdown-SEO-17.md
-        gpt-RESPONSES-Set-Engineering-Prompt-0004.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0004.md
-        gpt-RESPONSES-Set-Engineering-Prompt-0008-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0008-(1).md
-        gpt-RESPONSES-Set-Engineering-Prompt-0008.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0008.md
-        gpt-RESPONSES-Set-Engineering-Prompt-0023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0023.md
-        gpt-RESPONSES-Set-Engineering-Prompt-0043-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0043-(1).md
-        gpt-RESPONSES-Set-Engineering-Prompt-0043.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Set-Engineering-Prompt-0043.md
-        gpt-RESPONSES-User-request_-Summarize-conversation-title.-0012.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-User-request_-Summarize-conversation-title.-0012.md
-        gpt-RESPONSES-User-request_-Summarize-conversation-title.-0043-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-User-request_-Summarize-conversation-title.-0043-(1).md
-        gpt-RESPONSES-User-request_-Summarize-conversation-title.-0043.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-User-request_-Summarize-conversation-title.-0043.md
         gpt-RESPONSES-Vue-3-Tab-Data-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-Vue-3-Tab-Data-17.md
         gpt-RESPONSES-랜덤-알파벳-추가-코드-17-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-랜덤-알파벳-추가-코드-17-(1).md
         gpt-RESPONSES-랜덤-알파벳-추가-코드-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-RESPONSES-랜덤-알파벳-추가-코드-17.md
@@ -353,11 +284,6 @@ nav:
         gpt-Trading-Patterns-Analysis.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Trading-Patterns-Analysis.md
         gpt-Update-Item-API.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Update-Item-API.md
         gpt-Update-Strategies-Pattern.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Update-Strategies-Pattern.md
-        gpt-User-request_-Summarize-conversation-title.-4-0016-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-User-request_-Summarize-conversation-title.-4-0016-(1).md
-        gpt-User-request_-Summarize-conversation-title.-4-0016.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-User-request_-Summarize-conversation-title.-4-0016.md
-        gpt-User-request_-Summarize-conversation-title.-6-0030.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-User-request_-Summarize-conversation-title.-6-0030.md
-        gpt-User-request_-Summarize-conversation-title.-6-0033.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-User-request_-Summarize-conversation-title.-6-0033.md
-        gpt-User-request_-Summarize-conversation-title.-6-0047.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-User-request_-Summarize-conversation-title.-6-0047.md
         gpt-Vue-3-Tab-Data-2-17-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue-3-Tab-Data-2-17-(1).md
         gpt-Vue-3-Tab-Data-2-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue-3-Tab-Data-2-17.md
         gpt-Vue-3-Tab-Data-4-17.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue-3-Tab-Data-4-17.md
@@ -367,9 +293,7 @@ nav:
         gpt-Vue-CSS-Responsive-Update.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue-CSS-Responsive-Update.md
         gpt-Vue-Mermaid-Diagram-Setup.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue-Mermaid-Diagram-Setup.md
         gpt-Vue.js-Image-Display-Issue..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue.js-Image-Display-Issue..md
-        gpt-Vue.js-Mermaid-Diagram-Component.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue.js-Mermaid-Diagram-Component.md
         gpt-Vue.js-코드-수정.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue.js-코드-수정.md
-        gpt-Vue.js로-외부-데이터-가져오기---2023-09-18-12-26-34.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue.js로-외부-데이터-가져오기---2023-09-18-12-26-34.md
         gpt-Vue3-FastAPI-Axios-Connection.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue3-FastAPI-Axios-Connection.md
         gpt-Vue3-Mermaid-Markdown-Example.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue3-Mermaid-Markdown-Example.md
         gpt-Vue3-props-전달-방법-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue3-props-전달-방법-(1).md
