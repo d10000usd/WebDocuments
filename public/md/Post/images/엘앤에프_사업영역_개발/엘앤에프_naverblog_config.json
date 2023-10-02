@@ -1,0 +1,68 @@
+[
+    {
+        "id": "엘앤에프",
+        "searchkeyword": {
+            "엘앤에프_사업영역_개발": null
+        },
+        "insertimage": {
+            "yt": [
+                {
+                    "ytlink": "https://www.youtube.com/watch?v=UQ-RhocYCD0",
+                    "ytype": "mp4",
+                    "sourceinfo": "tage",
+                    "frameimgroot": "/Users/hg/DEVELOP/MAIN_DEV/naverblog/project/data/imagef/youtubeFrameImage",
+                    "itype": "png"
+                },
+                {
+                    "ytlink": "https://www.youtube.com/watch?v=UQ-RhocYCD0",
+                    "ytype": "mp4",
+                    "sourceinfo": "tage",
+                    "frameimgroot": "/Users/hg/DEVELOP/MAIN_DEV/naverblog/project/data/imagef/youtubeFrameImage",
+                    "itype": "png"
+                }
+            ]
+        },
+        "capturedata": {
+            "searchcode": [
+                {
+                    "note": "chart",
+                    "capsrc": "tradingview-chart",
+                    "find_element": "div_class_id",
+                    "class_name": "chart-markup-table",
+                    "link": "https://www.tradingview.com/chart/ErbSDXA1/?symbol=KRX%3A066970",
+                    "size": "100%"
+                },
+                {
+                    "note": "calender",
+                    "find_element": "div_class_id",
+                    "class_name": "tv-economic-calendar",
+                    "link": "https://www.tradingview.com/economic-calendar/",
+                    "size": "100%"
+                }
+            ]
+        },
+        "stockinfo": {
+            "엘앤에프": [
+                {
+                    "state": "Ohio",
+                    "shortname": "OH",
+                    "info": {
+                        "governor": "ㅁㄴㅇㄹㅁㅈㄹㅁㄴㅇㄹ Kasich"
+                    },
+                    "counties": [
+                        {
+                            "name": "Summit",
+                            "population": 1234
+                        },
+                        {
+                            "name": "Cuyahoga",
+                            "population": 12341234
+                        }
+                    ],
+                    "statedata": 101
+                }
+            ]
+        },
+        "imgpath": "/Users/hg/WORKSPACE/Gitblog/mkdocs-material/docs/md/posts/images/엘앤에프_사업영역_개발"
+    }
+]
