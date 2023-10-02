@@ -28,3 +28,8 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+# for opsidian push ignore
+obsidian/workspace.json
+.obsidian/workspace.json
+obsidian/workspace-mobile.json
+.obsidian/workspace-mobile.json
