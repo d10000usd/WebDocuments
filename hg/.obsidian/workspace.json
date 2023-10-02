@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "사용법.md",
+                "file": "public/md/Gpt/gpt-실시간-차트-구현-(Vue.js).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용법.md",
+                "file": "public/md/Gpt/gpt-실시간-차트-구현-(Vue.js).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용법.md",
+                "file": "public/md/Gpt/gpt-실시간-차트-구현-(Vue.js).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용법.md"
+                "file": "public/md/Gpt/gpt-실시간-차트-구현-(Vue.js).md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "5d0a93667ef9f740",
   "lastOpenFiles": [
+    "사용법.md",
     "mkpostsnav.py",
     "mkdocs_posts_nav.yml",
     "mkdocs_posts_nav.json",
@@ -193,7 +194,6 @@
     "public/md/Post/images/수출입통계_gdp_환율/0_수출입통계_gdp_환율_thumnail.png",
     "public/md/Post/images/엘앤에프_사업영역_개발",
     "public/md/Post/images/싱글몰모트_와인_위스키업로드_깃_깃랩",
-    "public/md/Post/images/싱글몰모트_와인_위스키",
     "Untitled.canvas"
   ]
 }
