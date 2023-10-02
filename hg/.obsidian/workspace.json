@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5e5d3b6c85b7967e",
+        "id": "f7fe451b30d0cf74",
         "type": "tabs",
         "children": [
           {
-            "id": "027f04a7f6bb1d46",
+            "id": "bb27b5adf1edd28a",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "78ac045e0b5fce85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test opsidian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test opsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test opsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "test opsidian.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -156,8 +139,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1802f1d08bdc1875",
+  "active": "bb27b5adf1edd28a",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "test opsidian.md"
   ]
 }
