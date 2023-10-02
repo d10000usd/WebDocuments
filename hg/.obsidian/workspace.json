@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8ab706d4c539bd2a",
+        "id": "d951e343baab7796",
         "type": "tabs",
         "children": [
           {
-            "id": "5d0a93667ef9f740",
+            "id": "582c08d11e967cc1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "public/md/Gpt/gpt-실시간-차트-구현-(Vue.js).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 306.5
   },
   "right": {
     "id": "1a5b83fcbff1f95a",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "public/md/Gpt/gpt-실시간-차트-구현-(Vue.js).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "public/md/Gpt/gpt-실시간-차트-구현-(Vue.js).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "public/md/Gpt/gpt-실시간-차트-구현-(Vue.js).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d0a93667ef9f740",
+  "active": "582c08d11e967cc1",
   "lastOpenFiles": [
+    "public/md/Gpt/gpt-실시간-차트-구현-(Vue.js).md",
     "사용법.md",
     "mkpostsnav.py",
     "mkdocs_posts_nav.yml",
@@ -179,7 +172,6 @@
     "public/md/Gpt/gpt-Create-Coin-Value-Link.md",
     "public/md/Gpt/gpt-code-server-Extension-Installation.md",
     "public/md/Gpt/gpt-Column-Label-Conflict.md",
-    "public/md/Gpt/gpt-Vue3-계산된-플래그-설정.md",
     "public/md/Post/images/엘앤에프_사업영역_개발/엘앤에프_naverblog_config.json",
     "public/md/Post/images/엘앤에프_사업영역_개발/엘앤에프.csv",
     "public/md/Post/images/엘앤에프_사업영역_개발/table_desc_20230517-11.png",
