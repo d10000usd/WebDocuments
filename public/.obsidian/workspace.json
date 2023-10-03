@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "40e16cba665cf60e",
+        "id": "26a275e136a3a064",
         "type": "tabs",
         "children": [
           {
-            "id": "558000f42dca3428",
+            "id": "7e49ff7aacde6320",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +97,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -124,17 +118,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "4132dc818bb8e963",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,56 +143,59 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "558000f42dca3428",
+  "active": "7e49ff7aacde6320",
   "lastOpenFiles": [
-    "md/Gpt/gpt-FULL-버튼-스타일-수정-0021.md",
+    "md/Gpt/gpt-마크다운-링크-만들기-2023.md",
+    "레퍼런스.md",
+    "mkdocs_posts_nav.yml",
+    "mkdocs_posts_nav.json",
+    "무제 파일 1.md",
+    "무제 파일.md",
     "README.md",
-    "mkdocs_posts_nav_readme.json",
-    "md/Gpt/ChatGPT-log---Create-ChatGPT-Log-Button---20231001T122831.md",
-    "md/Gpt/ChatGPT-log---ChatGPT---20231001T122007.md",
-    "md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---2023}.md",
-    "md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T124516.md",
-    "md/Gpt/gpt-All-주식-차트-저항선-추가-2023.md",
-    "md/Gpt/gpt-FULL-Chrome-Extension_-ChatGPT-Markdown-Download-0026.md",
-    "md/Gpt/gpt-RESPONSES-자바스크립트-슬립-방법-13-(1).md",
-    "md/Gpt/gpt-RESPONSES-Chrome-Extension_-ChatGPT-Markdown-Download-0037.md",
-    "md/Gpt/ChatGPT-log---Find-Object-Property-Name---20231001T133209.md",
-    "md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---2023}-(1).md",
-    "md/Gpt/gpt-All-Extract-Even-Indexed-Messages-2023.md",
-    "md/Gpt/gpt-All-Refactorando-código-en-función-2023.md",
-    "md/Gpt/ChatGPT-log---자바스크립트-슬립-방법---2023}-(1).md",
-    "md/Gpt/gpt-Refactor-code-to-avoid-globals-2023.md",
-    "md/Gpt/ChatGPT-log---Vue-Component-Data-Fetching---20231001T122759.md",
-    "md/Gpt/gpt-RESPONSES-자바스크립트-슬립-방법-13.md",
+    "md/Gpt/gpt-최소-최대값-올라간-퍼센트_-100%.md",
+    "md/Gpt/gpt-읽기_-mk.md-파일-(Read_-mk.md-file).md",
+    "md/Gpt/gpt-링크넣기-vue3-script.md",
+    "md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125335.md",
+    "md/Gpt/ChatGPT-log---Find-Object-Property-Name---20231001T155250.md",
     "md/Gpt/ChatGPT-log---Create-ChatGPT-Log-Button---20231001T122949.md",
-    "md/Gpt/gpt-All-Button-color-change-to-blue-2023.md",
-    "md/Gpt/gpt-Refactoring-and-optimizing-code-2023.md",
-    "md/Gpt/gpt-All-Refactorando-código-en-función-2023-(2).md",
-    "md/Gpt/gpt-Refactor-code-to-avoid-globals-2023-(1).md",
-    "md/Gpt/gpt-All-Refactorando-código-en-función-2023-(1).md",
-    "md/Gpt/gpt-Refactorando-código-en-función-2023.md",
-    "md/Gpt/gpt-New-chat-2023.md",
-    "usage",
-    "md/Post/images/엘앤에프_사업영역_개발/엘앤에프_naverblog_config.json",
-    "md/Post/images/엘앤에프_사업영역_개발/엘앤에프.csv",
-    "md/Post/images/엘앤에프_사업영역_개발/table_desc_20230517-11.png",
-    "md/Post/images/엘앤에프_사업영역_개발/table_changerate_20230517-11.png",
-    "md/Post/images/엘앤에프_사업영역_개발/fundmental_fundmental_20230517-11.png",
-    "md/Post/images/엘앤에프_사업영역_개발/LRup_엘앤에프_12_minute240_150_80_25.png",
-    "md/Post/images/엘앤에프_사업영역_개발/101_nan_caputure_tv-economic-calendar.png",
-    "md/Post/images/엘앤에프_사업영역_개발/100_tradingview-chart_caputure_chart-markup-table.png",
-    "md/Post/images/엘앤에프_사업영역_개발/0_엘앤에프_사업영역_개발_thumnail.png",
-    "md/Post/images/싱글몰모트_와인_위스키업로드_깃_깃랩/0_싱글몰모트_와인_위스키업로드_깃_깃랩_thumnail.png",
-    "md/Post/images/싱글몰모트_와인_위스키/0_싱글몰모트_와인_위스키_thumnail.png",
-    "md/Post/images/수출입통계_gdp_환율/0_수출입통계_gdp_환율_thumnail.png",
-    "md/Post/images/엘앤에프_사업영역_개발",
-    "md/Post/images/싱글몰모트_와인_위스키업로드_깃_깃랩",
-    "md/Post/images/싱글몰모트_와인_위스키",
-    "md/Post/images/수출입통계_gdp_환율",
-    "md/Post/images/바빌론_홀딩스_영업",
-    "md/Post/images/깃랩_깃_주가"
+    "md/Gpt/ChatGPT-log---Chrome-Extension_-ChatGPT-Markdown-Download---20231001T121721.md",
+    "md/Gpt/Add Google link.md",
+    "무제 파일.canvas",
+    "Excalidraw/Drawing 2023-10-03 11.09.19.excalidraw.md",
+    "html_stock/1034_코스피100/1d/RANK_2_[LH10.78_HL-13.39]_삼성물산/view.md",
+    "html_stock/1034_코스피100/1d/RANK_2_[LH10.78_HL-13.39]_삼성물산/thumbnail_png.png",
+    "html_stock/1034_코스피100/1d/RANK_2_[LH10.78_HL-13.39]_삼성물산/report.md",
+    "html_stock/1034_코스피100/1d/RANK_2_[LH10.78_HL-13.39]_삼성물산/plotlychart.png",
+    "html_stock/1034_코스피100/1d/RANK_2_[LH10.78_HL-13.39]_삼성물산/contents_png.png",
+    "html_stock/2203_코스닥150/1d/RANK_2_[LH60.19_HL-9.78]_원익IPS/report.md",
+    "HTML import/ChartBokeh 9.md",
+    "HTML import/bodycontents 17.md",
+    "HTML import/bodycontents 10.md",
+    "HTML import/bodycontents 3.md",
+    "HTML import/bodycontents 43.md",
+    "HTML import/bodycontents 124.md",
+    "HTML import/bodycontents 120.md",
+    "HTML import/ChartBokeh 10.md",
+    "HTML import",
+    "html_stock/1034_코스피100/1d/RANK_2_[LH13.86_HL-13.78]_KT/thumbnail_png.png",
+    "html_stock/reorganized_directory_contents.json",
+    "html_stock/directory_contents.json",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH7.81_HL-38.05]_안랩/thumbnail_png.png",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH7.81_HL-38.05]_안랩/report.csv",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH7.81_HL-38.05]_안랩/ptlotlychart.html",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH7.81_HL-38.05]_안랩/plotlychart.png",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH7.81_HL-38.05]_안랩/item.json",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH7.81_HL-38.05]_안랩/contents_png.png",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH7.81_HL-38.05]_안랩/clos.csv",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH7.81_HL-38.05]_안랩/bodycontents.html",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH34.88_HL-31.63]_이녹스첨단소재/thumbnail_png.png",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH34.88_HL-31.63]_이녹스첨단소재/plotlychart.png",
+    "html_stock/2203_코스닥150/1d/RANK_9_[LH34.88_HL-31.63]_이녹스첨단소재/contents_png.png"
   ]
 }
