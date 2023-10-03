@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "0a6f661d69a00457",
+    "type": "split",
+    "children": [
+      {
+        "id": "40e16cba665cf60e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "558000f42dca3428",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b19ff662c792394",
+    "type": "split",
+    "children": [
+      {
+        "id": "b11553d7045f6a52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70aab5a1f14efa04",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9b7cdfc11b9f318d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "625c136a207dcba0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e43851bea4303f71",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbb62797c8c038f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d77c6cb0fb335c37",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "72dd4b9a48ab9f10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15ab100f04a03ccb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7073a248914d4e5a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "558000f42dca3428",
+  "lastOpenFiles": [
+    "md/Gpt/gpt-FULL-버튼-스타일-수정-0021.md",
+    "README.md",
+    "mkdocs_posts_nav_readme.json",
+    "md/Gpt/ChatGPT-log---Create-ChatGPT-Log-Button---20231001T122831.md",
+    "md/Gpt/ChatGPT-log---ChatGPT---20231001T122007.md",
+    "md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---2023}.md",
+    "md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T124516.md",
+    "md/Gpt/gpt-All-주식-차트-저항선-추가-2023.md",
+    "md/Gpt/gpt-FULL-Chrome-Extension_-ChatGPT-Markdown-Download-0026.md",
+    "md/Gpt/gpt-RESPONSES-자바스크립트-슬립-방법-13-(1).md",
+    "md/Gpt/gpt-RESPONSES-Chrome-Extension_-ChatGPT-Markdown-Download-0037.md",
+    "md/Gpt/ChatGPT-log---Find-Object-Property-Name---20231001T133209.md",
+    "md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---2023}-(1).md",
+    "md/Gpt/gpt-All-Extract-Even-Indexed-Messages-2023.md",
+    "md/Gpt/gpt-All-Refactorando-código-en-función-2023.md",
+    "md/Gpt/ChatGPT-log---자바스크립트-슬립-방법---2023}-(1).md",
+    "md/Gpt/gpt-Refactor-code-to-avoid-globals-2023.md",
+    "md/Gpt/ChatGPT-log---Vue-Component-Data-Fetching---20231001T122759.md",
+    "md/Gpt/gpt-RESPONSES-자바스크립트-슬립-방법-13.md",
+    "md/Gpt/ChatGPT-log---Create-ChatGPT-Log-Button---20231001T122949.md",
+    "md/Gpt/gpt-All-Button-color-change-to-blue-2023.md",
+    "md/Gpt/gpt-Refactoring-and-optimizing-code-2023.md",
+    "md/Gpt/gpt-All-Refactorando-código-en-función-2023-(2).md",
+    "md/Gpt/gpt-Refactor-code-to-avoid-globals-2023-(1).md",
+    "md/Gpt/gpt-All-Refactorando-código-en-función-2023-(1).md",
+    "md/Gpt/gpt-Refactorando-código-en-función-2023.md",
+    "md/Gpt/gpt-New-chat-2023.md",
+    "usage",
+    "md/Post/images/엘앤에프_사업영역_개발/엘앤에프_naverblog_config.json",
+    "md/Post/images/엘앤에프_사업영역_개발/엘앤에프.csv",
+    "md/Post/images/엘앤에프_사업영역_개발/table_desc_20230517-11.png",
+    "md/Post/images/엘앤에프_사업영역_개발/table_changerate_20230517-11.png",
+    "md/Post/images/엘앤에프_사업영역_개발/fundmental_fundmental_20230517-11.png",
+    "md/Post/images/엘앤에프_사업영역_개발/LRup_엘앤에프_12_minute240_150_80_25.png",
+    "md/Post/images/엘앤에프_사업영역_개발/101_nan_caputure_tv-economic-calendar.png",
+    "md/Post/images/엘앤에프_사업영역_개발/100_tradingview-chart_caputure_chart-markup-table.png",
+    "md/Post/images/엘앤에프_사업영역_개발/0_엘앤에프_사업영역_개발_thumnail.png",
+    "md/Post/images/싱글몰모트_와인_위스키업로드_깃_깃랩/0_싱글몰모트_와인_위스키업로드_깃_깃랩_thumnail.png",
+    "md/Post/images/싱글몰모트_와인_위스키/0_싱글몰모트_와인_위스키_thumnail.png",
+    "md/Post/images/수출입통계_gdp_환율/0_수출입통계_gdp_환율_thumnail.png",
+    "md/Post/images/엘앤에프_사업영역_개발",
+    "md/Post/images/싱글몰모트_와인_위스키업로드_깃_깃랩",
+    "md/Post/images/싱글몰모트_와인_위스키",
+    "md/Post/images/수출입통계_gdp_환율",
+    "md/Post/images/바빌론_홀딩스_영업",
+    "md/Post/images/깃랩_깃_주가"
+  ]
+}

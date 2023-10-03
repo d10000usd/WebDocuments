@@ -1,0 +1,90 @@
+PROMPT:
+
+2crows, 3blackcrows, 3inside, 3linestrike, 3outside, 3starsinsouth, 3whitesoldiers, abandonedbaby, advanceblock, belthold, breakaway, closingmarubozu, concealbabyswall, counterattack, darkcloudcover, doji, dojistar, dragonflydoji, engulfing, eveningdojistar, eveningstar, gapsidesidewhite, gravestonedoji, hammer, hangingman, harami, haramicross, highwave, hikkake, hikkakemod, homingpigeon, identical3crows, inneck, inside, invertedhammer, kicking, kickingbylength, ladderbottom, longleggeddoji, longline, marubozu, matchinglow, mathold, morningdojistar, morningstar, onneck, piercing, rickshawman, risefall3methods, separatinglines, shootingstar, shortline, spinningtop, stalledpattern, sticksandwich, takuri, tasukigap, thrusting, tristar, unique3river, upsidegap2crows, xsidegap3methods 이거를 "strategies": { "ta":\[ {"kind": "sma", "length": 5}, {"kind": "sma", "length": 10}, {"kind": "sma", "length": 15}, {"kind": "sma", "length": 20}, {"kind": "sma", "length": 25}, {"kind": "sma", "length": 100}, {"kind": "sma", "length": 200}, {"kind": "sma", "length": 300}, {"kind": "macd", "fast": 8, "slow": 21}, {"kind": "stoch"}, {"kind": "ichimoku"}, {"kind": "supertrend","period": 10, "multiplier": 3} \] } 식으로 다 넣을꺼야 수정해줘
+
+RESPONSE:
+
+수정된 "strategies" 섹션은 아래와 같습니다:
+
+```json
+"strategies": {
+  "ta": [
+    {"kind": "sma", "length": 5},
+    {"kind": "sma", "length": 10},
+    {"kind": "sma", "length": 15},
+    {"kind": "sma", "length": 20},
+    {"kind": "sma", "length": 25},
+    {"kind": "sma", "length": 100},
+    {"kind": "sma", "length": 200},
+    {"kind": "sma", "length": 300},
+    {"kind": "macd", "fast": 8, "slow": 21},
+    {"kind": "stoch"},
+    {"kind": "ichimoku"},
+    {"kind": "supertrend", "period": 10, "multiplier": 3},
+    {"kind": "2crows"},
+    {"kind": "3blackcrows"},
+    {"kind": "3inside"},
+    {"kind": "3linestrike"},
+    {"kind": "3outside"},
+    {"kind": "3starsinsouth"},
+    {"kind": "3whitesoldiers"},
+    {"kind": "abandonedbaby"},
+    {"kind": "advanceblock"},
+    {"kind": "belthold"},
+    {"kind": "breakaway"},
+    {"kind": "closingmarubozu"},
+    {"kind": "concealbabyswall"},
+    {"kind": "counterattack"},
+    {"kind": "darkcloudcover"},
+    {"kind": "doji"},
+    {"kind": "dojistar"},
+    {"kind": "dragonflydoji"},
+    {"kind": "engulfing"},
+    {"kind": "eveningdojistar"},
+    {"kind": "eveningstar"},
+    {"kind": "gapsidesidewhite"},
+    {"kind": "gravestonedoji"},
+    {"kind": "hammer"},
+    {"kind": "hangingman"},
+    {"kind": "harami"},
+    {"kind": "haramicross"},
+    {"kind": "highwave"},
+    {"kind": "hikkake"},
+    {"kind": "hikkakemod"},
+    {"kind": "homingpigeon"},
+    {"kind": "identical3crows"},
+    {"kind": "inneck"},
+    {"kind": "inside"},
+    {"kind": "invertedhammer"},
+    {"kind": "kicking"},
+    {"kind": "kickingbylength"},
+    {"kind": "ladderbottom"},
+    {"kind": "longleggeddoji"},
+    {"kind": "longline"},
+    {"kind": "marubozu"},
+    {"kind": "matchinglow"},
+    {"kind": "mathold"},
+    {"kind": "morningdojistar"},
+    {"kind": "morningstar"},
+    {"kind": "onneck"},
+    {"kind": "piercing"},
+    {"kind": "rickshawman"},
+    {"kind": "risefall3methods"},
+    {"kind": "separatinglines"},
+    {"kind": "shootingstar"},
+    {"kind": "shortline"},
+    {"kind": "spinningtop"},
+    {"kind": "stalledpattern"},
+    {"kind": "sticksandwich"},
+    {"kind": "takuri"},
+    {"kind": "tasukigap"},
+    {"kind": "thrusting"},
+    {"kind": "tristar"},
+    {"kind": "unique3river"},
+    {"kind": "upsidegap2crows"},
+    {"kind": "xsidegap3methods"}
+  ]
+}
+```
+
+위의 수정된 "strategies" 섹션은 이제 모든 주어진 패턴에 대한 테크니컬 분석 전략을 포함하고 있습니다.
