@@ -4,33 +4,12 @@ nav:
     - Gpt:
       - md/Gpt/3-etf.md
       - md/Gpt/Add Google link.md
-      - md/Gpt/ChatGPT-log---ChatGPT---20231001T122007.md
-      - md/Gpt/ChatGPT-log---Chrome-Extension_-ChatGPT-Markdown-Download---20231001T121721.md
-      - md/Gpt/ChatGPT-log---Chrome-Extension_-ChatGPT-Markdown-Download---20231001T121833.md
-      - md/Gpt/ChatGPT-log---Chrome-Extension_-ChatGPT-Markdown-Download---20231001T121843.md
-      - md/Gpt/ChatGPT-log---Create-ChatGPT-Log-Button---20231001T122831.md
-      - md/Gpt/ChatGPT-log---Create-ChatGPT-Log-Button---20231001T122949.md
-      - md/Gpt/ChatGPT-log---Find-Object-Property-Name---20231001T133209.md
-      - md/Gpt/ChatGPT-log---Find-Object-Property-Name---20231001T155250-(1).md
-      - md/Gpt/ChatGPT-log---Find-Object-Property-Name---20231001T155250.md
-      - md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T124516.md
-      - md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T124637.md
-      - md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125032.md
-      - md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125139.md
-      - md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125158.md
-      - md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125335.md
-      - md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---2023}-(1).md
-      - md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---2023}.md
-      - md/Gpt/ChatGPT-log---Refactor-code-to-avoid-globals---20231001T122513.md
-      - md/Gpt/ChatGPT-log---Refactorando-código-en-función---20231001T121836.md
-      - md/Gpt/ChatGPT-log---Vue-Component-Data-Fetching---20231001T122759.md
-      - md/Gpt/ChatGPT-log---자바스크립트-슬립-방법---2023}-(1).md
-      - md/Gpt/ChatGPT-log---자바스크립트-슬립-방법---2023}.md
       - md/Gpt/Welcome!!.md
       - md/Gpt/gpt-Add-Scatterplot-Annotation.md
       - md/Gpt/gpt-Add-_hadf_-column..md
       - md/Gpt/gpt-All-Button-color-change-to-blue-2023.md
       - md/Gpt/gpt-All-CSS로-NaviFooter-숨기기-2023.md
+      - md/Gpt/gpt-All-ChatGPT-2023.md
       - md/Gpt/gpt-All-Chrome-Extension_-ChatGPT-Markdown-Download-2023.md
       - md/Gpt/gpt-All-Divide-HTML-into-Columns-2023.md
       - md/Gpt/gpt-All-Extract-Even-Indexed-Messages-2023-(1).md
@@ -43,6 +22,11 @@ nav:
       - md/Gpt/gpt-All-SEO-Content-Creation-Guide-2023.md
       - md/Gpt/gpt-All-Tech-Acronyms-Demystified_-SaaS,-FaaS,-IaaS-2023.md
       - md/Gpt/gpt-All-Vue3-with-WebSocket-Example-2023.md
+      - md/Gpt/gpt-All-WebSocket-Data-Nesting-2023.md
+      - md/Gpt/gpt-All-WebSocket-데이터-딕셔너리-2023.md
+      - md/Gpt/gpt-All-WebSocket-차이_-isOnlyRealtime-2023-(1).md
+      - md/Gpt/gpt-All-WebSocket-차이_-isOnlyRealtime-2023.md
+      - md/Gpt/gpt-All-맵-사용법-JavaScript-2023.md
       - md/Gpt/gpt-All-부트스트랩-사용-설명-2023.md
       - md/Gpt/gpt-All-색상-변경-및-버튼-수정-2023.md
       - md/Gpt/gpt-All-생성-ChatGPT-로그-2023.md
@@ -59,6 +43,8 @@ nav:
       - md/Gpt/gpt-Candlestick-Red-Region.md
       - md/Gpt/gpt-Change-List_-CDL_TAKURI.md
       - md/Gpt/gpt-ChatGPT---2023-09-18-12-28-31.md
+      - md/Gpt/gpt-ChatGPT-2023-(1).md
+      - md/Gpt/gpt-ChatGPT-2023-(2).md
       - md/Gpt/gpt-ChatGPT-2023.md
       - md/Gpt/gpt-ChatGPT.md
       - md/Gpt/gpt-Column-Label-Conflict.md
@@ -88,6 +74,7 @@ nav:
       - md/Gpt/gpt-File-Not-Found-Fix.md
       - md/Gpt/gpt-Find-Min-Low-Row.md
       - md/Gpt/gpt-Fix-NoneType-to_csv-Error.md
+      - md/Gpt/gpt-Gopls-Module-Workspace-Issue-2023.md
       - md/Gpt/gpt-JSON-Data-Sorting.md
       - md/Gpt/gpt-Mermaid-다이어그램-그리기.md
       - md/Gpt/gpt-New-chat-2023.md
@@ -140,6 +127,7 @@ nav:
       - md/Gpt/gpt-Vue3-초기화-코드.md
       - md/Gpt/gpt-VueJS-FastAPI-Components.md
       - md/Gpt/gpt-code-server-Extension-Installation.md
+      - md/Gpt/gpt-객체-속성-이름-일치-2023.md
       - md/Gpt/gpt-링크넣기-vue3-script.md
       - md/Gpt/gpt-마크다운-깃허브링크-주소-읽기.md
       - md/Gpt/gpt-마크다운-링크-만들기-2023.md
@@ -148,6 +136,7 @@ nav:
       - md/Gpt/gpt-분석-및-분류-캔들-패턴.md
       - md/Gpt/gpt-실시간-차트-구현-(Vue.js).md
       - md/Gpt/gpt-읽기_-mk.md-파일-(Read_-mk.md-file).md
+      - md/Gpt/gpt-자바스크립트-맵(Map)-개요-2023.md
       - md/Gpt/gpt-주식-PBR-공식-요약.md
       - md/Gpt/gpt-최소-최대값-올라간-퍼센트_-100%-(1).md
       - md/Gpt/gpt-최소-최대값-올라간-퍼센트_-100%.md
@@ -174,33 +163,12 @@ nav:
         3-etf.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/3-etf.md
         Add Google link.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/Add
           Google link.md
-        ChatGPT-log---ChatGPT---20231001T122007.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---ChatGPT---20231001T122007.md
-        ChatGPT-log---Chrome-Extension_-ChatGPT-Markdown-Download---20231001T121721.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Chrome-Extension_-ChatGPT-Markdown-Download---20231001T121721.md
-        ChatGPT-log---Chrome-Extension_-ChatGPT-Markdown-Download---20231001T121833.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Chrome-Extension_-ChatGPT-Markdown-Download---20231001T121833.md
-        ChatGPT-log---Chrome-Extension_-ChatGPT-Markdown-Download---20231001T121843.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Chrome-Extension_-ChatGPT-Markdown-Download---20231001T121843.md
-        ChatGPT-log---Create-ChatGPT-Log-Button---20231001T122831.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Create-ChatGPT-Log-Button---20231001T122831.md
-        ChatGPT-log---Create-ChatGPT-Log-Button---20231001T122949.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Create-ChatGPT-Log-Button---20231001T122949.md
-        ChatGPT-log---Find-Object-Property-Name---20231001T133209.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Find-Object-Property-Name---20231001T133209.md
-        ChatGPT-log---Find-Object-Property-Name---20231001T155250-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Find-Object-Property-Name---20231001T155250-(1).md
-        ChatGPT-log---Find-Object-Property-Name---20231001T155250.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Find-Object-Property-Name---20231001T155250.md
-        ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T124516.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T124516.md
-        ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T124637.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T124637.md
-        ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125032.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125032.md
-        ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125139.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125139.md
-        ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125158.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125158.md
-        ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125335.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---20231001T125335.md
-        ChatGPT-log---Fix-_origMd_-Extraction-Issue---2023}-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---2023}-(1).md
-        ChatGPT-log---Fix-_origMd_-Extraction-Issue---2023}.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Fix-_origMd_-Extraction-Issue---2023}.md
-        ChatGPT-log---Refactor-code-to-avoid-globals---20231001T122513.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Refactor-code-to-avoid-globals---20231001T122513.md
-        ChatGPT-log---Refactorando-código-en-función---20231001T121836.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Refactorando-código-en-función---20231001T121836.md
-        ChatGPT-log---Vue-Component-Data-Fetching---20231001T122759.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---Vue-Component-Data-Fetching---20231001T122759.md
-        ChatGPT-log---자바스크립트-슬립-방법---2023}-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---자바스크립트-슬립-방법---2023}-(1).md
-        ChatGPT-log---자바스크립트-슬립-방법---2023}.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/ChatGPT-log---자바스크립트-슬립-방법---2023}.md
         Welcome!!.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/Welcome!!.md
         gpt-Add-Scatterplot-Annotation.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-Scatterplot-Annotation.md
         gpt-Add-_hadf_-column..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-_hadf_-column..md
         gpt-All-Button-color-change-to-blue-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Button-color-change-to-blue-2023.md
         gpt-All-CSS로-NaviFooter-숨기기-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-CSS로-NaviFooter-숨기기-2023.md
+        gpt-All-ChatGPT-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-ChatGPT-2023.md
         gpt-All-Chrome-Extension_-ChatGPT-Markdown-Download-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Chrome-Extension_-ChatGPT-Markdown-Download-2023.md
         gpt-All-Divide-HTML-into-Columns-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Divide-HTML-into-Columns-2023.md
         gpt-All-Extract-Even-Indexed-Messages-2023-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Extract-Even-Indexed-Messages-2023-(1).md
@@ -213,6 +181,11 @@ nav:
         gpt-All-SEO-Content-Creation-Guide-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-SEO-Content-Creation-Guide-2023.md
         gpt-All-Tech-Acronyms-Demystified_-SaaS,-FaaS,-IaaS-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Tech-Acronyms-Demystified_-SaaS,-FaaS,-IaaS-2023.md
         gpt-All-Vue3-with-WebSocket-Example-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Vue3-with-WebSocket-Example-2023.md
+        gpt-All-WebSocket-Data-Nesting-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-WebSocket-Data-Nesting-2023.md
+        gpt-All-WebSocket-데이터-딕셔너리-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-WebSocket-데이터-딕셔너리-2023.md
+        gpt-All-WebSocket-차이_-isOnlyRealtime-2023-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-WebSocket-차이_-isOnlyRealtime-2023-(1).md
+        gpt-All-WebSocket-차이_-isOnlyRealtime-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-WebSocket-차이_-isOnlyRealtime-2023.md
+        gpt-All-맵-사용법-JavaScript-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-맵-사용법-JavaScript-2023.md
         gpt-All-부트스트랩-사용-설명-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-부트스트랩-사용-설명-2023.md
         gpt-All-색상-변경-및-버튼-수정-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-색상-변경-및-버튼-수정-2023.md
         gpt-All-생성-ChatGPT-로그-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-생성-ChatGPT-로그-2023.md
@@ -229,6 +202,8 @@ nav:
         gpt-Candlestick-Red-Region.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Candlestick-Red-Region.md
         gpt-Change-List_-CDL_TAKURI.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Change-List_-CDL_TAKURI.md
         gpt-ChatGPT---2023-09-18-12-28-31.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT---2023-09-18-12-28-31.md
+        gpt-ChatGPT-2023-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-2023-(1).md
+        gpt-ChatGPT-2023-(2).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-2023-(2).md
         gpt-ChatGPT-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-2023.md
         gpt-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT.md
         gpt-Column-Label-Conflict.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Column-Label-Conflict.md
@@ -258,6 +233,7 @@ nav:
         gpt-File-Not-Found-Fix.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-File-Not-Found-Fix.md
         gpt-Find-Min-Low-Row.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Find-Min-Low-Row.md
         gpt-Fix-NoneType-to_csv-Error.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Fix-NoneType-to_csv-Error.md
+        gpt-Gopls-Module-Workspace-Issue-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Gopls-Module-Workspace-Issue-2023.md
         gpt-JSON-Data-Sorting.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-JSON-Data-Sorting.md
         gpt-Mermaid-다이어그램-그리기.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Mermaid-다이어그램-그리기.md
         gpt-New-chat-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-New-chat-2023.md
@@ -310,6 +286,7 @@ nav:
         gpt-Vue3-초기화-코드.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue3-초기화-코드.md
         gpt-VueJS-FastAPI-Components.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-VueJS-FastAPI-Components.md
         gpt-code-server-Extension-Installation.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-code-server-Extension-Installation.md
+        gpt-객체-속성-이름-일치-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-객체-속성-이름-일치-2023.md
         gpt-링크넣기-vue3-script.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-링크넣기-vue3-script.md
         gpt-마크다운-깃허브링크-주소-읽기.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-마크다운-깃허브링크-주소-읽기.md
         gpt-마크다운-링크-만들기-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-마크다운-링크-만들기-2023.md
@@ -318,6 +295,7 @@ nav:
         gpt-분석-및-분류-캔들-패턴.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-분석-및-분류-캔들-패턴.md
         gpt-실시간-차트-구현-(Vue.js).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-실시간-차트-구현-(Vue.js).md
         gpt-읽기_-mk.md-파일-(Read_-mk.md-file).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-읽기_-mk.md-파일-(Read_-mk.md-file).md
+        gpt-자바스크립트-맵(Map)-개요-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-자바스크립트-맵(Map)-개요-2023.md
         gpt-주식-PBR-공식-요약.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-주식-PBR-공식-요약.md
         gpt-최소-최대값-올라간-퍼센트_-100%-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-최소-최대값-올라간-퍼센트_-100%-(1).md
         gpt-최소-최대값-올라간-퍼센트_-100%.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-최소-최대값-올라간-퍼센트_-100%.md
