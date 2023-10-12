@@ -1,4 +1,4 @@
 # documents
 
-![1](../svg/test.drawio.svg)
+![1](../svg/test.svg)
 
