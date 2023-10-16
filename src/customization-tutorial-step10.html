@@ -46,6 +46,7 @@
             throw new Error('Network response was not ok');
           }
           const data = await response.json();
+          console.log(data)
           return data;
         } catch (error) {
           console.error('Error fetching data:', error);
@@ -57,7 +58,7 @@
         const candleStickData = data.map((datapoint) => {
           // map function is changing the color for the individual
           // candlestick points that close above 205
-          if (datapoint.close < 1205) return datapoint;
+          if (datapoint.close < 1355) return datapoint;
           // we are adding 'color' and 'wickColor' properties to the datapoint.
           // Using spread syntax: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals
           return { ...datapoint, color: "orange", wickColor: "orange" };
