@@ -39,7 +39,7 @@
       // Function to generate a sample set of Candlestick datapoints
       async function generateCandlestickData() {
         try {
-          const response = await fetch('https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html_stock/lightdata.json');
+          const response = await fetch('https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html_stock/lightdata_int.json');
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
