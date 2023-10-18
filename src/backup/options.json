@@ -1,0 +1,24 @@
+{
+  "layout": {
+    "background": { "color": "#222" },
+    "textColor": "#C3BCDB",
+    "fontFamily": "'Roboto', sans-serif"
+  },
+  "grid": {
+    "vertLines": { "color": "#444" },
+    "horzLines": { "color": "#444" }
+  },
+  "crosshair": {
+    "mode": "Normal",
+    "vertLine": {
+      "width": 8,
+      "color": "#C3BCDB44",
+      "style": "Solid",
+      "labelBackgroundColor": "#9B7DFF"
+    },
+    "horzLine": {
+      "color": "#9B7DFF",
+      "labelBackgroundColor": "#9B7DFF"
+    }
+  }
+}
