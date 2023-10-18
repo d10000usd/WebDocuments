@@ -45,7 +45,7 @@
     function loadJSON(callback) {
       var xobj = new XMLHttpRequest();
       xobj.overrideMimeType("application/json");
-      xobj.open('GET', 'https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html_stock/KAVAminutes240.json', true); // Replace 'path/to/your/file.json' with your file's path
+      xobj.open('GET', 'https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html/KRW-SUI_minutes240.json', true); // Replace 'path/to/your/file.json' with your file's path
       xobj.onreadystatechange = function () {
         if (xobj.readyState == 4 && xobj.status == "200") {
           callback(xobj.responseText);
@@ -128,7 +128,11 @@
       const priceData = calculatePriceData(data);
 
 
-
+      const lineSeries = chart.addLineSeries();
+      lineSeries.setData([
+        { time: priceData.minimum.date, value: priceData.minimum.price },
+        { time: priceData.maximum.date, value: priceData.maximum.price },
+      ]);
 
       areaSeries.setData(data);
 
