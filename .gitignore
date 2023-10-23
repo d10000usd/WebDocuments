@@ -17,6 +17,7 @@ coverage
 *.py
 *.git
 /cypress/videos/
+/cypress/videos/
 /cypress/screenshots/
 .gitignore
 # Editor directories and files
@@ -34,3 +35,4 @@ obsidian/workspace.json
 obsidian/workspace-mobile.json
 .obsidian/workspace-mobile.json
 .obsidian/*
+src/*
