@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>차트 예제</title>
+</head>
+<body>
+
+<h2>주식 차트</h2>
+
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+  window.onload = function () {
+      var chart = new CanvasJS.Chart("chartContainer", {
+          animationEnabled: true,
+          title: {
+              text: "주식 가격 변동"
+          },
+          axisX: {
+              valueFormatString: "DD MMM,YY"
+          },
+          axisY: {
+              title: "주가",
+              prefix: "$"
+          },
+          data: [
+              {
+                  type: "line",
+                  xValueFormatString: "DD MMM,YY",
+                  dataPoints: [
+                      { x: new Date(2023, 0, 1), y: 250 },
+                      { x: new Date(2023, 1, 1), y: 300 },
+                      { x: new Date(2023, 2, 1), y: 350 },
+                      { x: new Date(2023, 3, 1), y: 200 },
+                      { x: new Date(2023, 4, 1), y: 400 }
+                  ]
+              }
+          ]
+      });
+      chart.render();
+  }
+</script>
+
+</body>
+</html>

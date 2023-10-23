@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+  <title>Lightweight Charts™ Customization Tutorial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      /* Add a background color to match the chart */
+      background-color: #222;
+    }
+
+    /* Styles for attribution message */
+    .lw-attribution {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 3;
+      /* place above the charts */
+      padding: 10px 0px 0px 12px;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.8em;
+    }
+
+    .lw-attribution a {
+      cursor: pointer;
+      color: rgb(54, 116, 217);
+      opacity: 0.8;
+    }
+
+    .lw-attribution a:hover {
+      color: rgb(54, 116, 217);
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container" style="position: absolute; width: 100%; height: 100%">
+    <!-- Lightweight Charts Attribution Message and Link -->
+    <div class="lw-attribution">
+      <a href="https://tradingview.github.io/lightweight-charts/">Powered by Lightweight Charts</a>
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript"
+    src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+  <script type="text/javascript">
+    // Call the init function when the window has finished loading
+    function loadJSON(callback) {
+      var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+      xobj.open('GET', 'https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html/SUI_minutes240.json', true); // Replace 'path/to/your/file.json' with your file's path
+      xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+          callback(xobj.responseText);
+        }
+      };
+      xobj.send(null);
+    }
+    function init() {
+      loadJSON(function (response) {
+        // Parse JSON string into object
+        var data = JSON.parse(response);
+        generateCandlestickData(data);
+      });
+    }
+    // Call the init function when the window has finished loading
+    // window.onload = init;
+    ////////
+    //////// chart area
+
+    chartOption = {
+
+      layout: {
+        background: { color: "#222" },
+        textColor: "#C3BCDB",
+        fontFamily: "'Roboto', sans-serif"
+      },
+      grid: {
+        vertLines: { color: "#444" },
+        horzLines: { color: "#444" },
+      },
+      crosshair: {
+        mode: LightweightCharts.CrosshairMode.Normal,
+        vertLine: {
+          width: 8,
+          color: "#C3BCDB44",
+          style: LightweightCharts.LineStyle.Solid,
+
+          labelBackgroundColor: "#9B7DFF",
+        },
+        horzLine: {
+          color: "#9B7DFF",
+          labelBackgroundColor: "#9B7DFF",
+        },
+      },
+
+
+    }
+
+    const areaSeries = chart.addAreaSeries({
+      lastValueVisible: false,
+      crosshairMarkerVisible: false,
+      lineColor: "transparent",
+      topColor: "rgba(56, 33, 110,0.6)",
+      bottomColor: "rgba(56, 33, 110, 0.1)",
+    });
+    function calculatePriceData(data) {
+      let minimumPrice = data[0].low;
+      let maximumPrice = minimumPrice;
+      let minimumDate = data[0].time;
+      let maximumDate = data[0].time;
+      for (let i = 1; i < data.length; i++) {
+        const price = data[i].high;
+        const date = data[i].time;
+        if (price > maximumPrice) {
+          maximumPrice = price;
+          maximumDate = date;
+        }
+        if (price < minimumPrice) {
+          minimumPrice = price;
+          minimumDate = date;
+        }
+      }
+      const avgPrice = (maximumPrice + minimumPrice) / 2;
+      const avgDate = (maximumDate + minimumDate) / 2;
+      return {
+        minimum: { price: minimumPrice, date: minimumDate },
+        maximum: { price: maximumPrice, date: maximumDate },
+        average: { price: avgPrice, date: avgDate },
+      };
+    }
+    function sortByDate(data) {
+      return data.sort((a, b) => new Date(a.time) - new Date(b.time));
+    }
+
+
+
+
+
+    let chart = LightweightCharts.createChart(document.getElementById('container'), chartOption);
+
+    function generateCandlestickData(linedict, spl0, spl1, spl2) {
+
+      let chart = LightweightCharts.createChart(document.getElementById('container'), chartOption);
+
+
+      const data = linedict
+      spline0 = spl0
+      spline1 = spl1
+      spline2 = spl2
+      const priceData = calculatePriceData(data);
+
+      const candleStickData = data.map((datapoint) => {
+        // map function is changing the color for the individual
+        // candlestick points that close above 205
+        if (datapoint.close < priceData.average.price) return datapoint;
+        // we are adding 'color' and 'wickColor' properties to the datapoint.
+        // Using spread syntax: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals
+        return { ...datapoint, color: "orange", wickColor: "orange" };
+      });
+
+      const lineData = candleStickData.map((datapoint) => ({
+        time: datapoint.time,
+        value: (datapoint.close + datapoint.open) / 2.5,
+      }));
+
+
+
+      lineOption = {
+        'mainSeries': {
+          'wickUpColor': "rgb(54, 116, 217)",
+          'upColor': "rgb(54, 116, 217)",
+          'wickDownColor': "rgb(225, 50, 85)",
+          'downColor': "rgb(225, 50, 85)",
+          'borderVisible': false,
+        },
+        'minPriceLine': {
+          'price': priceData.minimum.price,
+          'color': '#ef5350',
+          'lineWidth': 12,
+          'lineStyle': 2, // LineStyle.Dashed
+          'axisLabelVisible': true,
+          'title': '',
+          'textAlign': 'left',
+        },
+        'avgPriceLine': {
+          'price': priceData.average.price,
+          'color': 'yellow',
+          'lineWidth': 12,
+          'lineStyle': 1, // LineStyle.Dotted
+          'axisLabelVisible': true,
+          'title': '평균가',
+          'textAlign': 'left',
+        },
+        'maxPriceLine': {
+          'price': priceData.maximum.price,
+          'color': '#26a69a',
+          'lineWidth': 12,
+          'lineStyle': 2, // LineStyle.Dashed
+          'axisLabelVisible': true,
+          'title': '최고가',
+          'textAlign': 'left',
+        },
+        'lineColor': {
+          'priceScaleColor': {
+            'borderColor': "#71649C",
+          },
+          'timeScaleColor': {
+            'borderColor': "#71649C",
+            'barSpacing': 110,
+          }
+
+        },
+        'font': {
+          'layout': {
+            'fontFamily': "'Roboto', sans-serif",
+          },
+        },
+        'priceScale': {
+          'autoScale': true,
+          'scaleMargins': {
+            'top': 0.1,
+            'bottom': 0.2,
+          },
+        },
+        'priceFormatter': {
+          'style': "currency",
+          'currency': "KRW", // Currency for data points
+        },
+        'outlineOption': {
+          'color': 'red',
+          'lineStyle': 1,
+          'lineWidth': 1,// 원하는 색상을 여기에 입력하세요.
+        },
+        'inlineOption': {
+          'color': 'yellow',
+          'lineStyle': 1,
+          'lineWidth': 3,// 원하는 색상을 여기에 입력하세요.
+        }
+
+      };
+      const createFirstSet = (chart) => {
+        const mainSeries = chart.addCandlestickSeries();
+        const lineSeries0 = chart.addLineSeries();
+        const lineSeries1 = chart.addLineSeries();
+        const lineSeries2 = chart.addLineSeries();
+        const lineSeries3 = chart.addLineSeries();
+
+        lineSeries0.setData(spl0.support_line_c);
+        lineSeries1.setData(spl0.resist_line_c);
+        lineSeries2.setData(spl0.support_line);
+        lineSeries3.setData(spl0.resist_line);
+
+        lineSeries2.applyOptions(lineOption.outlineOption);
+        lineSeries3.applyOptions(lineOption.inlineOption);
+      };
+
+      const createSecondSet = (chart) => {
+        const mainSeries = chart.addCandlestickSeries();
+        const lineSeries0 = chart.addLineSeries();
+        const lineSeries1 = chart.addLineSeries();
+        const lineSeries2 = chart.addLineSeries();
+        const lineSeries3 = chart.addLineSeries();
+
+        lineSeries0.setData(spl1.support_line_c);
+        lineSeries1.setData(spl1.resist_line_c);
+        lineSeries2.setData(spl1.support_line);
+        lineSeries3.setData(spl1.resist_line);
+
+        lineSeries2.applyOptions(lineOption.outlineOption);
+        lineSeries3.applyOptions(lineOption.inlineOption);
+      };
+
+      createFirstSet(chart);
+      createSecondSet(chart);
+
+
+      const mainSeries = chart.addCandlestickSeries();
+      mainSeries.setData(candleStickData);
+
+      mainSeries.applyOptions(lineOption.mainSeries);
+      mainSeries.createPriceLine(lineOption.minPriceLine);
+      mainSeries.createPriceLine(lineOption.avgPriceLine);
+      mainSeries.createPriceLine(lineOption.maxPriceLine);
+      mainSeries.priceScale().applyOptions(lineOption.priceScale);
+      chart.priceScale().applyOptions(lineOption.lineColor.priceScaleColor);
+      chart.timeScale().applyOptions(lineOption.lineColor.timeScaleColor);
+      chart.applyOptions(lineOption.font);
+
+      const currentLocale = window.navigator.languages[0];
+      const myPriceFormatter = Intl.NumberFormat(currentLocale, lineOption.priceFormatter).format;
+      chart.applyOptions({
+        localization: {
+          priceFormatter: myPriceFormatter,
+        },
+      });
+
+      chart.timeScale().fitContent();
+
+    }
+
+
+
+
+
+
+
+
+    window.addEventListener("resize", () => {
+      chart.resize(window.innerWidth, window.innerHeight);
+    });
+    // document.getElementById('resetchart').addEventListener('click', resetChart);
+    // // document.getElementById('resetchart').addEventListener('click', function () {
+    // //   location.reload();
+    // // });
+
+    function clearChart() {
+      // Replace the code below with the logic to clear the chart on your webpage
+      // Example: Assuming your chart has an ID 'myChart', you can use a library-specific function to clear it.
+      // var newChart = document.getElementById('container');
+      // generateCandlestickData(linedict, spl0, spl1, spl2)
+      // chart.innerHTML = ''; // Clearing the content inside the chart element
+
+      newChart.remove()
+    }
+
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+  <title>Lightweight Charts™ Customization Tutorial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      /* Add a background color to match the chart */
+      background-color: #222;
+    }
+
+    /* Styles for attribution message */
+    .lw-attribution {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 3;
+      /* place above the charts */
+      padding: 10px 0px 0px 12px;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.8em;
+    }
+
+    .lw-attribution a {
+      cursor: pointer;
+      color: rgb(54, 116, 217);
+      opacity: 0.8;
+    }
+
+    .lw-attribution a:hover {
+      color: rgb(54, 116, 217);
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container" style="position: absolute; width: 100%; height: 100%">
+    <!-- Lightweight Charts Attribution Message and Link -->
+    <div class="lw-attribution">
+      <a href="https://tradingview.github.io/lightweight-charts/">Powered by Lightweight Charts</a>
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript"
+    src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+  <script type="text/javascript">
+    // Call the init function when the window has finished loading
+    function loadJSON(callback) {
+      var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+      xobj.open('GET', 'https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html/SUI_minutes240.json', true); // Replace 'path/to/your/file.json' with your file's path
+      xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+          callback(xobj.responseText);
+        }
+      };
+      xobj.send(null);
+    }
+    function init() {
+      loadJSON(function (response) {
+        // Parse JSON string into object
+        var data = JSON.parse(response);
+        generateCandlestickData(data);
+      });
+    }
+    // Call the init function when the window has finished loading
+    // window.onload = init;
+    ////////
+    //////// chart area
+    chartOption = {
+
+      layout: {
+        background: { color: "#222" },
+        textColor: "#C3BCDB",
+        fontFamily: "'Roboto', sans-serif"
+      },
+      grid: {
+        vertLines: { color: "#444" },
+        horzLines: { color: "#444" },
+      },
+      crosshair: {
+        mode: LightweightCharts.CrosshairMode.Normal,
+        vertLine: {
+          width: 8,
+          color: "#C3BCDB44",
+          style: LightweightCharts.LineStyle.Solid,
+
+          labelBackgroundColor: "#9B7DFF",
+        },
+        horzLine: {
+          color: "#9B7DFF",
+          labelBackgroundColor: "#9B7DFF",
+        },
+      },
+
+
+    }
+    const chart = LightweightCharts.createChart(document.getElementById('container'), chartOption);
+
+    const areaSeries = chart.addAreaSeries({
+      lastValueVisible: false,
+      crosshairMarkerVisible: false,
+      lineColor: "transparent",
+      topColor: "rgba(56, 33, 110,0.6)",
+      bottomColor: "rgba(56, 33, 110, 0.1)",
+    });
+    function calculatePriceData(data) {
+      let minimumPrice = data[0].low;
+      let maximumPrice = minimumPrice;
+      let minimumDate = data[0].time;
+      let maximumDate = data[0].time;
+      for (let i = 1; i < data.length; i++) {
+        const price = data[i].high;
+        const date = data[i].time;
+        if (price > maximumPrice) {
+          maximumPrice = price;
+          maximumDate = date;
+        }
+        if (price < minimumPrice) {
+          minimumPrice = price;
+          minimumDate = date;
+        }
+      }
+      const avgPrice = (maximumPrice + minimumPrice) / 2;
+      const avgDate = (maximumDate + minimumDate) / 2;
+      return {
+        minimum: { price: minimumPrice, date: minimumDate },
+        maximum: { price: maximumPrice, date: maximumDate },
+        average: { price: avgPrice, date: avgDate },
+      };
+    }
+    function sortByDate(data) {
+      return data.sort((a, b) => new Date(a.time) - new Date(b.time));
+    }
+
+
+
+
+
+    function generateCandlestickData(linedict,spl0, spl1, spl2) {
+      const data = linedict
+      spline0 = [spl0]
+      spline1 = [spl1]
+      spline2 = [spl2]
+      const priceData = calculatePriceData(data);
+
+      const candleStickData = data.map((datapoint) => {
+        // map function is changing the color for the individual
+        // candlestick points that close above 205
+        if (datapoint.close < priceData.average.price) return datapoint;
+        // we are adding 'color' and 'wickColor' properties to the datapoint.
+        // Using spread syntax: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals
+        return { ...datapoint, color: "orange", wickColor: "orange" };
+      });
+
+      const lineData = candleStickData.map((datapoint) => ({
+        time: datapoint.time,
+        value: (datapoint.close + datapoint.open) / 2.5,
+      }));
+
+
+      // lineLH = [
+      //   { time: priceData.minimum.date, value: priceData.minimum.price },
+      //   { time: priceData.maximum.date, value: priceData.maximum.price },
+
+    //   // ]
+
+    //   let spline0 = [{ "support_line_c": [
+    //         {
+    //             "time": 1692198000,
+    //             "value": 206034.27
+    //         },
+    //         {
+    //             "time": 1692284400,
+    //             "value": 204775.7
+    //         },
+    //         {
+    //             "time": 1692543600,
+    //             "value": 203517.13
+    //         },
+    //         {
+    //             "time": 1692630000,
+    //             "value": 202258.57
+    //         },
+    //         {
+    //             "time": 1692716400,
+    //             "value": 201000.0
+    //         },
+    //         {
+    //             "time": 1692802800,
+    //             "value": 199741.43
+    //         },
+    //         {
+    //             "time": 1692889200,
+    //             "value": 198482.87
+    //         },
+    //         {
+    //             "time": 1693148400,
+    //             "value": 197224.3
+    //         },
+    //         {
+    //             "time": 1693234800,
+    //             "value": 195965.73
+    //         },
+    //         {
+    //             "time": 1693321200,
+    //             "value": 194707.17
+    //         },
+    //         {
+    //             "time": 1693407600,
+    //             "value": 193448.6
+    //         },
+    //         {
+    //             "time": 1693494000,
+    //             "value": 192190.04
+    //         },
+    //         {
+    //             "time": 1693753200,
+    //             "value": 190931.47
+    //         },
+    //         {
+    //             "time": 1693839600,
+    //             "value": 189672.9
+    //         },
+    //         {
+    //             "time": 1693926000,
+    //             "value": 188414.34
+    //         },
+    //         {
+    //             "time": 1694012400,
+    //             "value": 187155.77
+    //         },
+    //         {
+    //             "time": 1694098800,
+    //             "value": 185897.2
+    //         },
+    //         {
+    //             "time": 1694358000,
+    //             "value": 184638.64
+    //         },
+    //         {
+    //             "time": 1694444400,
+    //             "value": 183380.07
+    //         },
+    //         {
+    //             "time": 1694530800,
+    //             "value": 182121.5
+    //         },
+    //         {
+    //             "time": 1694617200,
+    //             "value": 180862.94
+    //         },
+    //         {
+    //             "time": 1694703600,
+    //             "value": 179604.37
+    //         },
+    //         {
+    //             "time": 1694962800,
+    //             "value": 178345.8
+    //         },
+    //         {
+    //             "time": 1695049200,
+    //             "value": 177087.24
+    //         },
+    //         {
+    //             "time": 1695135600,
+    //             "value": 175828.67
+    //         },
+    //         {
+    //             "time": 1695222000,
+    //             "value": 174570.11
+    //         },
+    //         {
+    //             "time": 1695308400,
+    //             "value": 173311.54
+    //         },
+    //         {
+    //             "time": 1695567600,
+    //             "value": 172052.97
+    //         },
+    //         {
+    //             "time": 1695654000,
+    //             "value": 170794.41
+    //         },
+    //         {
+    //             "time": 1695740400,
+    //             "value": 169535.84
+    //         }
+    //     ],
+    //     "resist_line_c": [
+    //         {
+    //             "time": 1692198000,
+    //             "value": 260536.02
+    //         },
+    //         {
+    //             "time": 1692284400,
+    //             "value": 257531.51
+    //         },
+    //         {
+    //             "time": 1692543600,
+    //             "value": 254527.01
+    //         },
+    //         {
+    //             "time": 1692630000,
+    //             "value": 251522.51
+    //         },
+    //         {
+    //             "time": 1692716400,
+    //             "value": 248518.01
+    //         },
+    //         {
+    //             "time": 1692802800,
+    //             "value": 245513.51
+    //         },
+    //         {
+    //             "time": 1692889200,
+    //             "value": 242509.0
+    //         },
+    //         {
+    //             "time": 1693148400,
+    //             "value": 239504.5
+    //         },
+    //         {
+    //             "time": 1693234800,
+    //             "value": 236500.0
+    //         },
+    //         {
+    //             "time": 1693321200,
+    //             "value": 233495.5
+    //         },
+    //         {
+    //             "time": 1693407600,
+    //             "value": 230491.0
+    //         },
+    //         {
+    //             "time": 1693494000,
+    //             "value": 227486.49
+    //         },
+    //         {
+    //             "time": 1693753200,
+    //             "value": 224481.99
+    //         },
+    //         {
+    //             "time": 1693839600,
+    //             "value": 221477.49
+    //         },
+    //         {
+    //             "time": 1693926000,
+    //             "value": 218472.99
+    //         },
+    //         {
+    //             "time": 1694012400,
+    //             "value": 215468.49
+    //         },
+    //         {
+    //             "time": 1694098800,
+    //             "value": 212463.98
+    //         },
+    //         {
+    //             "time": 1694358000,
+    //             "value": 209459.48
+    //         },
+    //         {
+    //             "time": 1694444400,
+    //             "value": 206454.98
+    //         },
+    //         {
+    //             "time": 1694530800,
+    //             "value": 203450.48
+    //         },
+    //         {
+    //             "time": 1694617200,
+    //             "value": 200445.98
+    //         },
+    //         {
+    //             "time": 1694703600,
+    //             "value": 197441.48
+    //         },
+    //         {
+    //             "time": 1694962800,
+    //             "value": 194436.97
+    //         },
+    //         {
+    //             "time": 1695049200,
+    //             "value": 191432.47
+    //         },
+    //         {
+    //             "time": 1695135600,
+    //             "value": 188427.97
+    //         },
+    //         {
+    //             "time": 1695222000,
+    //             "value": 185423.47
+    //         },
+    //         {
+    //             "time": 1695308400,
+    //             "value": 182418.97
+    //         },
+    //         {
+    //             "time": 1695567600,
+    //             "value": 179414.46
+    //         },
+    //         {
+    //             "time": 1695654000,
+    //             "value": 176409.96
+    //         },
+    //         {
+    //             "time": 1695740400,
+    //             "value": 173405.46
+    //         }
+    //     ],
+    //     "support_line": [
+    //         {
+    //             "time": 1692198000,
+    //             "value": 203269.09
+    //         },
+    //         {
+    //             "time": 1692284400,
+    //             "value": 201976.82
+    //         },
+    //         {
+    //             "time": 1692543600,
+    //             "value": 200684.55
+    //         },
+    //         {
+    //             "time": 1692630000,
+    //             "value": 199392.27
+    //         },
+    //         {
+    //             "time": 1692716400,
+    //             "value": 198100.0
+    //         },
+    //         {
+    //             "time": 1692802800,
+    //             "value": 196807.73
+    //         },
+    //         {
+    //             "time": 1692889200,
+    //             "value": 195515.45
+    //         },
+    //         {
+    //             "time": 1693148400,
+    //             "value": 194223.18
+    //         },
+    //         {
+    //             "time": 1693234800,
+    //             "value": 192930.91
+    //         },
+    //         {
+    //             "time": 1693321200,
+    //             "value": 191638.63
+    //         },
+    //         {
+    //             "time": 1693407600,
+    //             "value": 190346.36
+    //         },
+    //         {
+    //             "time": 1693494000,
+    //             "value": 189054.09
+    //         },
+    //         {
+    //             "time": 1693753200,
+    //             "value": 187761.81
+    //         },
+    //         {
+    //             "time": 1693839600,
+    //             "value": 186469.54
+    //         },
+    //         {
+    //             "time": 1693926000,
+    //             "value": 185177.27
+    //         },
+    //         {
+    //             "time": 1694012400,
+    //             "value": 183884.99
+    //         },
+    //         {
+    //             "time": 1694098800,
+    //             "value": 182592.72
+    //         },
+    //         {
+    //             "time": 1694358000,
+    //             "value": 181300.45
+    //         },
+    //         {
+    //             "time": 1694444400,
+    //             "value": 180008.17
+    //         },
+    //         {
+    //             "time": 1694530800,
+    //             "value": 178715.9
+    //         },
+    //         {
+    //             "time": 1694617200,
+    //             "value": 177423.63
+    //         },
+    //         {
+    //             "time": 1694703600,
+    //             "value": 176131.35
+    //         },
+    //         {
+    //             "time": 1694962800,
+    //             "value": 174839.08
+    //         },
+    //         {
+    //             "time": 1695049200,
+    //             "value": 173546.81
+    //         },
+    //         {
+    //             "time": 1695135600,
+    //             "value": 172254.53
+    //         },
+    //         {
+    //             "time": 1695222000,
+    //             "value": 170962.26
+    //         },
+    //         {
+    //             "time": 1695308400,
+    //             "value": 169669.99
+    //         },
+    //         {
+    //             "time": 1695567600,
+    //             "value": 168377.71
+    //         },
+    //         {
+    //             "time": 1695654000,
+    //             "value": 167085.44
+    //         },
+    //         {
+    //             "time": 1695740400,
+    //             "value": 165793.17
+    //         }
+    //     ],
+    //     "resist_line": [
+    //         {
+    //             "time": 1692198000,
+    //             "value": 275465.08
+    //         },
+    //         {
+    //             "time": 1692284400,
+    //             "value": 272031.94
+    //         },
+    //         {
+    //             "time": 1692543600,
+    //             "value": 268598.81
+    //         },
+    //         {
+    //             "time": 1692630000,
+    //             "value": 265165.67
+    //         },
+    //         {
+    //             "time": 1692716400,
+    //             "value": 261732.54
+    //         },
+    //         {
+    //             "time": 1692802800,
+    //             "value": 258299.4
+    //         },
+    //         {
+    //             "time": 1692889200,
+    //             "value": 254866.27
+    //         },
+    //         {
+    //             "time": 1693148400,
+    //             "value": 251433.13
+    //         },
+    //         {
+    //             "time": 1693234800,
+    //             "value": 248000.0
+    //         },
+    //         {
+    //             "time": 1693321200,
+    //             "value": 244566.87
+    //         },
+    //         {
+    //             "time": 1693407600,
+    //             "value": 241133.73
+    //         },
+    //         {
+    //             "time": 1693494000,
+    //             "value": 237700.6
+    //         },
+    //         {
+    //             "time": 1693753200,
+    //             "value": 234267.46
+    //         },
+    //         {
+    //             "time": 1693839600,
+    //             "value": 230834.33
+    //         },
+    //         {
+    //             "time": 1693926000,
+    //             "value": 227401.19
+    //         },
+    //         {
+    //             "time": 1694012400,
+    //             "value": 223968.06
+    //         },
+    //         {
+    //             "time": 1694098800,
+    //             "value": 220534.92
+    //         },
+    //         {
+    //             "time": 1694358000,
+    //             "value": 217101.79
+    //         },
+    //         {
+    //             "time": 1694444400,
+    //             "value": 213668.65
+    //         },
+    //         {
+    //             "time": 1694530800,
+    //             "value": 210235.52
+    //         },
+    //         {
+    //             "time": 1694617200,
+    //             "value": 206802.38
+    //         },
+    //         {
+    //             "time": 1694703600,
+    //             "value": 203369.25
+    //         },
+    //         {
+    //             "time": 1694962800,
+    //             "value": 199936.11
+    //         },
+    //         {
+    //             "time": 1695049200,
+    //             "value": 196502.98
+    //         },
+    //         {
+    //             "time": 1695135600,
+    //             "value": 193069.84
+    //         },
+    //         {
+    //             "time": 1695222000,
+    //             "value": 189636.71
+    //         },
+    //         {
+    //             "time": 1695308400,
+    //             "value": 186203.58
+    //         },
+    //         {
+    //             "time": 1695567600,
+    //             "value": 182770.44
+    //         },
+    //         {
+    //             "time": 1695654000,
+    //             "value": 179337.31
+    //         },
+    //         {
+    //             "time": 1695740400,
+    //             "value": 175904.17
+    //         }
+    //     ]
+    // }]
+
+      lineOption = {
+        'mainSeries': {
+          'wickUpColor': "rgb(54, 116, 217)",
+          'upColor': "rgb(54, 116, 217)",
+          'wickDownColor': "rgb(225, 50, 85)",
+          'downColor': "rgb(225, 50, 85)",
+          'borderVisible': false,
+        },
+        'minPriceLine': {
+          'price': priceData.minimum.price,
+          'color': '#ef5350',
+          'lineWidth': 12,
+          'lineStyle': 2, // LineStyle.Dashed
+          'axisLabelVisible': true,
+          'title': '',
+          'textAlign': 'left',
+        },
+        'avgPriceLine': {
+          'price': priceData.average.price,
+          'color': 'yellow',
+          'lineWidth': 12,
+          'lineStyle': 1, // LineStyle.Dotted
+          'axisLabelVisible': true,
+          'title': '평균가',
+          'textAlign': 'left',
+        },
+        'maxPriceLine': {
+          'price': priceData.maximum.price,
+          'color': '#26a69a',
+          'lineWidth': 12,
+          'lineStyle': 2, // LineStyle.Dashed
+          'axisLabelVisible': true,
+          'title': '최고가',
+          'textAlign': 'left',
+        },
+        'lineColor': {
+          'priceScaleColor': {
+            'borderColor': "#71649C",
+          },
+          'timeScaleColor': {
+            'borderColor': "#71649C",
+            'barSpacing': 110,
+          }
+
+        },
+        'font': {
+          'layout': {
+            'fontFamily': "'Roboto', sans-serif",
+          },
+        },
+        'priceScale': {
+          'autoScale': true,
+          'scaleMargins': {
+            'top': 0.1,
+            'bottom': 0.2,
+          },
+        },
+        'priceFormatter': {
+          'style': "currency",
+          'currency': "KRW", // Currency for data points
+        },
+        'outlineOption': {
+          'color': 'red',
+          'lineStyle': 1,
+          'lineWidth': 1,// 원하는 색상을 여기에 입력하세요.
+        },
+        'inlineOption': {
+          'color': 'yellow',
+          'lineStyle': 1,
+          'lineWidth': 3,// 원하는 색상을 여기에 입력하세요.
+        }
+
+      };
+
+
+
+
+
+      // areaSeries.setData(candleStickData);
+      // areaSeries.setData(lineData);
+      lineLH0 = spline0[0].support_line_c
+      lineLH1 = spline0[0].resist_line_c
+      lineLH2 = spline0[0].support_line
+      lineLH3 = spline0[0].resist_line
+
+      const mainSeries = chart.addCandlestickSeries();
+      const lineSeries0 = chart.addLineSeries();
+      const lineSeries1 = chart.addLineSeries();
+      const lineSeries2 = chart.addLineSeries();
+      const lineSeries3 = chart.addLineSeries();
+
+      lineSeries0.setData((lineLH0));
+      lineSeries1.setData((lineLH1));
+      lineSeries2.setData((lineLH2));
+      lineSeries3.setData((lineLH3));
+
+
+      lineSeries2.applyOptions(lineOption.outlineOption);
+      lineSeries3.applyOptions(lineOption.inlineOption);
+
+      mainSeries.setData(candleStickData);
+
+
+      mainSeries.applyOptions(lineOption.mainSeries);
+
+
+      // mainSeries.applyOptions(lineOption.avgPriceLine);
+      // mainSeries.applyOptions(lineOption.minPriceLine);
+      // mainSeries.applyOptions(lineOption.maxPriceLine);
+
+      mainSeries.createPriceLine(lineOption.minPriceLine);
+      mainSeries.createPriceLine(lineOption.avgPriceLine);
+      mainSeries.createPriceLine(lineOption.maxPriceLine);
+
+      mainSeries.priceScale().applyOptions(lineOption.priceScale);
+      chart.priceScale().applyOptions(lineOption.lineColor.priceScaleColor);
+      chart.timeScale().applyOptions(lineOption.lineColor.timeScaleColor);
+      chart.applyOptions(lineOption.font);
+
+      const currentLocale = window.navigator.languages[0];
+      const myPriceFormatter = Intl.NumberFormat(currentLocale, lineOption.priceFormatter).format;
+      chart.applyOptions({
+        localization: {
+          priceFormatter: myPriceFormatter,
+        },
+      });
+
+      chart.timeScale().fitContent();
+    }
+
+
+    window.addEventListener("resize", () => {
+      chart.resize(window.innerWidth, window.innerHeight);
+    });
+    // document.getElementById('resetchart').addEventListener('click', resetChart);
+    // // document.getElementById('resetchart').addEventListener('click', function () {
+    // //   location.reload();
+    // // });
+
+
+
+
+  </script>
+</body>
+
+</html>
