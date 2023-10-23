@@ -13,7 +13,7 @@ coverage
 *.git
 
 # for opsidian push ignore
-public/.obsidian
-public/.obsidian/*
+./public/.obsidian
+./public/.obsidian/*
 .gitignore
-src/*
+./src/*
