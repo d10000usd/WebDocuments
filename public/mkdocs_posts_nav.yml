@@ -2,20 +2,23 @@ nav:
   Public:
     md:
     - Gpt:
-      - md/Gpt/gpt-All-Cloud-System-Overview-20231023074907.md
-      - md/Gpt/gpt-All-Cloud-System-Overview-20231023075547.md
-      - md/Gpt/gpt-All-HTML-CSS-Box-Design-20231023071618.md
-      - md/Gpt/gpt-All-HTML-CSS-Box-Design-20231023072041.md
-      - md/Gpt/gpt-All-HTML-CSS-Box-Design-20231023073401.md
-      - md/Gpt/gpt-All-Handle-Save-Function-20231023073446.md
-      - md/Gpt/gpt-All-Handle-Save-Function-20231023073738.md
-      - md/Gpt/gpt-All-Handle-Save-Function-20231023074150.md
-      - md/Gpt/gpt-All-Handle-Save-Function-20231023074250.md
-      - md/Gpt/gpt-All-Handle-Save-Function-20231023074457.md
-      - md/Gpt/gpt-All-Insert-HTML-Tag.-20231023070522.md
-      - md/Gpt/gpt-All-Mondrian-Style-Webpage.-20231023070709.md
-      - md/Gpt/gpt-All-Mondrian-Style-Webpage.-20231023070859.md
-      - md/Gpt/gpt-All-Mondrian-Style-Webpage.-20231023071017.md
+      - md/Gpt/gpt-Add-Gradient-Border.-20231023110401.md
+      - md/Gpt/gpt-All-Button-Size-Adjusted.-20231023110224.md
+      - md/Gpt/gpt-All-Cloud-System-Overview-20231023110229.md
+      - md/Gpt/gpt-All-Insert-HTML-Tag.-20231023110234.md
+      - md/Gpt/gpt-All-Markdown-Conversion-Tool-20231023110243.md
+      - md/Gpt/gpt-All-Vue-Component-Integration-20231023110206.md
+      - md/Gpt/gpt-All-Vue-Template-RouterLink.-20231023110202.md
+      - md/Gpt/gpt-All-Vue-Variable-Passing-Fix-20231023110210.md
+      - md/Gpt/gpt-CSS-Button-Styling-20231023110334.md
+      - md/Gpt/gpt-HTML-CSS-Image-Card.-20231023110425.md
+      - md/Gpt/gpt-Handle-Save-Function-20231023110338.md
+      - md/Gpt/gpt-Pylint-Options-Summary.-20231023110342.md
+      - md/Gpt/gpt-SEO-Tips-20231023110247.md
+      - md/Gpt/gpt-Update-JSON-Data-20231023110412.md
+      - md/Gpt/gpt-Vue-Props-Not-Received-20231023110216.md
+      - md/Gpt/gpt-Vue-Router-Variables-20231023110221.md
+      - md/Gpt/gpt-색상-및-가독성-요청-20231023110349.md
     - Post:
       - md/Post/Welcome!!.md
       - md/Post/td copy.md
@@ -35,20 +38,23 @@ nav:
   Blob:
     md:
       Gpt:
-        gpt-All-Cloud-System-Overview-20231023074907.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Cloud-System-Overview-20231023074907.md
-        gpt-All-Cloud-System-Overview-20231023075547.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Cloud-System-Overview-20231023075547.md
-        gpt-All-HTML-CSS-Box-Design-20231023071618.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-HTML-CSS-Box-Design-20231023071618.md
-        gpt-All-HTML-CSS-Box-Design-20231023072041.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-HTML-CSS-Box-Design-20231023072041.md
-        gpt-All-HTML-CSS-Box-Design-20231023073401.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-HTML-CSS-Box-Design-20231023073401.md
-        gpt-All-Handle-Save-Function-20231023073446.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Handle-Save-Function-20231023073446.md
-        gpt-All-Handle-Save-Function-20231023073738.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Handle-Save-Function-20231023073738.md
-        gpt-All-Handle-Save-Function-20231023074150.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Handle-Save-Function-20231023074150.md
-        gpt-All-Handle-Save-Function-20231023074250.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Handle-Save-Function-20231023074250.md
-        gpt-All-Handle-Save-Function-20231023074457.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Handle-Save-Function-20231023074457.md
-        gpt-All-Insert-HTML-Tag.-20231023070522.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Insert-HTML-Tag.-20231023070522.md
-        gpt-All-Mondrian-Style-Webpage.-20231023070709.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Mondrian-Style-Webpage.-20231023070709.md
-        gpt-All-Mondrian-Style-Webpage.-20231023070859.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Mondrian-Style-Webpage.-20231023070859.md
-        gpt-All-Mondrian-Style-Webpage.-20231023071017.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Mondrian-Style-Webpage.-20231023071017.md
+        gpt-Add-Gradient-Border.-20231023110401.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-Gradient-Border.-20231023110401.md
+        gpt-All-Button-Size-Adjusted.-20231023110224.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Button-Size-Adjusted.-20231023110224.md
+        gpt-All-Cloud-System-Overview-20231023110229.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Cloud-System-Overview-20231023110229.md
+        gpt-All-Insert-HTML-Tag.-20231023110234.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Insert-HTML-Tag.-20231023110234.md
+        gpt-All-Markdown-Conversion-Tool-20231023110243.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Markdown-Conversion-Tool-20231023110243.md
+        gpt-All-Vue-Component-Integration-20231023110206.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Vue-Component-Integration-20231023110206.md
+        gpt-All-Vue-Template-RouterLink.-20231023110202.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Vue-Template-RouterLink.-20231023110202.md
+        gpt-All-Vue-Variable-Passing-Fix-20231023110210.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Vue-Variable-Passing-Fix-20231023110210.md
+        gpt-CSS-Button-Styling-20231023110334.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-CSS-Button-Styling-20231023110334.md
+        gpt-HTML-CSS-Image-Card.-20231023110425.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-HTML-CSS-Image-Card.-20231023110425.md
+        gpt-Handle-Save-Function-20231023110338.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Handle-Save-Function-20231023110338.md
+        gpt-Pylint-Options-Summary.-20231023110342.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Pylint-Options-Summary.-20231023110342.md
+        gpt-SEO-Tips-20231023110247.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-SEO-Tips-20231023110247.md
+        gpt-Update-JSON-Data-20231023110412.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Update-JSON-Data-20231023110412.md
+        gpt-Vue-Props-Not-Received-20231023110216.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue-Props-Not-Received-20231023110216.md
+        gpt-Vue-Router-Variables-20231023110221.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue-Router-Variables-20231023110221.md
+        gpt-색상-및-가독성-요청-20231023110349.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-색상-및-가독성-요청-20231023110349.md
       Post:
         Welcome!!.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/Welcome!!.md
         td copy.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/td
