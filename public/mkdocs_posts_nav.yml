@@ -2,23 +2,25 @@ nav:
   Public:
     md:
     - Gpt:
-      - md/Gpt/gpt-Add-Gradient-Border.-20231023110401.md
-      - md/Gpt/gpt-All-Button-Size-Adjusted.-20231023110224.md
-      - md/Gpt/gpt-All-Cloud-System-Overview-20231023110229.md
-      - md/Gpt/gpt-All-Insert-HTML-Tag.-20231023110234.md
-      - md/Gpt/gpt-All-Markdown-Conversion-Tool-20231023110243.md
-      - md/Gpt/gpt-All-Vue-Component-Integration-20231023110206.md
-      - md/Gpt/gpt-All-Vue-Template-RouterLink.-20231023110202.md
-      - md/Gpt/gpt-All-Vue-Variable-Passing-Fix-20231023110210.md
-      - md/Gpt/gpt-CSS-Button-Styling-20231023110334.md
-      - md/Gpt/gpt-HTML-CSS-Image-Card.-20231023110425.md
-      - md/Gpt/gpt-Handle-Save-Function-20231023110338.md
-      - md/Gpt/gpt-Pylint-Options-Summary.-20231023110342.md
-      - md/Gpt/gpt-SEO-Tips-20231023110247.md
-      - md/Gpt/gpt-Update-JSON-Data-20231023110412.md
-      - md/Gpt/gpt-Vue-Props-Not-Received-20231023110216.md
-      - md/Gpt/gpt-Vue-Router-Variables-20231023110221.md
-      - md/Gpt/gpt-색상-및-가독성-요청-20231023110349.md
+      - md/Gpt/gpt-Browser-Automation-Troubleshooting.-20231024021933.md
+      - md/Gpt/gpt-Browser-Automation-Troubleshooting.-20231024021935.md
+      - md/Gpt/gpt-Browser-Automation-Troubleshooting.-20231024021939.md
+      - md/Gpt/gpt-Browser-Automation-Troubleshooting.-20231024021944.md
+      - md/Gpt/gpt-Browser-Automation-Troubleshooting.-20231024021946.md
+      - md/Gpt/gpt-Copy-&-Paste-with-Selenium.-20231024021911.md
+      - md/Gpt/gpt-Copy-&-Paste-with-Selenium.-20231024021914.md
+      - md/Gpt/gpt-Copy-&-Paste-with-Selenium.-20231024021917.md
+      - md/Gpt/gpt-Copy-&-Paste-with-Selenium.-20231024021919.md
+      - md/Gpt/gpt-GitJsonRead-Function-Update-20231024021839.md
+      - md/Gpt/gpt-GitJsonRead-Function-Update-20231024021841.md
+      - md/Gpt/gpt-GitJsonRead-Function-Update-20231024021842.md
+      - md/Gpt/gpt-GitJsonRead-Function-Update-20231024021844.md
+      - md/Gpt/gpt-GitJsonRead-Function-Update-20231024021846.md
+      - md/Gpt/gpt-GitJsonRead-Function-Update-20231024021848.md
+      - md/Gpt/gpt-GitJsonRead-Function-Update-20231024021851.md
+      - md/Gpt/gpt-GitJsonRead-Function-Update-20231024021853.md
+      - md/Gpt/gpt-GitJsonRead-Function-Update-20231024021856.md
+      - md/Gpt/gpt-GitJsonRead-Function-Update-20231024021858.md
     - Post:
       - md/Post/Welcome!!.md
       - md/Post/td copy.md
@@ -38,23 +40,25 @@ nav:
   Blob:
     md:
       Gpt:
-        gpt-Add-Gradient-Border.-20231023110401.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-Gradient-Border.-20231023110401.md
-        gpt-All-Button-Size-Adjusted.-20231023110224.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Button-Size-Adjusted.-20231023110224.md
-        gpt-All-Cloud-System-Overview-20231023110229.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Cloud-System-Overview-20231023110229.md
-        gpt-All-Insert-HTML-Tag.-20231023110234.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Insert-HTML-Tag.-20231023110234.md
-        gpt-All-Markdown-Conversion-Tool-20231023110243.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Markdown-Conversion-Tool-20231023110243.md
-        gpt-All-Vue-Component-Integration-20231023110206.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Vue-Component-Integration-20231023110206.md
-        gpt-All-Vue-Template-RouterLink.-20231023110202.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Vue-Template-RouterLink.-20231023110202.md
-        gpt-All-Vue-Variable-Passing-Fix-20231023110210.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Vue-Variable-Passing-Fix-20231023110210.md
-        gpt-CSS-Button-Styling-20231023110334.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-CSS-Button-Styling-20231023110334.md
-        gpt-HTML-CSS-Image-Card.-20231023110425.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-HTML-CSS-Image-Card.-20231023110425.md
-        gpt-Handle-Save-Function-20231023110338.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Handle-Save-Function-20231023110338.md
-        gpt-Pylint-Options-Summary.-20231023110342.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Pylint-Options-Summary.-20231023110342.md
-        gpt-SEO-Tips-20231023110247.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-SEO-Tips-20231023110247.md
-        gpt-Update-JSON-Data-20231023110412.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Update-JSON-Data-20231023110412.md
-        gpt-Vue-Props-Not-Received-20231023110216.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue-Props-Not-Received-20231023110216.md
-        gpt-Vue-Router-Variables-20231023110221.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue-Router-Variables-20231023110221.md
-        gpt-색상-및-가독성-요청-20231023110349.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-색상-및-가독성-요청-20231023110349.md
+        gpt-Browser-Automation-Troubleshooting.-20231024021933.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Browser-Automation-Troubleshooting.-20231024021933.md
+        gpt-Browser-Automation-Troubleshooting.-20231024021935.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Browser-Automation-Troubleshooting.-20231024021935.md
+        gpt-Browser-Automation-Troubleshooting.-20231024021939.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Browser-Automation-Troubleshooting.-20231024021939.md
+        gpt-Browser-Automation-Troubleshooting.-20231024021944.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Browser-Automation-Troubleshooting.-20231024021944.md
+        gpt-Browser-Automation-Troubleshooting.-20231024021946.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Browser-Automation-Troubleshooting.-20231024021946.md
+        gpt-Copy-&-Paste-with-Selenium.-20231024021911.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Copy-&-Paste-with-Selenium.-20231024021911.md
+        gpt-Copy-&-Paste-with-Selenium.-20231024021914.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Copy-&-Paste-with-Selenium.-20231024021914.md
+        gpt-Copy-&-Paste-with-Selenium.-20231024021917.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Copy-&-Paste-with-Selenium.-20231024021917.md
+        gpt-Copy-&-Paste-with-Selenium.-20231024021919.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Copy-&-Paste-with-Selenium.-20231024021919.md
+        gpt-GitJsonRead-Function-Update-20231024021839.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-GitJsonRead-Function-Update-20231024021839.md
+        gpt-GitJsonRead-Function-Update-20231024021841.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-GitJsonRead-Function-Update-20231024021841.md
+        gpt-GitJsonRead-Function-Update-20231024021842.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-GitJsonRead-Function-Update-20231024021842.md
+        gpt-GitJsonRead-Function-Update-20231024021844.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-GitJsonRead-Function-Update-20231024021844.md
+        gpt-GitJsonRead-Function-Update-20231024021846.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-GitJsonRead-Function-Update-20231024021846.md
+        gpt-GitJsonRead-Function-Update-20231024021848.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-GitJsonRead-Function-Update-20231024021848.md
+        gpt-GitJsonRead-Function-Update-20231024021851.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-GitJsonRead-Function-Update-20231024021851.md
+        gpt-GitJsonRead-Function-Update-20231024021853.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-GitJsonRead-Function-Update-20231024021853.md
+        gpt-GitJsonRead-Function-Update-20231024021856.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-GitJsonRead-Function-Update-20231024021856.md
+        gpt-GitJsonRead-Function-Update-20231024021858.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-GitJsonRead-Function-Update-20231024021858.md
       Post:
         Welcome!!.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/Welcome!!.md
         td copy.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/td
