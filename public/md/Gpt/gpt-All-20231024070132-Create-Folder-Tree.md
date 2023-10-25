@@ -212,7 +212,7 @@ if __name__ == '__main__':
 이 코드는 주어진 경로의 모든 파일을 읽어들일 때 `.DS_Store` 파일을 제외하고, 상대 경로를 확장자를 제외한 파일 이름과 함께 딕셔너리로 구성하며, 이를 JSON 파일로 저장합니다. 주어진 경로와 저장할 JSON 파일 이름을 해당 변수에 입력한 후 코드를 실행하시면 됩니다.
 
 
-###  <img src="https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/icon/space/workspace-vector-free-icon-set-37.png" width="50" height="50" /> context 9  
+###  <img src="https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/icon/space/workspace-vector-free-icon-set-37.png" width="50" height="50" /> 
 
 
 
