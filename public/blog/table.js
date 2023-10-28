@@ -1,6 +1,6 @@
 
 // 캔들 차트를 생성하는 함수
-function drawCandleChart(data, containerId) {
+export function drawCandleChart(data, containerId) {
     // 옵션 데이터 설정
     var options = {
         width: 1000,
@@ -37,7 +37,7 @@ async function getJSONData() {
         const response = await fetch('https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html_stock/086520.KQ.json');
         const data = await response.json();
         return data
-        // drawCandleChart(data, 'candle-chart');
+        drawCandleChart(data, 'candle-chart');
     } catch (error) {
         console.error('Error fetching JSON data:', error);
     }
@@ -50,7 +50,7 @@ async function init() {
         drawCandleChart(jsonData, 'candle-chart');
     }
 }
-init();
+
 
 
 
@@ -108,7 +108,7 @@ function saveTableAsPNG() {
         link.click();
     });
 }
-
+init();
 generateTable(jsonData);
 
 document.getElementById("jsondata").innerHTML = JSON.stringify(jsonData);
