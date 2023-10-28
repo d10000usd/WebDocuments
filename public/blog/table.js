@@ -54,34 +54,15 @@ init();
 
 
 
-function generateTable(data) {
-    var tableHeaders = Object.keys(data[0]);
-    var headerRow = document.getElementById("header-row");
 
-    for (var i = 0; i < tableHeaders.length; i++) {
-        var headerCell = document.createElement("th");
-        headerCell.innerHTML = tableHeaders[i];
-        headerRow.appendChild(headerCell);
-    }
-
-    var tableBody = document.getElementById("table-body");
-
-    for (var i = 0; i < data.length; i++) {
-        var row = tableBody.insertRow(i);
-
-        for (var j = 0; j < tableHeaders.length; j++) {
-            var cell = row.insertCell(j);
-            cell.innerHTML = data[i][tableHeaders[j]];
-        }
-    }
-}
 
 // JSON 데이터를 사용하여 HTML 테이블 생성
 
 function generateTable(data) {
     var tableHeaders = Object.keys(data[0]);
     var headerRow = document.getElementById("header-row");
-    var bodyRowCount = data.length; // 테이블에 표시할 데이터 수
+    // var bodyRowCount = data.length; // 테이블에 표시할 데이터 수
+    var bodyRowCount = 2; // 테이블에 표시할 데이터 수
 
     // 헤더 셀 생성
     for (var i = 0; i < tableHeaders.length && i < bodyRowCount; i++) {
@@ -102,7 +83,18 @@ function generateTable(data) {
         }
     }
 }
-
+function saveChartAsPNG() {
+    var tableElement = document.querySelector("#candle-chart");
+    html2canvas(tableElement, {
+        width: tableElement.scrollWidth,
+        height: tableElement.scrollHeight
+    }).then(function (canvas) {
+        var link = document.createElement('a');
+        link.download = 'chart.png';
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+    });
+}
 
 function saveTableAsPNG() {
     var tableElement = document.querySelector(".table-responsive");
