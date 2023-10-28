@@ -141,15 +141,12 @@ class DataLoader {
         }
     }
 }
-async function fetchDataFromURL(url) {
+(async () => {
     const dataFetcher = new DataFetcher();
     const dataLoader = new DataLoader();
 
-    const jsonData = await dataLoader.getJSONData(url);
+    const jsonData = await dataLoader.getJSONData();
     const chartDrawer = new ChartDrawer(dataFetcher.options, jsonData);
 
     await chartDrawer.init();
-}
-
-const externalUrl = 'https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html_stock/086520.KQ.json';
-fetchDataFromURL(externalUrl);
+})();

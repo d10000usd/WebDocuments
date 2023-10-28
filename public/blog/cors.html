@@ -1,0 +1,49 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>동적 OHLC 차트 예제</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <canvas id="myChart" width="400" height="400"></canvas>
+
+    <script>
+        $(document).ready(function(){
+            $.ajax({
+                url: 'https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html_stock/086520.KQ.json',
+                type: 'GET',
+                dataType: 'json',
+                success: function(data) {
+                    const ohlcData = data;  // 받아온 데이터를 OHLC 형식으로 가공
+
+                    const ctx = document.getElementById('myChart').getContext('2d');
+                    const myChart = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: ohlcData.labels,
+                            datasets: [{
+                                label: 'OHLC Data',
+                                data: ohlcData.data,
+                                borderColor: 'rgba(255, 99, 132, 1)',
+                                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                },
+                error: function(error) {
+                    console.log('Error:', error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

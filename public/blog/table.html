@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -11,8 +11,8 @@
     <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
     <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-    <script type="text/javascript" src="https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/blog/table.js"></script>
-    <!-- <script type="text/javascript" src="table.js"></script> -->
+
+    <script type="text/javascript" src="table.js"></script>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <h2>JSON 데이터를 동적으로 HTML 테이블로 변환하고 PNG로 저장하기</h2>
 
         <p>JSON 데이터:</p>
-        <p id="jsondata"></p>
+        <p id="rawjson"></p>
 
         <div class="table-responsive">
             <table class="table table-bordered" id="dynamic-table">
@@ -34,11 +34,11 @@
             </table>
         </div>
 
-        <button onclick="saveTableAsPNG()" class="btn btn-primary">테이블 저장</button>
+        <button onclick="chartDrawer.saveTableAsPNG()" class="btn btn-primary">테이블 저장</button>
 
         <!-- 캔들 차트가 표시될 div를 추가합니다. -->
         <div id="candle-chart" style="width: 100%; height: 400px;"></div>
-        <button onclick="saveTableAsPNG()" class="btn btn-primary">테이블 저장</button>
+        <button onclick="chartDrawer.saveChartAsPNG()" class="btn btn-primary">차트 저장</button>
     </div>
 
 </body>

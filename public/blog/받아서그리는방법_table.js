@@ -103,7 +103,7 @@ class ChartDrawer {
 }
 class DataFetcher {
     constructor() {
-            this.options = {
+        const options = {
             "width": 1000,
             "height": 400,
             "timeScale": {
@@ -128,9 +128,6 @@ class DataFetcher {
         };
     }
 
-
-}
-class DataLoader {
     async getJSONData() {
         try {
             const response = await fetch('https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html_stock/086520.KQ.json');
@@ -141,15 +138,15 @@ class DataLoader {
         }
     }
 }
-async function fetchDataFromURL(url) {
+
+const dataFetcher = new DataFetcher();
+const chartDrawer = new ChartDrawer(dataFetcher.options, dataFetcher.getJSONData());
+
+window.addEventListener('load', async (event) => {
     const dataFetcher = new DataFetcher();
-    const dataLoader = new DataLoader();
+    const datat = await dataFetcher.getJSONData();
+    const slicedData = datat.slice(1, 12);
+    document.querySelector("#rawjson").innerHTML = JSON.stringify(slicedData);
+});
 
-    const jsonData = await dataLoader.getJSONData(url);
-    const chartDrawer = new ChartDrawer(dataFetcher.options, jsonData);
-
-    await chartDrawer.init();
-}
-
-const externalUrl = 'https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/json/html_stock/086520.KQ.json';
-fetchDataFromURL(externalUrl);
+chartDrawer.init();
