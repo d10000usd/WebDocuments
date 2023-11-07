@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Include Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<title>Layout</title>
+
+	<script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+	<!-- <script src="./051900.KS.js" type="text/javascript"></script> -->
+	<script src="./options.js" type="text/javascript"></script>
+	<!-- <script src="./trendline.js" type="text/javascript"></script> -->
+	<!-- <script>
+    let testData = JSON.parse(JSON.stringify(df));
+    console.log(testData);
+  </script> -->
+	<style>
+
+	</style>
+
+</head>
+
+<!-- <div id="trendlineData"></div> -->
+
+<body class="container-xl">
+	<div id="tvchart"></div>
+	<div id="chart">차트 1</div>
+
+	<div id="chart1">차트 2</div>
+
+</body>
+
+<script>
+
+	displayChart();
+
+	class DataFetcher {
+		constructor(data, tr, option, indicatorCalculator) {
+			this.trendlines = tr
+			// this.spline0 = tr[0].support_line_c
+			// this.spline1 = tr[0].resist_line_c
+			// this.spline2 = tr[0].support_line
+			// this.spline3 = tr[0].resist_line
+			this.indicatorCalculator = indicatorCalculator;
+			this.options = option;
+			this.data = this.mapData(data); // Fixed the reference to mapData
+		}
+		// lineData = candleStickData.map((datapoint) => ({
+		//       time: datapoint.time,
+		//       value: (datapoint.close + datapoint.open) / 2,
+		//     }));
+
+		mapData(data) {
+
+			const priceData = this.indicatorCalculator.calculatePriceData(data);
+
+			return data.map((item) => ({
+				time: item.time, // Convert Unix time to milliseconds
+				open: item.open,
+				high: item.high,
+				low: item.low,
+				close: item.close,
+				// color: item.close < priceData.average.price ? "blue" : item.color,
+				// wickColor: item.close < priceData.average.price ? "orange" : item.wickColor,
+			}));
+
+		}
+	}
+
+	class IndicatorCalculate {
+		calculateMovingAverage(data, period) {
+			let result = [];
+			for (let i = period - 1; i < data.length; i++) {
+				let sum = 0;
+				for (let j = 0; j < period; j++) {
+					sum += data[i - j].close;
+				}
+				result.push({ time: data[i].time, value: sum / period });
+			}
+			return result;
+		}
+		calculatePriceData(data) {
+			let minimumPrice = data[0].low;
+			let maximumPrice = minimumPrice;
+			let minimumDate = data[0].time;
+			let maximumDate = data[0].time;
+			for (let i = 1; i < data.length; i++) {
+				const price = data[i].high;
+				const date = data[i].time;
+				if (price > maximumPrice) {
+					maximumPrice = price;
+					maximumDate = date;
+				}
+				if (price < minimumPrice) {
+					minimumPrice = price;
+					minimumDate = date;
+				}
+			}
+			const avgPrice = (maximumPrice + minimumPrice) / 2;
+			const avgDate = (maximumDate + minimumDate) / 2;
+			return {
+				minimum: { price: minimumPrice, date: minimumDate },
+				maximum: { price: maximumPrice, date: maximumDate },
+				average: { price: avgPrice, date: avgDate },
+			};
+		}
+		addMakers(data, candleSeries) {
+
+
+			const datesForMarkers = [data[data.length - 15], data[data.length - 19]];
+			let indexOfMinPrice = 0;
+			for (let i = 1; i < datesForMarkers.length; i++) {
+				if (datesForMarkers[i].high < datesForMarkers[indexOfMinPrice].high) {
+					indexOfMinPrice = i;
+				}
+			}
+			candleSeries.setData(data);
+			const markers = [
+				{
+					time: data[data.length - 48].time,
+					position: 'aboveBar',
+					color: '#f68410',
+					shape: 'circle',
+					text: 'D',
+				},
+			];
+			for (let i = 0; i < datesForMarkers.length; i++) {
+				if (i !== indexOfMinPrice) {
+					markers.push({
+						time: datesForMarkers[i].time,
+						position: 'aboveBar',
+						color: '#e91e63',
+						shape: 'arrowDown',
+						text: 'Sell @ ' + Math.floor(datesForMarkers[i].high + 2),
+					});
+				} else {
+					markers.push({
+						time: datesForMarkers[i].time,
+						position: 'belowBar',
+						color: '#2196F3',
+						shape: 'arrowUp',
+						text: 'Buy @ ' + Math.floor(datesForMarkers[i].low - 2),
+					});
+				}
+			}
+
+
+
+			return markers
+		}
+
+	}
+
+	class ChartCreator {
+		constructor(dataFetcher, indicatorCalculator) {
+			this.dataFetcher = dataFetcher;
+			this.indicatorCalculator = indicatorCalculator;
+		}
+
+
+		createChart() {
+			const chart = LightweightCharts.createChart(document.getElementById('chart'), {
+				width: this.dataFetcher.options.width,
+				height: this.dataFetcher.options.height,
+				timeScale: this.dataFetcher.options.timeScale,
+				priceScale: this.dataFetcher.options.priceScale,
+			});
+
+			chart.applyOptions(
+				{ crosshair: this.dataFetcher.options.crosshair }
+			);
+
+			// 차트에 데이터를 추가
+			const candleSeries = chart.addCandlestickSeries();
+			candleSeries.setData(this.dataFetcher.data);
+			const priceData = this.indicatorCalculator.calculatePriceData(this.dataFetcher.data)
+
+			const lineOption = {
+				'mainSeries': {
+					'wickUpColor': "rgb(54, 116, 217)",
+					'upColor': "rgb(54, 116, 217)",
+					'wickDownColor': "rgb(225, 50, 85)",
+					'downColor': "rgb(225, 50, 85)",
+					'borderVisible': false,
+				},
+				'minPriceLine': {
+					'price': priceData.minimum.price,
+					'color': '#ef5350',
+					'lineWidth': 11,
+					'lineStyle': 2, // LineStyle.Dashed
+					'axisLabelVisible': true,
+					'title': '',
+					'textAlign': 'left',
+				},
+				'avgPriceLine': {
+					'price': priceData.average.price,
+					'color': 'yellow',
+					'lineWidth': 12,
+					'lineStyle': 1, // LineStyle.Dotted
+					'axisLabelVisible': true,
+					'title': '평균가',
+					'textAlign': 'left',
+				},
+				'maxPriceLine': {
+					'price': priceData.maximum.price,
+					'color': '#26a69a',
+					'lineWidth': 12,
+					'lineStyle': 2, // LineStyle.Dashed
+					'axisLabelVisible': true,
+					'title': '최고가',
+					'textAlign': 'left',
+				},
+				'lineColor': {
+					'priceScaleColor': {
+						'borderColor': "#71649C",
+					},
+					'timeScaleColor': {
+						'borderColor': "#71649C",
+						'barSpacing': 110,
+					}
+
+				},
+				'font': {
+					'layout': {
+						'fontFamily': "'Roboto', sans-serif",
+					},
+				},
+				'priceScale': {
+					'autoScale': true,
+					'scaleMargins': {
+						'top': 0.1,
+						'bottom': 0.2,
+					},
+					"mode": " LightweightCharts.PriceScaleMode.Normal",
+
+				},
+				'priceFormatter': {
+					'style': "currency",
+					'currency': "KRW", // Currency for data points
+				},
+				"trendline": {
+					'regist': [{ 'color': 'red', 'lineWidth': 14, 'priceLineVisible': false, },
+					{ 'color': 'blue', 'lineWidth': 4, 'priceLineVisible': false, },
+					{ 'color': 'black', 'lineWidth': 4, 'priceLineVisible': false, },],
+					'surport': [{ 'color': 'red', 'lineWidth': 14, 'priceLineVisible': false, },
+					{ 'color': 'blue', 'lineWidth': 4, 'priceLineVisible': false, },
+					{ 'color': 'black', 'lineWidth': 4, 'priceLineVisible': false, },]
+				}
+
+			};
+
+
+
+
+
+			candleSeries.createPriceLine(lineOption.minPriceLine);
+			candleSeries.createPriceLine(lineOption.avgPriceLine);
+			candleSeries.createPriceLine(lineOption.maxPriceLine);
+
+			this.addMovingAverages(chart);
+
+
+			for (let keyNum in this.dataFetcher.trendlines) {
+				// console.log(keyNum)
+				// this.displaySuportline(this.dataFetcher.trendlines[keyNum].support_line_c, lineOption.outlineOption, chart)
+				this.displaySuportline(this.dataFetcher.trendlines[keyNum].resist_line_c, lineOption.trendline.regist[keyNum], chart)
+				this.displaySuportline(this.dataFetcher.trendlines[keyNum].support_line, lineOption.trendline.surport[keyNum], chart)
+				// this.displaySuportline(this.dataFetcher.trendlines[keyNum].resist_line, lineOption.inlineOption, chart)
+			}
+
+
+			chart.applyOptions(lineOption.font);
+			chart.applyOptions(lineOption.font);
+			chart.applyOptions(lineOption.mainSeries);
+			chart.applyOptions(lineOption.avgPriceLine)
+
+
+
+			candleSeries.setMarkers(this.indicatorCalculator.addMakers(this.dataFetcher.data, candleSeries));
+
+			chart.timeScale().fitContent();
+
+
+		}
+
+		addMovingAverages(chart) {
+			for (let key in this.dataFetcher.options.movingAverages) {
+
+				const period = parseInt(key.substring(2), 10); // Extract the period from the key name
+				const options = this.dataFetcher.options.movingAverages[key];
+				const result = this.indicatorCalculator.calculateMovingAverage(this.dataFetcher.data, period); // Using the provided function
+				this.displayMovingAverage(result, options, chart);
+			}
+		}
+
+		displayMovingAverage(result, options, chart) {
+			const lineSeries = chart.addLineSeries(options);
+			lineSeries.setData(result);
+		}
+		displaySuportline(result, options, chart) {
+
+			const lineSeries = chart.addLineSeries(options);
+			lineSeries.setData(result);
+		}
+
+	}
+	class Contorl {
+		constructor() {
+			this.trendlinedata = null;
+			this.ohlcdata = null;
+
+		}
+
+		async getDataFromJSON(path) {
+			try {
+				const res = await fetch(path);
+				const resp = await res.json();
+
+				return resp;
+			} catch (error) {
+				console.error("Error fetching data:", error);
+				return null;
+			}
+		}
+
+		async fetchAndAssignDataMod_qt6(data, tr, option) {
+			try {
+				
+				let trendlinedata = trendlinedata
+				let ohlcdata = trendlinedata
+
+
+				const indicatorCalculator = new IndicatorCalculate();
+				const dataFetcher = new DataFetcher(ohlcdata, trendlinedata, options, indicatorCalculator);
+				const chartCreator = new ChartCreator(dataFetcher, indicatorCalculator);
+
+				const dataFetcher1 = new DataFetcher(ohlcdata, trendlinedata, options1, indicatorCalculator);
+				const chartCreator1 = new ChartCreator(dataFetcher1, indicatorCalculator);
+				// const chartCreator1 = new ChartCreator1(dataFetcher, indicatorCalculator);
+				chartCreator.createChart();
+				chartCreator1.createChart();
+			} catch (error) {
+				console.error("Error fetching data:", error);
+			}
+		};
+		async fetchAndAssignDataMod() {
+			try {
+				
+
+				let trendlinedata = await this.getDataFromJSON( 'trendline.json');
+				let ohlcdata = await this.getDataFromJSON( 'ohlc.json');
+
+				const indicatorCalculator = new IndicatorCalculate();
+				const dataFetcher = new DataFetcher(ohlcdata, trendlinedata, options, indicatorCalculator);
+				const chartCreator = new ChartCreator(dataFetcher, indicatorCalculator);
+
+				const dataFetcher1 = new DataFetcher(ohlcdata, trendlinedata, options1, indicatorCalculator);
+				const chartCreator1 = new ChartCreator(dataFetcher1, indicatorCalculator);
+				// const chartCreator1 = new ChartCreator1(dataFetcher, indicatorCalculator);
+				chartCreator.createChart();
+				chartCreator1.createChart();
+			} catch (error) {
+				console.error("Error fetching data:", error);
+			}
+		};
+	}
+	// getData_trendline_json().then(data => {
+	// 	const trendlineDataDiv = document.getElementById('trendlineData');
+	// 	trendlineDataDiv.innerHTML = JSON.stringify(data); // You can customize this to format the data as needed
+	// });
+	
+	const control = new Contorl();	
+	control.fetchAndAssignDataMod();
+
+	// displayChart();
+</script>
+<!-- Include Bootstrap JS -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> -->
+
+
+</html>

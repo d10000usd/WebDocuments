@@ -120,35 +120,303 @@
         "ta": [
             {
                 "kind": "sma",
-                "length": 5
+                "length": 5,
+                "append": true
             },
             {
                 "kind": "sma",
-                "length": 10
+                "length": 10,
+                "append": true
             },
             {
                 "kind": "sma",
-                "length": 15
+                "length": 15,
+                "append": true
             },
             {
                 "kind": "sma",
-                "length": 20
+                "length": 20,
+                "append": true
             },
             {
                 "kind": "sma",
-                "length": 25
+                "length": 25,
+                "append": true
             },
             {
                 "kind": "sma",
-                "length": 100
+                "length": 30,
+                "append": true
             },
             {
                 "kind": "sma",
-                "length": 200
+                "length": 35,
+                "append": true
             },
             {
                 "kind": "sma",
-                "length": 300
+                "length": 40,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 45,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 50,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 55,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 60,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 65,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 70,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 75,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 80,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 85,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 90,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 95,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 100,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 105,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 110,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 115,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 120,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 125,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 130,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 135,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 140,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 145,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 150,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 155,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 160,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 165,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 170,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 175,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 180,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 185,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 190,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 195,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 200,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 205,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 210,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 215,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 220,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 225,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 230,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 235,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 240,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 245,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 250,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 255,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 260,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 265,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 270,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 275,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 280,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 285,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 290,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 295,
+                "append": true
+            },
+            {
+                "kind": "sma",
+                "length": 300,
+                "append": true
             },
             {
                 "kind": "macd",
@@ -754,13 +1022,13 @@
     "Stock_OHLC_Select": {
         "symbol": "삼성전자",
         "interval": "1d",
-        "count": 200,
+        "count": 60,
         "to": null,
         "period": 0.1,
         "startdate": "2020-07-18",
         "enddate": null,
         "EPS":1000,
-        "PER":300,
+        "PER":20,
         "BPS":100,
         "PBR":1,	
         "DPS":1
