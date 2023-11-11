@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Include Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<title>Layout</title>
+
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
+	<script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+	<!-- <script src="./051900.KS.js" type="text/javascript"></script> -->
+	<!-- <script src="./options.js" type="text/javascript"></script> -->
+	<!-- <script src="./trendline.js" type="text/javascript"></script> -->
+	<!-- <script>
+    let testData = JSON.parse(JSON.stringify(df));
+    console.log(testData);
+  </script> -->
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			/* Add a background color to match the chart */
+			background-color: #ffffff;
+		}
+
+		#img-small-1 {
+			max-width: 100%;
+			height: auto;
+		}
+
+		#img-small-2 {
+			max-width: 100%;
+			height: auto;
+		}
+
+		#img-middle {
+			max-width: 100%;
+			height: auto;
+		}
+
+		#img-large {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
+
+</head>
+
+<body id="full-body" class=" mt-5">
+	<button class="btn btn-primary" onclick="saveAsImage('full-body', 'full-body.png')">Save full-body</button>
+	<button class="btn btn-primary" onclick="saveAsImage('ChartBokeh', 'ChartBokeh.pdf')">Save ChartBokeh</button>
+	<button class="btn btn-primary" onclick="saveAsImage('trendlineData', 'trendlineData.png')">Save TrendlineData</button>
+	<button class="btn btn-primary" onclick="saveAsImage('img-small-1', 'frame_at_0_seconds.png')">Save Image 1</button>
+	<button class="btn btn-primary" onclick="saveAsImage('financialTableBody3', 'financialTableBody3.png')">SaveFinancial Table 3</button>
+	<button class="btn btn-primary" onclick="saveAsImage('img-small-2', 'frame_at_10_seconds.png')">Save Image2</button>
+	<button class="btn btn-primary" onclick="saveAsImage('financialTableBody1', 'financialTableBody1.png')">Save Financial Table 1</button>
+	<button class="btn btn-primary" onclick="saveAsImage('financialTableBody2', 'financialTableBody2.png')">Save Financial Table 2</button>
+	<button class="btn btn-primary" onclick="saveAsImage('chart', 'chart.png')">Save Chart 1</button>
+	<button class="btn btn-primary" onclick="saveAsImage('chart1', 'chart1.png')">Save Chart 2</button>
+
+	<div id="titleInfoScreen" class=" mt-5">
+		<div class="row">
+			<div class="col">
+				<span id="fluctuationRate" style="font-size: 120px;"></span><br>
+				<span id="tickerInfo" style="font-size: 20px;"></span><br>
+				<pre id="jsonData" style="font-size: 20px;"></pre>
+			</div>
+		</div>
+	</div>
+	<object id="ChartBokeh" data=ChartBokeh.html type="text/html" width="100%" height="800"></object>
+	<div id="img-small-1">
+		<img class="img-fluid" src="./th120.png" alt="내 사진">
+	</div>
+	<div class=" mt-5">
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th colspan="5" scope="col">#</th>
+				</tr>
+			</thead>
+			<tbody id="financialTableBody3">
+			</tbody>
+		</table>
+	</div>
+	<div id="img-small-2">
+		<img class="img-fluid" src="./th0.png" alt="내 사진">
+	</div>
+	<div class=" mt-5">
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th colspan="4" scope="col">#</th>
+				</tr>
+			</thead>
+			<tbody id="financialTableBody1">
+			</tbody>
+		</table>
+	</div>
+	<div id="img-small-1">
+		<img class="img-fluid" src="./th60.png" alt="내 사진">
+	</div>
+	<div class=" mt-5">
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th colspan="4" scope="col">#</th>
+
+				</tr>
+			</thead>
+			<tbody id="financialTableBody2">
+			</tbody>
+		</table>
+	</div>
+
+	<!-- <div id="tvchart"></div> -->
+	<div id="chart" class="" style=" width : 100%; height: 70rem">차트 1</div>
+
+	<!-- <div id="chart1" class="" style="  width : 100%; height: 70rem">차트 2</div> -->
+
+</body>
+
+<script>
+
+	// displayChart();
+
+	class DataFetcher {
+		constructor(data, tr, option, indicatorCalculator) {
+			this.trendlines = tr
+			// this.spline0 = tr[0].support_line_c
+			// this.spline1 = tr[0].resist_line_c
+			// this.spline2 = tr[0].support_line
+			// this.spline3 = tr[0].resist_line
+			this.indicatorCalculator = indicatorCalculator;
+			this.options = option;
+			this.data = this.mapData(data); // Fixed the reference to mapData
+		}
+		// lineData = candleStickData.map((datapoint) => ({
+		//       time: datapoint.time,
+		//       value: (datapoint.close + datapoint.open) / 2,
+		//     }));
+
+		mapData(data) {
+
+			const priceData = this.indicatorCalculator.calculatePriceData(data);
+
+			return data.map((item) => ({
+				time: item.time, // Convert Unix time to milliseconds
+				open: item.open,
+				high: item.high,
+				low: item.low,
+				close: item.close,
+				// color: item.close < priceData.average.price ? "blue" : item.color,
+				// wickColor: item.close < priceData.average.price ? "orange" : item.wickColor,
+			}));
+
+		}
+	}
+
+	class IndicatorCalculate {
+		calculateMovingAverage(data, period) {
+			let result = [];
+			for (let i = period - 1; i < data.length; i++) {
+				let sum = 0;
+				for (let j = 0; j < period; j++) {
+					sum += data[i - j].close;
+				}
+				result.push({ time: data[i].time, value: sum / period });
+			}
+			return result;
+		}
+		calculatePriceData(data) {
+			let minimumPrice = data[0].low;
+			let maximumPrice = minimumPrice;
+			let minimumDate = data[0].time;
+			let maximumDate = data[0].time;
+			for (let i = 1; i < data.length; i++) {
+				const price = data[i].high;
+				const date = data[i].time;
+				if (price > maximumPrice) {
+					maximumPrice = price;
+					maximumDate = date;
+				}
+				if (price < minimumPrice) {
+					minimumPrice = price;
+					minimumDate = date;
+				}
+			}
+			const avgPrice = (maximumPrice + minimumPrice) / 2;
+			const avgDate = (maximumDate + minimumDate) / 2;
+			return {
+				minimum: { price: minimumPrice, date: minimumDate },
+				maximum: { price: maximumPrice, date: maximumDate },
+				average: { price: avgPrice, date: avgDate },
+			};
+		}
+		addMakers(data, candleSeries) {
+
+
+			const datesForMarkers = [data[data.length - 15], data[data.length - 19]];
+			let indexOfMinPrice = 0;
+			for (let i = 1; i < datesForMarkers.length; i++) {
+				if (datesForMarkers[i].high < datesForMarkers[indexOfMinPrice].high) {
+					indexOfMinPrice = i;
+				}
+			}
+			candleSeries.setData(data);
+			const markers = [
+				{
+					time: data[data.length - 48].time,
+					position: 'aboveBar',
+					color: '#f68410',
+					shape: 'circle',
+					text: 'D',
+				},
+			];
+			for (let i = 0; i < datesForMarkers.length; i++) {
+				if (i !== indexOfMinPrice) {
+					markers.push({
+						time: datesForMarkers[i].time,
+						position: 'aboveBar',
+						color: '#e91e63',
+						shape: 'arrowDown',
+						text: 'Sell @ ' + Math.floor(datesForMarkers[i].high + 2),
+					});
+				} else {
+					markers.push({
+						time: datesForMarkers[i].time,
+						position: 'belowBar',
+						color: '#2196F3',
+						shape: 'arrowUp',
+						text: 'Buy @ ' + Math.floor(datesForMarkers[i].low - 2),
+					});
+				}
+			}
+
+
+
+			return markers
+		}
+
+	}
+
+	class ChartCreator {
+		constructor(dataFetcher, indicatorCalculator) {
+			this.dataFetcher = dataFetcher;
+			this.indicatorCalculator = indicatorCalculator;
+		}
+
+
+		createChart() {
+			const chart = LightweightCharts.createChart(document.getElementById('chart'), {
+				width: this.dataFetcher.options.width,
+				height: this.dataFetcher.options.height,
+				timeScale: this.dataFetcher.options.timeScale,
+				priceScale: this.dataFetcher.options.priceScale,
+				layout: {
+					backgroundColor: '#ffffff', // 배경 색상을 원하는 색으로 변경하세요
+					textColor: '#191919', // 텍스트 색상을 원하는 색으로 변경하세요
+					fontFamily: 'Arial', // 사용하고자 하는 폰트 이름으로 변경하세요
+					fontSize: 12, // 원하는 폰트 크기로 변경하세요
+				},
+			});
+			const textStyle = {
+
+			};
+			chart.applyOptions(
+				{ crosshair: this.dataFetcher.options.crosshair }
+			);
+			chart.applyOptions(
+				{ layout: this.dataFetcher.options.layout }
+			);
+
+
+			// 차트에 데이터를 추가
+			const candleSeries = chart.addCandlestickSeries(
+				{
+					"upColor": 'rgba(0, 150, 136, 1)',
+					"downColor": 'rgba(255,82,82, 1)',
+					"borderDownColor": 'rgba(255,82,82, 1)',
+					"borderUpColor": 'rgba(0, 150, 136, 1)',
+					"wickDownColor": 'rgba(255,82,82, 1)',
+					"wickUpColor": 'rgba(0, 150, 136, 1)',
+					"borderVisible": true,
+					"wickVisible": true,
+					"borderColor": '#378658',
+					"lineWidth": 112, // 갠들 굵기를 조정할 수 있습니다.
+				}
+			);
+			candleSeries.setData(this.dataFetcher.data);
+			const priceData = this.indicatorCalculator.calculatePriceData(this.dataFetcher.data)
+
+			const lineOption = {
+				'mainSeries': {
+					"upColor": 'rgba(0, 150, 136, 1)',
+					"downColor": 'rgba(255,82,82, 1)',
+					"borderDownColor": 'rgba(255,82,82, 1)',
+					"borderUpColor": 'rgba(0, 150, 136, 1)',
+					"wickDownColor": 'rgba(255,82,82, 1)',
+					"wickUpColor": 'rgba(0, 150, 136, 1)',
+					"borderVisible": true,
+					"wickVisible": true,
+					"borderColor": '#378658',
+					"lineWidth": 2, // 갠들 굵기를 조정할 수 있습니다.
+				},
+				'minPriceLine': {
+					'price': priceData.minimum.price,
+					'color': '#ef5350',
+					'lineWidth': 11,
+					'lineStyle': 2, // LineStyle.Dashed
+					'axisLabelVisible': true,
+					'title': '',
+					'textAlign': 'left',
+				},
+				'avgPriceLine': {
+					'price': priceData.average.price,
+					'color': 'yellow',
+					'lineWidth': 12,
+					'lineStyle': 1, // LineStyle.Dotted
+					'axisLabelVisible': true,
+					'title': '평균가',
+					'textAlign': 'left',
+				},
+				'maxPriceLine': {
+					'price': priceData.maximum.price,
+					'color': '#26a69a',
+					'lineWidth': 12,
+					'lineStyle': 2, // LineStyle.Dashed
+					'axisLabelVisible': true,
+					'title': '최고가',
+					'textAlign': 'left',
+				},
+				'lineColor': {
+					'priceScaleColor': {
+						'borderColor': "#71649C",
+					},
+					'timeScaleColor': {
+						'borderColor': "#71649C",
+						'barSpacing': 110,
+					}
+
+				},
+				'font': {
+					'layout': {
+						'fontFamily': "'Roboto', sans-serif",
+					},
+				},
+				'priceScale': {
+					'autoScale': true,
+					'scaleMargins': {
+						'top': 0.1,
+						'bottom': 0.2,
+					},
+					"mode": " LightweightCharts.PriceScaleMode.Normal",
+
+				},
+				'priceFormatter': {
+					'style': "currency",
+					'currency': "KRW", // Currency for data points
+				},
+				"trendline": {
+					'regist': [{ 'color': 'red', 'lineWidth': 14, 'priceLineVisible': false, },
+					{ 'color': 'blue', 'lineWidth': 4, 'priceLineVisible': false, },
+					{ 'color': 'black', 'lineWidth': 4, 'priceLineVisible': false, },],
+					'surport': [{ 'color': 'red', 'lineWidth': 14, 'priceLineVisible': false, },
+					{ 'color': 'blue', 'lineWidth': 4, 'priceLineVisible': false, },
+					{ 'color': 'black', 'lineWidth': 4, 'priceLineVisible': false, },]
+				}
+
+			};
+
+
+
+
+
+			candleSeries.createPriceLine(lineOption.minPriceLine);
+			candleSeries.createPriceLine(lineOption.avgPriceLine);
+			candleSeries.createPriceLine(lineOption.maxPriceLine);
+
+			this.addMovingAverages(chart);
+
+
+			for (let keyNum in this.dataFetcher.trendlines) {
+				// console.log(keyNum)
+				// this.displaySuportline(this.dataFetcher.trendlines[keyNum].support_line_c, lineOption.outlineOption, chart)
+				this.displaySuportline(this.dataFetcher.trendlines[keyNum].resist_line_c, lineOption.trendline.regist[keyNum], chart)
+				this.displaySuportline(this.dataFetcher.trendlines[keyNum].support_line, lineOption.trendline.surport[keyNum], chart)
+				// this.displaySuportline(this.dataFetcher.trendlines[keyNum].resist_line, lineOption.inlineOption, chart)
+			}
+
+			// chart.applyOptions(lineOption.font);
+
+
+
+
+			candleSeries.setMarkers(this.indicatorCalculator.addMakers(this.dataFetcher.data, candleSeries));
+
+			// chart.timeScale().fitContent();
+			chart.timeScale().applyOptions({
+				candleStickSeries: {
+					up: {
+						lineWidth: 12, // 위쪽 캔들스틱의 굵기를 조정합니다.
+					},
+					down: {
+						lineWidth: 2, // 아래쪽 캔들스틱의 굵기를 조정합니다.
+					},
+				},
+				barSpacing: 2,
+			});
+			// chart.applyOptions({
+			// 	layout: {
+			// 	fontFamily: "'Roboto', sans-serif",
+			// 	},
+			// });
+			chart.applyOptions(lineOption.font.layout);
+			chart.applyOptions(lineOption.mainSeries);
+			chart.applyOptions(lineOption.avgPriceLine)
+			chart.applyOptions(lineOption.priceFormatter)
+			chart.applyOptions(lineOption.priceScale)
+			window.addEventListener("resize", () => {
+				chart.resize(window.innerWidth, window.innerHeight);
+			});
+		}
+
+		addMovingAverages(chart) {
+			for (let key in this.dataFetcher.options.movingAverages) {
+
+				const period = parseInt(key.substring(2), 10); // Extract the period from the key name
+				const options = this.dataFetcher.options.movingAverages[key];
+				const result = this.indicatorCalculator.calculateMovingAverage(this.dataFetcher.data, period); // Using the provided function
+				this.displayMovingAverage(result, options, chart);
+			}
+		}
+
+		displayMovingAverage(result, options, chart) {
+			const lineSeries = chart.addLineSeries(options);
+			lineSeries.setData(result);
+		}
+		displaySuportline(result, options, chart) {
+
+			const lineSeries = chart.addLineSeries(options);
+			lineSeries.setData(result);
+		}
+
+	}
+	class Control {
+		constructor() {
+			this.trendlinedata = null;
+			this.ohlcdata = null;
+			this.options = null
+
+		}
+
+		async getDataFromJSON(path) {
+			try {
+				const res = await fetch(path);
+				const resp = await res.json();
+
+				return resp;
+			} catch (error) {
+				console.error("Error fetching data:", error);
+				return null;
+			}
+		}
+
+		async fetchAndAssignDataMod_qt6(data, tr, option, tickercode, tickername, seed) {
+			try {
+
+
+				let ohlcdata = data
+				let trendlinedata = tr
+
+
+				const fluctuationRate = await this.calculateFluctuationRate(ohlcdata)
+				this.displayFluctuationRateInHTML(fluctuationRate, tickercode, tickername, seed);
+				const indicatorCalculator = new IndicatorCalculate();
+				const dataFetcher = new DataFetcher(ohlcdata, trendlinedata, option, indicatorCalculator);
+				const chartCreator = new ChartCreator(dataFetcher, indicatorCalculator);
+
+				// const dataFetcher1 = new DataFetcher(ohlcdata, trendlinedata, options1, indicatorCalculator);
+				// const chartCreator1 = new ChartCreator(dataFetcher1, indicatorCalculator);
+
+				chartCreator.createChart();
+				// chartCreator1.createChart();
+			} catch (error) {
+				console.error("Error fetching data:", error);
+			}
+		};
+
+		async displayFluctuationRateInHTML(fluctuationRate, tickercode, tickername, divId = "", seed) {
+			const trendlineDataDiv = document.getElementById(divId);
+			let color = fluctuationRate < 0 ? 'blue' : 'red';
+			fluctuationRate = Math.abs(fluctuationRate).toFixed(2);
+			document.getElementById('fluctuationRate').innerText = `${fluctuationRate}%`;
+			document.getElementById('fluctuationRate').style.color = color;
+			document.getElementById('tickerInfo').innerText = `${tickercode} ${tickername}`;
+			document.getElementById('tickerInfo').style.color = color;
+			document.getElementById('jsonData').innerText = JSON.stringify(seed, null, 2);
+			document.getElementById('jsonData').style.color = color;
+			trendlineDataDiv.classList.add("bg-light", "p-3");
+		}
+
+		async displayFluctuationRateInHTML_tap(fluctuationRate, tickercode, tickername, divId = "", seed) {
+
+			const trendlineDataDiv = document.getElementById(divId);
+			let color = fluctuationRate < 0 ? 'blue' : 'red';
+			fluctuationRate = Math.abs(fluctuationRate).toFixed(2);
+			trendlineDataDiv.innerHTML = `
+			<span style="color: ${color}; font-size: 120px;"> ${fluctuationRate}%</span><br>
+			<span style="color: ${color}; font-size: 20px;"> ${tickercode} ${tickername}</span><br>
+			<span style="color: ${color}; font-size: 20px;"> ${JSON.stringify(seed)} </span><br>
+			`;
+		}
+		async fetchAndAssignDataMod_qt6(data, tr, option, tickercode, tickername, seed) {
+			try {
+
+
+				let ohlcdata = data
+				let trendlinedata = tr
+
+
+				const fluctuationRate = await this.calculateFluctuationRate(ohlcdata)
+				this.displayFluctuationRateInHTML(fluctuationRate, tickercode, tickername, seed);
+				const indicatorCalculator = new IndicatorCalculate();
+				const dataFetcher = new DataFetcher(ohlcdata, trendlinedata, option, indicatorCalculator);
+				const chartCreator = new ChartCreator(dataFetcher, indicatorCalculator);
+
+				// const dataFetcher1 = new DataFetcher(ohlcdata, trendlinedata, options1, indicatorCalculator);
+				// const chartCreator1 = new ChartCreator(dataFetcher1, indicatorCalculator);
+
+				chartCreator.createChart();
+				// chartCreator1.createChart();
+			} catch (error) {
+				console.error("Error fetching data:", error);
+			}
+		};
+
+		async fetchAndAssignDataMod(tickercode,tickername) {
+		
+
+				let trendlinedata = await this.getDataFromJSON('../../trendlineAll.json');
+				let options = await this.getDataFromJSON('options.json');
+				let options1 = await this.getDataFromJSON('options1.json');
+				let financial1 = await this.getDataFromJSON('financial1.json');
+				let financial2 = await this.getDataFromJSON('financial1.json');
+				let financial3 = await this.getDataFromJSON('financial1.json');
+				let ohlcdata = await this.getDataFromJSON('../../strategies_good_pattern.json');
+				const indicatorCalculator = new IndicatorCalculate();
+
+				// console.log(ohlcdata['041510.KQ'])
+				ohlcdata = ohlcdata[tickercode]
+				trendlinedata = trendlinedata[tickercode]
+				const fluctuationRate = await this.calculateFluctuationRate(ohlcdata)
+				const result = indicatorCalculator.calculateMovingAverage(ohlcdata, 200)
+
+
+				let lastValue = result[result.length - 1].value;
+				const seed = {
+					'priceFormatter': {
+						// 'style': financial,
+						'currency': lastValue
+					}
+				}
+				this.displayFluctuationRateInHTML(fluctuationRate, tickercode, tickername, 'titleInfoScreen', seed);
+
+				this.displayFinancialData(financial1, "financialTableBody1");
+				this.displayFinancialData(financial2, "financialTableBody2");
+				this.displayFinancialData(financial3, "financialTableBody3");
+
+				this.createChartWithData(ohlcdata, trendlinedata, options, indicatorCalculator);
+				this.createChartWithData(ohlcdata, trendlinedata, options1, indicatorCalculator);
+				this.createChartWithData(ohlcdata, trendlinedata, options1, indicatorCalculator);
+
+
+		};
+		createChartWithData(ohlcdata, trendlinedata, options, indicatorCalculator) {
+			const dataFetcher = new DataFetcher(ohlcdata, trendlinedata, options, indicatorCalculator);
+			const chartCreator = new ChartCreator(dataFetcher, indicatorCalculator);
+			chartCreator.createChart();
+
+
+		}
+		displayFinancialData(financial, divID) {
+			const financialTableBody = document.getElementById(divID);
+			for (const key in financial) {
+				if (financial.hasOwnProperty(key)) {
+					const data = financial[key];
+					const row = document.createElement("tr");
+					row.innerHTML = `<th scope="row">${key}</th>`;
+					for (const prop in data) {
+						if (data.hasOwnProperty(prop)) {
+							row.innerHTML += `<td>${data[prop]}</td>`;
+						}
+					}
+					financialTableBody.appendChild(row);
+				}
+			}
+		}
+		async calculateFluctuationRate(data) {
+			const lastIndex = data.length - 1;
+			const lastClose = data[lastIndex].close;
+			const secondLastClose = data[lastIndex - 1].close;
+
+			const fluctuationRate = ((lastClose - secondLastClose) / secondLastClose) * 100;
+
+			return fluctuationRate;
+		}
+
+
+	}
+	// 	function saveAsImage(elementId, fileName) {
+	//     var element = document.getElementById(elementId);
+	//     html2pdf(element, {
+	//       filename: fileName,
+	//       margin: 10,
+	//       html2canvas: { scale: 2, logging: true },
+	//       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+	//     });
+	//   }
+	// async function saveAsImage(elementId, fileName) {
+	// 	html2canvas(document.getElementById(elementId)).then(function (canvas) {
+	// 	var link = document.createElement('a');
+	// 	link.download = fileName;
+	// 	link.href = canvas.toDataURL("image/png");
+	// 	link.click();
+	// 	});
+	// }
+	// 	function saveAsImage(elementId, fileName) {
+	//     var element = document.getElementById(elementId);
+	//     if (!element) {
+	//       console.error("Element not found.");
+	//       return;
+	//     }
+
+	//     html2canvas(element, { allowTaint: true, useCORS: true }).then(function (canvas) {
+	//       if (canvas) {
+	//         var link = document.createElement("a");
+	//         document.body.appendChild(link);
+	//         link.download = fileName;
+	//         link.href = canvas.toDataURL("image/png");
+	//         link.click();
+	//         document.body.removeChild(link);
+	//       } else {
+	//         console.error("Canvas not generated.");
+	//       }
+	//     });
+	//   }
+
+	function saveAsImage(elementId, fileName) {
+		if (elementId === 'ChartBokeh') {
+			var element = document.getElementById(elementId);
+			html2pdf(element, {
+				filename: fileName,
+				margin: 10,
+				html2canvas: { scale: 2, logging: true },
+				jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+			});
+		} else {
+			html2canvas(document.getElementById(elementId)).then(function (canvas) {
+				canvas.toBlob(function (blob) {
+					saveAs(blob, fileName);
+				});
+			});
+		}
+	}
+
+
+
+	function saveAsHTML2image(elementId, fileName) {
+		var element = document.getElementById(elementId);
+		html2pdf(element, {
+			filename: fileName,
+			margin: 10,
+			html2canvas: { scale: 2, logging: true },
+			jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+		});
+	}
+	const control = new Control();
+	control.fetchAndAssignDataMod("009520.KQ","포스코엠텍");
+
+
+</script>
+<!-- Bootstrap JS and jQuery (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,48 @@
+{
+    "timeScale": {
+        "timeVisible": "true",
+        "secondsVisible": "false"
+    },
+    "priceScale": {
+        "autoScale": "true",
+        "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+        }
+    },
+    "priceFormatter": {
+        "style": "currency",
+        "currency": "KRW"
+    },
+    "movingAverages": {
+        "ma5": {
+            "color": "rgba(255, 0, 0, 1)",
+            "lineWidth": 2,
+            "priceLineVisible": "false"
+        },
+        "ma105": {
+            "color": "rgba(0, 244, 255, 1)",
+            "lineWidth": 2,
+            "priceLineVisible": "false"
+        },
+        "ma205": {
+            "color": "rgba(0, 244, 255, 1)",
+            "lineWidth": 2,
+            "priceLineVisible": "false"
+        }
+    },
+    "crosshair": {
+        "vertLine": {
+            "width": 8,
+            "color": "#C3BCDB44",
+            "labelBackgroundColor": "#9B7DFF"
+        },
+        "horzLine": {
+            "color": "#9B7DFF",
+            "labelBackgroundColor": "#9B7DFF"
+        }
+    },
+    "layout": {
+        "fontFamily": "'Roboto', sans-serif"
+    }
+}

@@ -1,6 +1,46 @@
 nav:
   Public:
     md:
+    - Gpt:
+      - md/Gpt/gpt-20231102220306-Add-Key-Value-Pairs.md
+      - md/Gpt/gpt-Add-Key-Value-Pairs-2023.md
+      - md/Gpt/gpt-Adjust-Button-Width-20231109085227.md
+      - md/Gpt/gpt-All-20231102220306-Add-Key-Value-Pairs.md
+      - md/Gpt/gpt-All-20231102222701-Image-Density-Categories.md
+      - md/Gpt/gpt-All-20231102222714-Image-Density-Categories.md
+      - md/Gpt/gpt-All-20231109085317-Align-Components-Bootstrap-Grid.md
+      - md/Gpt/gpt-All-20231109085317-Button-Width-Adjustment..md
+      - md/Gpt/gpt-All-20231109085317-Vertical-Button-Alignment.md
+      - md/Gpt/gpt-All-20231109085340-Inheritance-Initialization-Issue.md
+      - md/Gpt/gpt-All-20231109085340-Python-Inheritance-Implementation.md
+      - md/Gpt/gpt-All-20231109085340-Python-to-JS-Conversion..md
+      - md/Gpt/gpt-All-20231109085340-Save-DataFrame-as-JSON..md
+      - md/Gpt/gpt-All-20231109085340-Tab-Layout-with-Chart.md
+      - md/Gpt/gpt-All-Add-Key-Value-Pairs-2023-(1).md
+      - md/Gpt/gpt-All-Add-Key-Value-Pairs-2023.md
+      - md/Gpt/gpt-All-ChatGPT-20231102222450.md
+      - md/Gpt/gpt-All-Image-Density-Categories-20231102222732.md
+      - md/Gpt/gpt-All-Image-Density-Categories-20231102222805.md
+      - md/Gpt/gpt-All-Image-Density-Categories-20231102223035.md
+      - md/Gpt/gpt-Assigning-Values-to-Variables-20231109085235.md
+      - md/Gpt/gpt-ChatGPT-20231102224154.md
+      - md/Gpt/gpt-ChatGPT-20231106011457.md
+      - md/Gpt/gpt-ChatGPT-20231106223520.md
+      - md/Gpt/gpt-ChatGPT-20231106223524.md
+      - md/Gpt/gpt-ChatGPT-20231107134331.md
+      - md/Gpt/gpt-ChatGPT-20231107233640.md
+      - md/Gpt/gpt-Convert-GPT-to-Markdown.-20231102223721.md
+      - md/Gpt/gpt-Data-Fetching-and-Manipulation-20231106224303.md
+      - md/Gpt/gpt-Dynamic-Upbit-Coin-Fetch-20231109085220.md
+      - md/Gpt/gpt-Image-Density-Categories-20231102223013.md
+      - md/Gpt/gpt-Image-Density-Categories-20231102223031.md
+      - md/Gpt/gpt-Real-Time-Coin-Price-Update-20231109085223.md
+      - md/Gpt/gpt-SEO-Config-Integration.-20231102224210.md
+      - md/Gpt/gpt-Save-HTML-Elements-as-Images.-20231107140242.md
+      - md/Gpt/gpt-Save-HTML-Elements-as-Images.-20231107145117.md
+      - md/Gpt/gpt-Styling-for-Watched-Coins.-20231109085249.md
+      - md/Gpt/gpt-Styling-for-Watched-Coins.-20231109085304.md
+      - md/Gpt/gpt-Vue.js-Variable-Declaration-20231109085230.md
     - Post:
       - md/Post/Welcome!!.md
       - md/Post/td copy.md
@@ -19,6 +59,46 @@ nav:
       - md/Usage/사용법모음 copy.md
   Blob:
     md:
+      Gpt:
+        gpt-20231102220306-Add-Key-Value-Pairs.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231102220306-Add-Key-Value-Pairs.md
+        gpt-Add-Key-Value-Pairs-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-Key-Value-Pairs-2023.md
+        gpt-Adjust-Button-Width-20231109085227.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Adjust-Button-Width-20231109085227.md
+        gpt-All-20231102220306-Add-Key-Value-Pairs.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102220306-Add-Key-Value-Pairs.md
+        gpt-All-20231102222701-Image-Density-Categories.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102222701-Image-Density-Categories.md
+        gpt-All-20231102222714-Image-Density-Categories.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102222714-Image-Density-Categories.md
+        gpt-All-20231109085317-Align-Components-Bootstrap-Grid.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085317-Align-Components-Bootstrap-Grid.md
+        gpt-All-20231109085317-Button-Width-Adjustment..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085317-Button-Width-Adjustment..md
+        gpt-All-20231109085317-Vertical-Button-Alignment.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085317-Vertical-Button-Alignment.md
+        gpt-All-20231109085340-Inheritance-Initialization-Issue.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Inheritance-Initialization-Issue.md
+        gpt-All-20231109085340-Python-Inheritance-Implementation.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Python-Inheritance-Implementation.md
+        gpt-All-20231109085340-Python-to-JS-Conversion..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Python-to-JS-Conversion..md
+        gpt-All-20231109085340-Save-DataFrame-as-JSON..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Save-DataFrame-as-JSON..md
+        gpt-All-20231109085340-Tab-Layout-with-Chart.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Tab-Layout-with-Chart.md
+        gpt-All-Add-Key-Value-Pairs-2023-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Add-Key-Value-Pairs-2023-(1).md
+        gpt-All-Add-Key-Value-Pairs-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Add-Key-Value-Pairs-2023.md
+        gpt-All-ChatGPT-20231102222450.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-ChatGPT-20231102222450.md
+        gpt-All-Image-Density-Categories-20231102222732.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102222732.md
+        gpt-All-Image-Density-Categories-20231102222805.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102222805.md
+        gpt-All-Image-Density-Categories-20231102223035.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102223035.md
+        gpt-Assigning-Values-to-Variables-20231109085235.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Assigning-Values-to-Variables-20231109085235.md
+        gpt-ChatGPT-20231102224154.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231102224154.md
+        gpt-ChatGPT-20231106011457.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231106011457.md
+        gpt-ChatGPT-20231106223520.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231106223520.md
+        gpt-ChatGPT-20231106223524.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231106223524.md
+        gpt-ChatGPT-20231107134331.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231107134331.md
+        gpt-ChatGPT-20231107233640.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231107233640.md
+        gpt-Convert-GPT-to-Markdown.-20231102223721.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Convert-GPT-to-Markdown.-20231102223721.md
+        gpt-Data-Fetching-and-Manipulation-20231106224303.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Data-Fetching-and-Manipulation-20231106224303.md
+        gpt-Dynamic-Upbit-Coin-Fetch-20231109085220.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Dynamic-Upbit-Coin-Fetch-20231109085220.md
+        gpt-Image-Density-Categories-20231102223013.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Image-Density-Categories-20231102223013.md
+        gpt-Image-Density-Categories-20231102223031.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Image-Density-Categories-20231102223031.md
+        gpt-Real-Time-Coin-Price-Update-20231109085223.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Real-Time-Coin-Price-Update-20231109085223.md
+        gpt-SEO-Config-Integration.-20231102224210.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-SEO-Config-Integration.-20231102224210.md
+        gpt-Save-HTML-Elements-as-Images.-20231107140242.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Save-HTML-Elements-as-Images.-20231107140242.md
+        gpt-Save-HTML-Elements-as-Images.-20231107145117.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Save-HTML-Elements-as-Images.-20231107145117.md
+        gpt-Styling-for-Watched-Coins.-20231109085249.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Styling-for-Watched-Coins.-20231109085249.md
+        gpt-Styling-for-Watched-Coins.-20231109085304.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Styling-for-Watched-Coins.-20231109085304.md
+        gpt-Vue.js-Variable-Declaration-20231109085230.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue.js-Variable-Declaration-20231109085230.md
       Post:
         Welcome!!.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/Welcome!!.md
         td copy.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/td
