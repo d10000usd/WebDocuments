@@ -3,6 +3,7 @@ nav:
     md:
     - Gpt:
       - md/Gpt/gpt-20231102220306-Add-Key-Value-Pairs.md
+      - md/Gpt/gpt-20231112034657-ChatGPT.md
       - md/Gpt/gpt-Add-Key-Value-Pairs-2023.md
       - md/Gpt/gpt-Adjust-Button-Width-20231109085227.md
       - md/Gpt/gpt-All-20231102220306-Add-Key-Value-Pairs.md
@@ -16,6 +17,9 @@ nav:
       - md/Gpt/gpt-All-20231109085340-Python-to-JS-Conversion..md
       - md/Gpt/gpt-All-20231109085340-Save-DataFrame-as-JSON..md
       - md/Gpt/gpt-All-20231109085340-Tab-Layout-with-Chart.md
+      - md/Gpt/gpt-All-20231112034657-ChatGPT-(1).md
+      - md/Gpt/gpt-All-20231112034657-ChatGPT.md
+      - md/Gpt/gpt-All-20231112051215-Vue3-Script-KRW-NXM-Key.md
       - md/Gpt/gpt-All-Add-Key-Value-Pairs-2023-(1).md
       - md/Gpt/gpt-All-Add-Key-Value-Pairs-2023.md
       - md/Gpt/gpt-All-ChatGPT-20231102222450.md
@@ -61,6 +65,7 @@ nav:
     md:
       Gpt:
         gpt-20231102220306-Add-Key-Value-Pairs.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231102220306-Add-Key-Value-Pairs.md
+        gpt-20231112034657-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231112034657-ChatGPT.md
         gpt-Add-Key-Value-Pairs-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-Key-Value-Pairs-2023.md
         gpt-Adjust-Button-Width-20231109085227.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Adjust-Button-Width-20231109085227.md
         gpt-All-20231102220306-Add-Key-Value-Pairs.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102220306-Add-Key-Value-Pairs.md
@@ -74,6 +79,9 @@ nav:
         gpt-All-20231109085340-Python-to-JS-Conversion..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Python-to-JS-Conversion..md
         gpt-All-20231109085340-Save-DataFrame-as-JSON..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Save-DataFrame-as-JSON..md
         gpt-All-20231109085340-Tab-Layout-with-Chart.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Tab-Layout-with-Chart.md
+        gpt-All-20231112034657-ChatGPT-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112034657-ChatGPT-(1).md
+        gpt-All-20231112034657-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112034657-ChatGPT.md
+        gpt-All-20231112051215-Vue3-Script-KRW-NXM-Key.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112051215-Vue3-Script-KRW-NXM-Key.md
         gpt-All-Add-Key-Value-Pairs-2023-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Add-Key-Value-Pairs-2023-(1).md
         gpt-All-Add-Key-Value-Pairs-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Add-Key-Value-Pairs-2023.md
         gpt-All-ChatGPT-20231102222450.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-ChatGPT-20231102222450.md
