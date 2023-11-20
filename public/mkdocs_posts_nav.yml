@@ -4,6 +4,7 @@ nav:
     - Gpt:
       - md/Gpt/gpt-20231102220306-Add-Key-Value-Pairs.md
       - md/Gpt/gpt-20231112034657-ChatGPT.md
+      - md/Gpt/gpt-20231114060757-ChatGPT.md
       - md/Gpt/gpt-Add-Key-Value-Pairs-2023.md
       - md/Gpt/gpt-Adjust-Button-Width-20231109085227.md
       - md/Gpt/gpt-All-20231102220306-Add-Key-Value-Pairs.md
@@ -66,6 +67,7 @@ nav:
       Gpt:
         gpt-20231102220306-Add-Key-Value-Pairs.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231102220306-Add-Key-Value-Pairs.md
         gpt-20231112034657-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231112034657-ChatGPT.md
+        gpt-20231114060757-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231114060757-ChatGPT.md
         gpt-Add-Key-Value-Pairs-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-Key-Value-Pairs-2023.md
         gpt-Adjust-Button-Width-20231109085227.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Adjust-Button-Width-20231109085227.md
         gpt-All-20231102220306-Add-Key-Value-Pairs.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102220306-Add-Key-Value-Pairs.md
