@@ -5,6 +5,12 @@ nav:
       - md/Gpt/gpt-20231102220306-Add-Key-Value-Pairs.md
       - md/Gpt/gpt-20231112034657-ChatGPT.md
       - md/Gpt/gpt-20231114060757-ChatGPT.md
+      - md/Gpt/gpt-20231115002244-Add-Moving-Averages-(1).md
+      - md/Gpt/gpt-20231115002244-Add-Moving-Averages-(2).md
+      - md/Gpt/gpt-20231115002244-Add-Moving-Averages.md
+      - md/Gpt/gpt-20231115002434-Add-Moving-Averages.md
+      - md/Gpt/gpt-20231116003010-ChatGPT.md
+      - md/Gpt/gpt-20231116052718-WebSocketService_-Accessing-Values.md
       - md/Gpt/gpt-Add-Key-Value-Pairs-2023.md
       - md/Gpt/gpt-Adjust-Button-Width-20231109085227.md
       - md/Gpt/gpt-All-20231102220306-Add-Key-Value-Pairs.md
@@ -21,12 +27,17 @@ nav:
       - md/Gpt/gpt-All-20231112034657-ChatGPT-(1).md
       - md/Gpt/gpt-All-20231112034657-ChatGPT.md
       - md/Gpt/gpt-All-20231112051215-Vue3-Script-KRW-NXM-Key.md
+      - md/Gpt/gpt-All-20231115002214-Add-Moving-Averages.md
+      - md/Gpt/gpt-All-20231115002244-Add-Moving-Averages.md
+      - md/Gpt/gpt-All-20231115002434-Add-Moving-Averages.md
+      - md/Gpt/gpt-All-20231116035620-ChatGPT.md
       - md/Gpt/gpt-All-Add-Key-Value-Pairs-2023-(1).md
       - md/Gpt/gpt-All-Add-Key-Value-Pairs-2023.md
       - md/Gpt/gpt-All-ChatGPT-20231102222450.md
       - md/Gpt/gpt-All-Image-Density-Categories-20231102222732.md
       - md/Gpt/gpt-All-Image-Density-Categories-20231102222805.md
       - md/Gpt/gpt-All-Image-Density-Categories-20231102223035.md
+      - md/Gpt/gpt-All-Vue.js-Component-Optimization-20231115001827.md
       - md/Gpt/gpt-Assigning-Values-to-Variables-20231109085235.md
       - md/Gpt/gpt-ChatGPT-20231102224154.md
       - md/Gpt/gpt-ChatGPT-20231106011457.md
@@ -68,6 +79,12 @@ nav:
         gpt-20231102220306-Add-Key-Value-Pairs.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231102220306-Add-Key-Value-Pairs.md
         gpt-20231112034657-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231112034657-ChatGPT.md
         gpt-20231114060757-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231114060757-ChatGPT.md
+        gpt-20231115002244-Add-Moving-Averages-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002244-Add-Moving-Averages-(1).md
+        gpt-20231115002244-Add-Moving-Averages-(2).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002244-Add-Moving-Averages-(2).md
+        gpt-20231115002244-Add-Moving-Averages.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002244-Add-Moving-Averages.md
+        gpt-20231115002434-Add-Moving-Averages.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002434-Add-Moving-Averages.md
+        gpt-20231116003010-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231116003010-ChatGPT.md
+        gpt-20231116052718-WebSocketService_-Accessing-Values.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231116052718-WebSocketService_-Accessing-Values.md
         gpt-Add-Key-Value-Pairs-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-Key-Value-Pairs-2023.md
         gpt-Adjust-Button-Width-20231109085227.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Adjust-Button-Width-20231109085227.md
         gpt-All-20231102220306-Add-Key-Value-Pairs.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102220306-Add-Key-Value-Pairs.md
@@ -84,12 +101,17 @@ nav:
         gpt-All-20231112034657-ChatGPT-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112034657-ChatGPT-(1).md
         gpt-All-20231112034657-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112034657-ChatGPT.md
         gpt-All-20231112051215-Vue3-Script-KRW-NXM-Key.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112051215-Vue3-Script-KRW-NXM-Key.md
+        gpt-All-20231115002214-Add-Moving-Averages.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231115002214-Add-Moving-Averages.md
+        gpt-All-20231115002244-Add-Moving-Averages.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231115002244-Add-Moving-Averages.md
+        gpt-All-20231115002434-Add-Moving-Averages.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231115002434-Add-Moving-Averages.md
+        gpt-All-20231116035620-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231116035620-ChatGPT.md
         gpt-All-Add-Key-Value-Pairs-2023-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Add-Key-Value-Pairs-2023-(1).md
         gpt-All-Add-Key-Value-Pairs-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Add-Key-Value-Pairs-2023.md
         gpt-All-ChatGPT-20231102222450.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-ChatGPT-20231102222450.md
         gpt-All-Image-Density-Categories-20231102222732.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102222732.md
         gpt-All-Image-Density-Categories-20231102222805.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102222805.md
         gpt-All-Image-Density-Categories-20231102223035.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102223035.md
+        gpt-All-Vue.js-Component-Optimization-20231115001827.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Vue.js-Component-Optimization-20231115001827.md
         gpt-Assigning-Values-to-Variables-20231109085235.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Assigning-Values-to-Variables-20231109085235.md
         gpt-ChatGPT-20231102224154.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231102224154.md
         gpt-ChatGPT-20231106011457.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231106011457.md

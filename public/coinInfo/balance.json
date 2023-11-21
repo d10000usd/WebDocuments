@@ -1,227 +1,172 @@
-{
-    "columns": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23
-    ],
-    "index": [
-        0
-    ],
-    "data": [
-        [
-            {
-                "currency": "KRW",
-                "balance": "6049120.18459869",
-                "locked": "0",
-                "avg_buy_price": "0",
-                "avg_buy_price_modified": true,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "WAVES",
-                "balance": "3.45781466",
-                "locked": "0",
-                "avg_buy_price": "3540",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "GRS",
-                "balance": "124.14194885",
-                "locked": "0",
-                "avg_buy_price": "906.0753",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "SNT",
-                "balance": "314.69397668",
-                "locked": "0",
-                "avg_buy_price": "67.868",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "STEEM",
-                "balance": "24.87852284",
-                "locked": "0",
-                "avg_buy_price": "344",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "USDT",
-                "balance": "0.06515685",
-                "locked": "0",
-                "avg_buy_price": "1278.9558",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "SBD",
-                "balance": "8.03263727",
-                "locked": "0",
-                "avg_buy_price": "6545.5303",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "WAXP",
-                "balance": "1035.19668737",
-                "locked": "0",
-                "avg_buy_price": "96.5",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "ZRX",
-                "balance": "30.0818873",
-                "locked": "0",
-                "avg_buy_price": "381.486",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "POLYX",
-                "balance": "3824.33030303",
-                "locked": "0",
-                "avg_buy_price": "298",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "LOOM",
-                "balance": "326.69272727",
-                "locked": "0",
-                "avg_buy_price": "329",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "HIFI",
-                "balance": "104.07556634",
-                "locked": "0",
-                "avg_buy_price": "2161.9388",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "VTHO",
-                "balance": "3.73401787",
-                "locked": "0",
-                "avg_buy_price": "0",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "META",
-                "balance": "5988.48491792",
-                "locked": "0",
-                "avg_buy_price": "54.3229",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "TFUEL",
-                "balance": "1592.35668789",
-                "locked": "0",
-                "avg_buy_price": "63",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "ORBS",
-                "balance": "344.8275862",
-                "locked": "0",
-                "avg_buy_price": "58",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "LUNC",
-                "balance": "107325.68578553",
-                "locked": "0",
-                "avg_buy_price": "0.3746",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "KAVA",
-                "balance": "66.05945503",
-                "locked": "0",
-                "avg_buy_price": "973",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "ALGO",
-                "balance": "8008.60532544",
-                "locked": "0",
-                "avg_buy_price": "169",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "DON",
-                "balance": "2.32498856",
-                "locked": "0",
-                "avg_buy_price": "0",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "APENFT",
-                "balance": "249259.93341398",
-                "locked": "0",
-                "avg_buy_price": "0",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "XEC",
-                "balance": "136146087.36285856",
-                "locked": "0",
-                "avg_buy_price": "0.0434",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "LUNA2",
-                "balance": "1.19355272",
-                "locked": "0",
-                "avg_buy_price": "0",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            },
-            {
-                "currency": "MINA",
-                "balance": "22.70152985",
-                "locked": "0",
-                "avg_buy_price": "842",
-                "avg_buy_price_modified": false,
-                "unit_currency": "KRW"
-            }
-        ]
-    ]
-}
+[
+    {
+        "0": {
+            "currency": "BTC",
+            "balance": "0.0002036",
+            "locked": "0",
+            "avg_buy_price": "49120000",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "1": {
+            "currency": "KRW",
+            "balance": "7129436.22488614",
+            "locked": "0",
+            "avg_buy_price": "0",
+            "avg_buy_price_modified": true,
+            "unit_currency": "KRW"
+        },
+        "2": {
+            "currency": "WAVES",
+            "balance": "3.45781466",
+            "locked": "0",
+            "avg_buy_price": "3540",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "3": {
+            "currency": "SNT",
+            "balance": "3721.84900223",
+            "locked": "0",
+            "avg_buy_price": "59.4752",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "4": {
+            "currency": "STEEM",
+            "balance": "24.87852284",
+            "locked": "0",
+            "avg_buy_price": "344",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "5": {
+            "currency": "USDT",
+            "balance": "0.06515685",
+            "locked": "0",
+            "avg_buy_price": "1278.9558",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "6": {
+            "currency": "POWR",
+            "balance": "240.96385542",
+            "locked": "0",
+            "avg_buy_price": "415",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "7": {
+            "currency": "WAXP",
+            "balance": "1035.19668737",
+            "locked": "0",
+            "avg_buy_price": "96.5",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "8": {
+            "currency": "LOOM",
+            "balance": "326.69272727",
+            "locked": "0",
+            "avg_buy_price": "329",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "9": {
+            "currency": "HIFI",
+            "balance": "104.07556634",
+            "locked": "0",
+            "avg_buy_price": "2161.9388",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "10": {
+            "currency": "VTHO",
+            "balance": "3.73401787",
+            "locked": "0",
+            "avg_buy_price": "0",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "11": {
+            "currency": "META",
+            "balance": "3432.93745242",
+            "locked": "0",
+            "avg_buy_price": "57.7",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "12": {
+            "currency": "TFUEL",
+            "balance": "1592.35668789",
+            "locked": "0",
+            "avg_buy_price": "63",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "13": {
+            "currency": "ORBS",
+            "balance": "42759.51488425",
+            "locked": "0",
+            "avg_buy_price": "60.2822",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "14": {
+            "currency": "LUNC",
+            "balance": "107325.68578553",
+            "locked": "0",
+            "avg_buy_price": "0.3746",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "15": {
+            "currency": "DON",
+            "balance": "2.32498856",
+            "locked": "0",
+            "avg_buy_price": "0",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "16": {
+            "currency": "APENFT",
+            "balance": "249259.93341398",
+            "locked": "0",
+            "avg_buy_price": "0",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "17": {
+            "currency": "XEC",
+            "balance": "6381357.15104805",
+            "locked": "0",
+            "avg_buy_price": "0.0434",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "18": {
+            "currency": "AVAX",
+            "balance": "0.34506556",
+            "locked": "0",
+            "avg_buy_price": "28810",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "19": {
+            "currency": "LUNA2",
+            "balance": "1.19355272",
+            "locked": "0",
+            "avg_buy_price": "0",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        },
+        "20": {
+            "currency": "SUI",
+            "balance": "4236.83862433",
+            "locked": "0",
+            "avg_buy_price": "756",
+            "avg_buy_price_modified": false,
+            "unit_currency": "KRW"
+        }
+    }
+]

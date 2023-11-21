@@ -1,5 +1,14 @@
 [
     {
+        "currency":"BTC",
+        "balance":"0.0002036",
+        "locked":"0",
+        "avg_buy_price":"49120000",
+        "avg_buy_price_modified":false,
+        "unit_currency":"KRW",
+        "cointicker":"KRW-BTC"
+    },
+    {
         "currency":"WAVES",
         "balance":"3.45781466",
         "locked":"0",
@@ -9,19 +18,10 @@
         "cointicker":"KRW-WAVES"
     },
     {
-        "currency":"GRS",
-        "balance":"124.14194885",
-        "locked":"0",
-        "avg_buy_price":"906.0753",
-        "avg_buy_price_modified":false,
-        "unit_currency":"KRW",
-        "cointicker":"KRW-GRS"
-    },
-    {
         "currency":"SNT",
-        "balance":"314.69397668",
+        "balance":"3721.84900223",
         "locked":"0",
-        "avg_buy_price":"67.868",
+        "avg_buy_price":"59.4752",
         "avg_buy_price_modified":false,
         "unit_currency":"KRW",
         "cointicker":"KRW-SNT"
@@ -36,13 +36,13 @@
         "cointicker":"KRW-STEEM"
     },
     {
-        "currency":"SBD",
-        "balance":"8.03263727",
+        "currency":"POWR",
+        "balance":"240.96385542",
         "locked":"0",
-        "avg_buy_price":"6545.5303",
+        "avg_buy_price":"415",
         "avg_buy_price_modified":false,
         "unit_currency":"KRW",
-        "cointicker":"KRW-SBD"
+        "cointicker":"KRW-POWR"
     },
     {
         "currency":"WAXP",
@@ -52,24 +52,6 @@
         "avg_buy_price_modified":false,
         "unit_currency":"KRW",
         "cointicker":"KRW-WAXP"
-    },
-    {
-        "currency":"ZRX",
-        "balance":"30.0818873",
-        "locked":"0",
-        "avg_buy_price":"381.486",
-        "avg_buy_price_modified":false,
-        "unit_currency":"KRW",
-        "cointicker":"KRW-ZRX"
-    },
-    {
-        "currency":"POLYX",
-        "balance":"3824.33030303",
-        "locked":"0",
-        "avg_buy_price":"298",
-        "avg_buy_price_modified":false,
-        "unit_currency":"KRW",
-        "cointicker":"KRW-POLYX"
     },
     {
         "currency":"LOOM",
@@ -91,9 +73,9 @@
     },
     {
         "currency":"META",
-        "balance":"5988.48491792",
+        "balance":"3432.93745242",
         "locked":"0",
-        "avg_buy_price":"54.3229",
+        "avg_buy_price":"57.7",
         "avg_buy_price_modified":false,
         "unit_currency":"KRW",
         "cointicker":"KRW-META"
@@ -109,34 +91,16 @@
     },
     {
         "currency":"ORBS",
-        "balance":"344.8275862",
+        "balance":"42759.51488425",
         "locked":"0",
-        "avg_buy_price":"58",
+        "avg_buy_price":"60.2822",
         "avg_buy_price_modified":false,
         "unit_currency":"KRW",
         "cointicker":"KRW-ORBS"
     },
     {
-        "currency":"KAVA",
-        "balance":"66.05945503",
-        "locked":"0",
-        "avg_buy_price":"973",
-        "avg_buy_price_modified":false,
-        "unit_currency":"KRW",
-        "cointicker":"KRW-KAVA"
-    },
-    {
-        "currency":"ALGO",
-        "balance":"8008.60532544",
-        "locked":"0",
-        "avg_buy_price":"169",
-        "avg_buy_price_modified":false,
-        "unit_currency":"KRW",
-        "cointicker":"KRW-ALGO"
-    },
-    {
         "currency":"XEC",
-        "balance":"136146087.36285856",
+        "balance":"6381357.15104805",
         "locked":"0",
         "avg_buy_price":"0.0434",
         "avg_buy_price_modified":false,
@@ -144,12 +108,21 @@
         "cointicker":"KRW-XEC"
     },
     {
-        "currency":"MINA",
-        "balance":"22.70152985",
+        "currency":"AVAX",
+        "balance":"0.34506556",
         "locked":"0",
-        "avg_buy_price":"842",
+        "avg_buy_price":"28810",
         "avg_buy_price_modified":false,
         "unit_currency":"KRW",
-        "cointicker":"KRW-MINA"
+        "cointicker":"KRW-AVAX"
+    },
+    {
+        "currency":"SUI",
+        "balance":"4236.83862433",
+        "locked":"0",
+        "avg_buy_price":"756",
+        "avg_buy_price_modified":false,
+        "unit_currency":"KRW",
+        "cointicker":"KRW-SUI"
     }
 ]

@@ -11,13 +11,14 @@
         "publishExeClick": {"x": 1040, "y": 700, "duration": 2}
     },
     "img": {
-        "path1": "/Users/hg/DEV/WebDocuments/public/icon/space/workspace-vector-free-icon-set-34.png",
-        "path2": "/Users/hg/DEV/WebDocuments/public/icon/space/workspace-vector-free-icon-set-36.png",
-        "path3": "/Users/hg/DEV/WebDocuments/public/icon/space/workspace-vector-free-icon-set-40.png"
+        "path0": "/Users/hg/DEV/WebDocuments/public/img/th/frame_at_0_seconds.jpg",
+        "path1": "/Users/hg/DEV/WebDocuments/public/img/th/frame_at_60_seconds.jpg",
+        "path2": "/Users/hg/DEV/WebDocuments/public/img/th/frame_at_120_seconds.jpg",
+        "path3": "/Users/hg/DEV/WebDocuments/public/img/th/frame_at_180_seconds.jpg"
     },
     "contents": {
-        "mkpath1":"/Users/hg/DEV/naverblog/gpt-All-20231026035614-Vue3 Pinia Setup.md",
-        "mkpath2":"/Users/hg/DEV/naverblog/gpt-All-20231026050118-Optical Reflection Calculation.md"
+        "mkpath1":"WebDocuments/public/md/Gpt/gpt-20231115002434-Add-Moving-Averages.md",
+        "mkpath2":"/Users/hg/DEV/WebDocuments/public/md/Gpt/gpt-20231116052718-WebSocketService_-Accessing-Values.md"
         
     }
 }
