@@ -86,89 +86,245 @@ nav:
   Blob:
     md:
       Gpt:
-        gpt-20231102220306-Add-Key-Value-Pairs.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231102220306-Add-Key-Value-Pairs.md
-        gpt-20231112034657-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231112034657-ChatGPT.md
-        gpt-20231114060757-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231114060757-ChatGPT.md
-        gpt-20231115002244-Add-Moving-Averages-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002244-Add-Moving-Averages-(1).md
-        gpt-20231115002244-Add-Moving-Averages-(2).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002244-Add-Moving-Averages-(2).md
-        gpt-20231115002244-Add-Moving-Averages.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002244-Add-Moving-Averages.md
-        gpt-20231115002434-Add-Moving-Averages.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002434-Add-Moving-Averages.md
-        gpt-20231116003010-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231116003010-ChatGPT.md
-        gpt-20231116052718-WebSocketService_-Accessing-Values.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231116052718-WebSocketService_-Accessing-Values.md
-        gpt-Add-Key-Value-Pairs-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-Key-Value-Pairs-2023.md
-        gpt-Adjust-Button-Width-20231109085227.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Adjust-Button-Width-20231109085227.md
-        gpt-All-20231102220306-Add-Key-Value-Pairs.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102220306-Add-Key-Value-Pairs.md
-        gpt-All-20231102222701-Image-Density-Categories.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102222701-Image-Density-Categories.md
-        gpt-All-20231102222714-Image-Density-Categories.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102222714-Image-Density-Categories.md
-        gpt-All-20231109085317-Align-Components-Bootstrap-Grid.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085317-Align-Components-Bootstrap-Grid.md
-        gpt-All-20231109085317-Button-Width-Adjustment..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085317-Button-Width-Adjustment..md
-        gpt-All-20231109085317-Vertical-Button-Alignment.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085317-Vertical-Button-Alignment.md
-        gpt-All-20231109085340-Inheritance-Initialization-Issue.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Inheritance-Initialization-Issue.md
-        gpt-All-20231109085340-Python-Inheritance-Implementation.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Python-Inheritance-Implementation.md
-        gpt-All-20231109085340-Python-to-JS-Conversion..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Python-to-JS-Conversion..md
-        gpt-All-20231109085340-Save-DataFrame-as-JSON..md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Save-DataFrame-as-JSON..md
-        gpt-All-20231109085340-Tab-Layout-with-Chart.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Tab-Layout-with-Chart.md
-        gpt-All-20231112034657-ChatGPT-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112034657-ChatGPT-(1).md
-        gpt-All-20231112034657-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112034657-ChatGPT.md
-        gpt-All-20231112051215-Vue3-Script-KRW-NXM-Key.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112051215-Vue3-Script-KRW-NXM-Key.md
-        gpt-All-20231115002214-Add-Moving-Averages.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231115002214-Add-Moving-Averages.md
-        gpt-All-20231115002244-Add-Moving-Averages.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231115002244-Add-Moving-Averages.md
-        gpt-All-20231115002434-Add-Moving-Averages.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231115002434-Add-Moving-Averages.md
-        gpt-All-20231116035620-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231116035620-ChatGPT.md
-        gpt-All-20231121011713-WebSocket-데이터-맵-업데이트.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231121011713-WebSocket-데이터-맵-업데이트.md
-        gpt-All-20231121011919-ChatGPT.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231121011919-ChatGPT.md
-        gpt-All-20231121012134-Slice-and-Display-Coins.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231121012134-Slice-and-Display-Coins.md
-        gpt-All-20231121012153-Slice-and-Display-Coins.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231121012153-Slice-and-Display-Coins.md
-        gpt-All-Add-Key-Value-Pairs-2023-(1).md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Add-Key-Value-Pairs-2023-(1).md
-        gpt-All-Add-Key-Value-Pairs-2023.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Add-Key-Value-Pairs-2023.md
-        gpt-All-ChatGPT-20231102222450.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-ChatGPT-20231102222450.md
-        gpt-All-Image-Density-Categories-20231102222732.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102222732.md
-        gpt-All-Image-Density-Categories-20231102222805.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102222805.md
-        gpt-All-Image-Density-Categories-20231102223035.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102223035.md
-        gpt-All-Vue.js-Component-Optimization-20231115001827.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Vue.js-Component-Optimization-20231115001827.md
-        gpt-Assigning-Values-to-Variables-20231109085235.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Assigning-Values-to-Variables-20231109085235.md
-        gpt-ChatGPT-20231102224154.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231102224154.md
-        gpt-ChatGPT-20231106011457.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231106011457.md
-        gpt-ChatGPT-20231106223520.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231106223520.md
-        gpt-ChatGPT-20231106223524.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231106223524.md
-        gpt-ChatGPT-20231107134331.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231107134331.md
-        gpt-ChatGPT-20231107233640.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231107233640.md
-        gpt-ChatGPT-20231121011933.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231121011933.md
-        gpt-Convert-GPT-to-Markdown.-20231102223721.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Convert-GPT-to-Markdown.-20231102223721.md
-        gpt-Data-Fetching-and-Manipulation-20231106224303.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Data-Fetching-and-Manipulation-20231106224303.md
-        gpt-Dynamic-Upbit-Coin-Fetch-20231109085220.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Dynamic-Upbit-Coin-Fetch-20231109085220.md
-        gpt-Image-Density-Categories-20231102223013.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Image-Density-Categories-20231102223013.md
-        gpt-Image-Density-Categories-20231102223031.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Image-Density-Categories-20231102223031.md
-        gpt-JavaScript-Code_-Retrieve-Cryptocurrency-20231121012338.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-JavaScript-Code_-Retrieve-Cryptocurrency-20231121012338.md
-        gpt-Real-Time-Coin-Price-Update-20231109085223.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Real-Time-Coin-Price-Update-20231109085223.md
-        gpt-SEO-Config-Integration.-20231102224210.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-SEO-Config-Integration.-20231102224210.md
-        gpt-Save-HTML-Elements-as-Images.-20231107140242.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Save-HTML-Elements-as-Images.-20231107140242.md
-        gpt-Save-HTML-Elements-as-Images.-20231107145117.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Save-HTML-Elements-as-Images.-20231107145117.md
-        gpt-Slice-and-Display-Coins-20231121012021.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Slice-and-Display-Coins-20231121012021.md
-        gpt-Slice-and-Display-Coins-20231121012105.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Slice-and-Display-Coins-20231121012105.md
-        gpt-Styling-for-Watched-Coins.-20231109085249.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Styling-for-Watched-Coins.-20231109085249.md
-        gpt-Styling-for-Watched-Coins.-20231109085304.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Styling-for-Watched-Coins.-20231109085304.md
-        gpt-Vue.js-Variable-Declaration-20231109085230.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue.js-Variable-Declaration-20231109085230.md
-        gpt-WebSocket-Logic-in-Vue-20231121011943.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-WebSocket-Logic-in-Vue-20231121011943.md
-        gpt-WebSocket-Logic-in-Vue-20231121011955.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-WebSocket-Logic-in-Vue-20231121011955.md
+        gpt-20231102220306-Add-Key-Value-Pairs.md:
+          title: Gpt 20231102220306 Add Key Value Pairs
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231102220306-Add-Key-Value-Pairs.md
+        gpt-20231112034657-ChatGPT.md:
+          title: Gpt 20231112034657 Chatgpt
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231112034657-ChatGPT.md
+        gpt-20231114060757-ChatGPT.md:
+          title: Gpt 20231114060757 Chatgpt
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231114060757-ChatGPT.md
+        gpt-20231115002244-Add-Moving-Averages-(1).md:
+          title: Gpt 20231115002244 Add Moving Averages (1)
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002244-Add-Moving-Averages-(1).md
+        gpt-20231115002244-Add-Moving-Averages-(2).md:
+          title: Gpt 20231115002244 Add Moving Averages (2)
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002244-Add-Moving-Averages-(2).md
+        gpt-20231115002244-Add-Moving-Averages.md:
+          title: Gpt 20231115002244 Add Moving Averages
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002244-Add-Moving-Averages.md
+        gpt-20231115002434-Add-Moving-Averages.md:
+          title: Gpt 20231115002434 Add Moving Averages
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231115002434-Add-Moving-Averages.md
+        gpt-20231116003010-ChatGPT.md:
+          title: Gpt 20231116003010 Chatgpt
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231116003010-ChatGPT.md
+        gpt-20231116052718-WebSocketService_-Accessing-Values.md:
+          title: Gpt 20231116052718 Websocketservice_ Accessing Values
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231116052718-WebSocketService_-Accessing-Values.md
+        gpt-Add-Key-Value-Pairs-2023.md:
+          title: Gpt Add Key Value Pairs 2023
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Add-Key-Value-Pairs-2023.md
+        gpt-Adjust-Button-Width-20231109085227.md:
+          title: Gpt Adjust Button Width 20231109085227
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Adjust-Button-Width-20231109085227.md
+        gpt-All-20231102220306-Add-Key-Value-Pairs.md:
+          title: Gpt All 20231102220306 Add Key Value Pairs
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102220306-Add-Key-Value-Pairs.md
+        gpt-All-20231102222701-Image-Density-Categories.md:
+          title: Gpt All 20231102222701 Image Density Categories
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102222701-Image-Density-Categories.md
+        gpt-All-20231102222714-Image-Density-Categories.md:
+          title: Gpt All 20231102222714 Image Density Categories
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231102222714-Image-Density-Categories.md
+        gpt-All-20231109085317-Align-Components-Bootstrap-Grid.md:
+          title: Gpt All 20231109085317 Align Components Bootstrap Grid
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085317-Align-Components-Bootstrap-Grid.md
+        gpt-All-20231109085317-Button-Width-Adjustment..md:
+          title: Gpt All 20231109085317 Button Width Adjustment.
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085317-Button-Width-Adjustment..md
+        gpt-All-20231109085317-Vertical-Button-Alignment.md:
+          title: Gpt All 20231109085317 Vertical Button Alignment
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085317-Vertical-Button-Alignment.md
+        gpt-All-20231109085340-Inheritance-Initialization-Issue.md:
+          title: Gpt All 20231109085340 Inheritance Initialization Issue
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Inheritance-Initialization-Issue.md
+        gpt-All-20231109085340-Python-Inheritance-Implementation.md:
+          title: Gpt All 20231109085340 Python Inheritance Implementation
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Python-Inheritance-Implementation.md
+        gpt-All-20231109085340-Python-to-JS-Conversion..md:
+          title: Gpt All 20231109085340 Python To Js Conversion.
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Python-to-JS-Conversion..md
+        gpt-All-20231109085340-Save-DataFrame-as-JSON..md:
+          title: Gpt All 20231109085340 Save Dataframe As Json.
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Save-DataFrame-as-JSON..md
+        gpt-All-20231109085340-Tab-Layout-with-Chart.md:
+          title: Gpt All 20231109085340 Tab Layout With Chart
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231109085340-Tab-Layout-with-Chart.md
+        gpt-All-20231112034657-ChatGPT-(1).md:
+          title: Gpt All 20231112034657 Chatgpt (1)
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112034657-ChatGPT-(1).md
+        gpt-All-20231112034657-ChatGPT.md:
+          title: Gpt All 20231112034657 Chatgpt
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112034657-ChatGPT.md
+        gpt-All-20231112051215-Vue3-Script-KRW-NXM-Key.md:
+          title: Gpt All 20231112051215 Vue3 Script Krw Nxm Key
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231112051215-Vue3-Script-KRW-NXM-Key.md
+        gpt-All-20231115002214-Add-Moving-Averages.md:
+          title: Gpt All 20231115002214 Add Moving Averages
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231115002214-Add-Moving-Averages.md
+        gpt-All-20231115002244-Add-Moving-Averages.md:
+          title: Gpt All 20231115002244 Add Moving Averages
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231115002244-Add-Moving-Averages.md
+        gpt-All-20231115002434-Add-Moving-Averages.md:
+          title: Gpt All 20231115002434 Add Moving Averages
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231115002434-Add-Moving-Averages.md
+        gpt-All-20231116035620-ChatGPT.md:
+          title: Gpt All 20231116035620 Chatgpt
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231116035620-ChatGPT.md
+        gpt-All-20231121011713-WebSocket-데이터-맵-업데이트.md:
+          title: Gpt All 20231121011713 Websocket 데이터 맵 업데이트
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231121011713-WebSocket-데이터-맵-업데이트.md
+        gpt-All-20231121011919-ChatGPT.md:
+          title: Gpt All 20231121011919 Chatgpt
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231121011919-ChatGPT.md
+        gpt-All-20231121012134-Slice-and-Display-Coins.md:
+          title: Gpt All 20231121012134 Slice And Display Coins
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231121012134-Slice-and-Display-Coins.md
+        gpt-All-20231121012153-Slice-and-Display-Coins.md:
+          title: Gpt All 20231121012153 Slice And Display Coins
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231121012153-Slice-and-Display-Coins.md
+        gpt-All-Add-Key-Value-Pairs-2023-(1).md:
+          title: Gpt All Add Key Value Pairs 2023 (1)
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Add-Key-Value-Pairs-2023-(1).md
+        gpt-All-Add-Key-Value-Pairs-2023.md:
+          title: Gpt All Add Key Value Pairs 2023
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Add-Key-Value-Pairs-2023.md
+        gpt-All-ChatGPT-20231102222450.md:
+          title: Gpt All Chatgpt 20231102222450
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-ChatGPT-20231102222450.md
+        gpt-All-Image-Density-Categories-20231102222732.md:
+          title: Gpt All Image Density Categories 20231102222732
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102222732.md
+        gpt-All-Image-Density-Categories-20231102222805.md:
+          title: Gpt All Image Density Categories 20231102222805
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102222805.md
+        gpt-All-Image-Density-Categories-20231102223035.md:
+          title: Gpt All Image Density Categories 20231102223035
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Image-Density-Categories-20231102223035.md
+        gpt-All-Vue.js-Component-Optimization-20231115001827.md:
+          title: Gpt All Vue.Js Component Optimization 20231115001827
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-Vue.js-Component-Optimization-20231115001827.md
+        gpt-Assigning-Values-to-Variables-20231109085235.md:
+          title: Gpt Assigning Values To Variables 20231109085235
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Assigning-Values-to-Variables-20231109085235.md
+        gpt-ChatGPT-20231102224154.md:
+          title: Gpt Chatgpt 20231102224154
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231102224154.md
+        gpt-ChatGPT-20231106011457.md:
+          title: Gpt Chatgpt 20231106011457
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231106011457.md
+        gpt-ChatGPT-20231106223520.md:
+          title: Gpt Chatgpt 20231106223520
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231106223520.md
+        gpt-ChatGPT-20231106223524.md:
+          title: Gpt Chatgpt 20231106223524
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231106223524.md
+        gpt-ChatGPT-20231107134331.md:
+          title: Gpt Chatgpt 20231107134331
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231107134331.md
+        gpt-ChatGPT-20231107233640.md:
+          title: Gpt Chatgpt 20231107233640
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231107233640.md
+        gpt-ChatGPT-20231121011933.md:
+          title: Gpt Chatgpt 20231121011933
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-ChatGPT-20231121011933.md
+        gpt-Convert-GPT-to-Markdown.-20231102223721.md:
+          title: Gpt Convert Gpt To Markdown. 20231102223721
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Convert-GPT-to-Markdown.-20231102223721.md
+        gpt-Data-Fetching-and-Manipulation-20231106224303.md:
+          title: Gpt Data Fetching And Manipulation 20231106224303
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Data-Fetching-and-Manipulation-20231106224303.md
+        gpt-Dynamic-Upbit-Coin-Fetch-20231109085220.md:
+          title: Gpt Dynamic Upbit Coin Fetch 20231109085220
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Dynamic-Upbit-Coin-Fetch-20231109085220.md
+        gpt-Image-Density-Categories-20231102223013.md:
+          title: Gpt Image Density Categories 20231102223013
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Image-Density-Categories-20231102223013.md
+        gpt-Image-Density-Categories-20231102223031.md:
+          title: Gpt Image Density Categories 20231102223031
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Image-Density-Categories-20231102223031.md
+        gpt-JavaScript-Code_-Retrieve-Cryptocurrency-20231121012338.md:
+          title: Gpt Javascript Code_ Retrieve Cryptocurrency 20231121012338
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-JavaScript-Code_-Retrieve-Cryptocurrency-20231121012338.md
+        gpt-Real-Time-Coin-Price-Update-20231109085223.md:
+          title: Gpt Real Time Coin Price Update 20231109085223
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Real-Time-Coin-Price-Update-20231109085223.md
+        gpt-SEO-Config-Integration.-20231102224210.md:
+          title: Gpt Seo Config Integration. 20231102224210
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-SEO-Config-Integration.-20231102224210.md
+        gpt-Save-HTML-Elements-as-Images.-20231107140242.md:
+          title: Gpt Save Html Elements As Images. 20231107140242
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Save-HTML-Elements-as-Images.-20231107140242.md
+        gpt-Save-HTML-Elements-as-Images.-20231107145117.md:
+          title: Gpt Save Html Elements As Images. 20231107145117
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Save-HTML-Elements-as-Images.-20231107145117.md
+        gpt-Slice-and-Display-Coins-20231121012021.md:
+          title: Gpt Slice And Display Coins 20231121012021
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Slice-and-Display-Coins-20231121012021.md
+        gpt-Slice-and-Display-Coins-20231121012105.md:
+          title: Gpt Slice And Display Coins 20231121012105
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Slice-and-Display-Coins-20231121012105.md
+        gpt-Styling-for-Watched-Coins.-20231109085249.md:
+          title: Gpt Styling For Watched Coins. 20231109085249
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Styling-for-Watched-Coins.-20231109085249.md
+        gpt-Styling-for-Watched-Coins.-20231109085304.md:
+          title: Gpt Styling For Watched Coins. 20231109085304
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Styling-for-Watched-Coins.-20231109085304.md
+        gpt-Vue.js-Variable-Declaration-20231109085230.md:
+          title: Gpt Vue.Js Variable Declaration 20231109085230
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-Vue.js-Variable-Declaration-20231109085230.md
+        gpt-WebSocket-Logic-in-Vue-20231121011943.md:
+          title: Gpt Websocket Logic In Vue 20231121011943
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-WebSocket-Logic-in-Vue-20231121011943.md
+        gpt-WebSocket-Logic-in-Vue-20231121011955.md:
+          title: Gpt Websocket Logic In Vue 20231121011955
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-WebSocket-Logic-in-Vue-20231121011955.md
       Post:
-        Welcome!!.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/Welcome!!.md
-        td copy.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/td
-          copy.md
+        Welcome!!.md:
+          title: Welcome!!
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/Welcome!!.md
+        td copy.md:
+          title: Td Copy
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/td
+            copy.md
       ReadmeLink:
-        git_readme.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/ReadmeLink/git_readme.md
+        git_readme.md:
+          title: Git_Readme
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/ReadmeLink/git_readme.md
       Usage:
-        README.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/README.md
-        bookmarklet.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/bookmarklet.md
-        git add comit trangit.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/git
-          add comit trangit.md
-        git usage.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/git
-          usage.md
-        gpt-download.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/gpt-download.md
-        markdwonDiagram.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/markdwonDiagram.md
-        mermaidHTML.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/mermaidHTML.md
-        server_chatgpt_a copy.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/server_chatgpt_a
-          copy.md
-        server_chatgpt_a.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/server_chatgpt_a.md
-        사용법모음 copy.md: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/사용법모음
-          copy.md
+        README.md:
+          title: Readme
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/README.md
+        bookmarklet.md:
+          title: Bookmarklet
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/bookmarklet.md
+        git add comit trangit.md:
+          title: Git Add Comit Trangit
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/git
+            add comit trangit.md
+        git usage.md:
+          title: Git Usage
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/git
+            usage.md
+        gpt-download.md:
+          title: Gpt Download
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/gpt-download.md
+        markdwonDiagram.md:
+          title: Markdwondiagram
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/markdwonDiagram.md
+        mermaidHTML.md:
+          title: Mermaidhtml
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/mermaidHTML.md
+        server_chatgpt_a copy.md:
+          title: Server_Chatgpt_A Copy
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/server_chatgpt_a
+            copy.md
+        server_chatgpt_a.md:
+          title: Server_Chatgpt_A
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/server_chatgpt_a.md
+        사용법모음 copy.md:
+          title: 사용법모음 Copy
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Usage/사용법모음
+            copy.md
