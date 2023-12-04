@@ -3,7 +3,8 @@
         "md": [
             {
                 "Gpt": [
-                    "md/Gpt/gpt-All-20231204104202-ChatGPT.md"
+                    "md/Gpt/gpt-All-20231204104202-ChatGPT.md",
+                    "md/Gpt/gpt-All-20231204115304-Center-Elements-with-Margin.md"
                 ]
             },
             {
@@ -39,6 +40,10 @@
                 "gpt-All-20231204104202-ChatGPT.md": {
                     "title": "Gpt All 20231204104202 Chatgpt",
                     "contentUrl": "https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231204104202-ChatGPT.md"
+                },
+                "gpt-All-20231204115304-Center-Elements-with-Margin.md": {
+                    "title": "Gpt All 20231204115304 Center Elements With Margin",
+                    "contentUrl": "https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231204115304-Center-Elements-with-Margin.md"
                 }
             },
             "Post": {
