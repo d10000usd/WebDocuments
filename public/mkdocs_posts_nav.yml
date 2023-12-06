@@ -2,10 +2,13 @@ nav:
   Public:
     md:
     - Gpt:
+      - md/Gpt/gpt-20231206083339-ChatGPT.md
+      - md/Gpt/gpt-20231206083509-ChatGPT.md
       - md/Gpt/gpt-All-20231204104202-ChatGPT.md
       - md/Gpt/gpt-All-20231204115304-Center-Elements-with-Margin.md
       - md/Gpt/gpt-All-20231204115346-Toggle-4-Lines-Display.md
       - md/Gpt/gpt-All-20231206080434-Relative-Import-Error.md
+      - md/Gpt/gpt-All-20231206083509-ChatGPT.md
     - Post:
       - md/Post/Welcome!!.md
       - md/Post/td copy.md
@@ -25,6 +28,12 @@ nav:
   Blob:
     md:
       Gpt:
+        gpt-20231206083339-ChatGPT.md:
+          title: Gpt 20231206083339 Chatgpt
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231206083339-ChatGPT.md
+        gpt-20231206083509-ChatGPT.md:
+          title: Gpt 20231206083509 Chatgpt
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231206083509-ChatGPT.md
         gpt-All-20231204104202-ChatGPT.md:
           title: Gpt All 20231204104202 Chatgpt
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231204104202-ChatGPT.md
@@ -37,6 +46,9 @@ nav:
         gpt-All-20231206080434-Relative-Import-Error.md:
           title: Gpt All 20231206080434 Relative Import Error
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231206080434-Relative-Import-Error.md
+        gpt-All-20231206083509-ChatGPT.md:
+          title: Gpt All 20231206083509 Chatgpt
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231206083509-ChatGPT.md
       Post:
         Welcome!!.md:
           title: Welcome!!
