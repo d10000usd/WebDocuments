@@ -9,7 +9,6 @@ nav:
       - md/Gpt/gpt-All-20231206094430-Modify-Third-Sentence.md
       - md/Gpt/gpt-All-20231211050514-ChatGPT.md
       - md/Gpt/gpt-All-20231211060428-ChatGPT.md
-      - md/Gpt/gpt-All-20231211061006-외부에서 백엔드 연결 오류.md
       - md/Gpt/gpt-All-20231211061006-외부에서-백엔드-연결-오류.md
     - Post:
       - md/Post/Welcome!!.md
@@ -51,10 +50,6 @@ nav:
         gpt-All-20231211060428-ChatGPT.md:
           title: Gpt All 20231211060428 Chatgpt
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231211060428-ChatGPT.md
-        gpt-All-20231211061006-외부에서 백엔드 연결 오류.md:
-          title: Gpt All 20231211061006 외부에서 백엔드 연결 오류
-          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231211061006-외부에서
-            백엔드 연결 오류.md
         gpt-All-20231211061006-외부에서-백엔드-연결-오류.md:
           title: Gpt All 20231211061006 외부에서 백엔드 연결 오류
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231211061006-외부에서-백엔드-연결-오류.md
