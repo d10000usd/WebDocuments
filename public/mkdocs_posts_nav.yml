@@ -14,6 +14,10 @@ nav:
       - md/Gpt/gpt-All-20240114063849-Fetch-and-Display-Data.md
       - md/Gpt/gpt-All-20240114063856-ESLint-경고-해결.md
       - md/Gpt/gpt-All-20240114063903-크롬익스텐션-메시지-통신.md
+      - md/Gpt/gpt-All-20240114081755-MVC-패턴-특징-6개.md
+      - md/Gpt/gpt-All-20240114081805-SEO-Strategies_-20-Tips.md
+      - md/Gpt/gpt-All-20240114081811-SEO-Meta-전략-20개.md
+      - md/Gpt/gpt-All-20240114081913-SEO-Strategies_-20-Tips.md
     - Post:
       - md/Post/Welcome!!.md
       - md/Post/td copy.md
@@ -69,6 +73,18 @@ nav:
         gpt-All-20240114063903-크롬익스텐션-메시지-통신.md:
           title: Gpt All 20240114063903 크롬익스텐션 메시지 통신
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20240114063903-크롬익스텐션-메시지-통신.md
+        gpt-All-20240114081755-MVC-패턴-특징-6개.md:
+          title: Gpt All 20240114081755 Mvc 패턴 특징 6개
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20240114081755-MVC-패턴-특징-6개.md
+        gpt-All-20240114081805-SEO-Strategies_-20-Tips.md:
+          title: Gpt All 20240114081805 Seo Strategies_ 20 Tips
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20240114081805-SEO-Strategies_-20-Tips.md
+        gpt-All-20240114081811-SEO-Meta-전략-20개.md:
+          title: Gpt All 20240114081811 Seo Meta 전략 20개
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20240114081811-SEO-Meta-전략-20개.md
+        gpt-All-20240114081913-SEO-Strategies_-20-Tips.md:
+          title: Gpt All 20240114081913 Seo Strategies_ 20 Tips
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20240114081913-SEO-Strategies_-20-Tips.md
       Post:
         Welcome!!.md:
           title: Welcome!!
