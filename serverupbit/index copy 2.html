@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Stream</title>
+    <style>
+        #numbers-container {
+            white-space: nowrap;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id="numbers-container"></div>
+
+    <script>
+        const socket = new WebSocket("ws://0.0.0.0:8000/ws");
+        const numbersContainer = document.getElementById("numbers-container");
+        const existingNumbers = [];
+
+        socket.onmessage = (event) => {
+            const number = event.data;
+            const numberElement = document.createElement("span");
+            numberElement.innerText = number + " ";
+
+            // Check if there is an existing number at the same position
+            if (existingNumbers.length > 0) {
+                const existingNumberElement = existingNumbers.shift();
+                numbersContainer.replaceChild(numberElement, existingNumberElement);
+            } else {
+                // If no existing number, just append the new one
+                numbersContainer.appendChild(numberElement);
+            }
+
+            // Store the new number element in the existingNumbers array
+            existingNumbers.push(numberElement);
+        };
+    </script>
+</body>
+</html>
