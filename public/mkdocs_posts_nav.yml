@@ -20,6 +20,10 @@ nav:
       - md/Gpt/gpt-All-20240114081913-SEO-Strategies_-20-Tips.md
     - Post:
       - md/Post/Welcome!!.md
+      - md/Post/gpt-All-20240114081755-MVC-패턴-특징-6개.md
+      - md/Post/gpt-All-20240114081805-SEO-Strategies_-20-Tips.md
+      - md/Post/gpt-All-20240114081811-SEO-Meta-전략-20개.md
+      - md/Post/gpt-All-20240114081913-SEO-Strategies_-20-Tips.md
       - md/Post/td copy.md
     - ReadmeLink:
       - md/ReadmeLink/git_readme.md
@@ -89,6 +93,18 @@ nav:
         Welcome!!.md:
           title: Welcome!!
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/Welcome!!.md
+        gpt-All-20240114081755-MVC-패턴-특징-6개.md:
+          title: Gpt All 20240114081755 Mvc 패턴 특징 6개
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/gpt-All-20240114081755-MVC-패턴-특징-6개.md
+        gpt-All-20240114081805-SEO-Strategies_-20-Tips.md:
+          title: Gpt All 20240114081805 Seo Strategies_ 20 Tips
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/gpt-All-20240114081805-SEO-Strategies_-20-Tips.md
+        gpt-All-20240114081811-SEO-Meta-전략-20개.md:
+          title: Gpt All 20240114081811 Seo Meta 전략 20개
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/gpt-All-20240114081811-SEO-Meta-전략-20개.md
+        gpt-All-20240114081913-SEO-Strategies_-20-Tips.md:
+          title: Gpt All 20240114081913 Seo Strategies_ 20 Tips
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/gpt-All-20240114081913-SEO-Strategies_-20-Tips.md
         td copy.md:
           title: Td Copy
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Post/td
