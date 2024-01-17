@@ -1,6 +1,244 @@
 nav:
   Public:
     md:
+    - GPTs:
+      - md/GPTs/README.md
+      - prompts:
+        - md/GPTs/prompts/(A.I. Bestie).md
+        - md/GPTs/prompts/10x Engineer.md
+        - md/GPTs/prompts/20K Vocab builder.md
+        - md/GPTs/prompts/42master-Beck.md
+        - md/GPTs/prompts/AI Doctor.md
+        - md/GPTs/prompts/AI Lover.md
+        - md/GPTs/prompts/AI PDF.md
+        - md/GPTs/prompts/AI Paper Polisher Pro.md
+        - md/GPTs/prompts/AI算命.md
+        - md/GPTs/prompts/ALL IN GPT.md
+        - md/GPTs/prompts/AboutMe.md
+        - md/GPTs/prompts/Academic Assistant Pro.md
+        - md/GPTs/prompts/Ads Generator by Joe.md
+        - md/GPTs/prompts/Agi.zip.md
+        - md/GPTs/prompts/AllTrails.md
+        - md/GPTs/prompts/Animal Chefs.md
+        - md/GPTs/prompts/Assistente AI per CEO marketing oriented.md
+        - md/GPTs/prompts/Auto Stock Analyst Expert.md
+        - md/GPTs/prompts/AutoGen Engineer.md
+        - md/GPTs/prompts/BabyAgi.txt.md
+        - md/GPTs/prompts/Bake Off.md
+        - md/GPTs/prompts/Blog Expert.md
+        - md/GPTs/prompts/Blog Post Generator.md
+        - md/GPTs/prompts/Book to Prompt.md
+        - md/GPTs/prompts/Breakdown Outline Any Topic.md
+        - md/GPTs/prompts/Briefly.md
+        - md/GPTs/prompts/CEO GPT.md
+        - md/GPTs/prompts/CIPHERON.md
+        - md/GPTs/prompts/Calendar GPT.md
+        - md/GPTs/prompts/Canva.md
+        - md/GPTs/prompts/Captain Action.md
+        - md/GPTs/prompts/Cauldron.md
+        - md/GPTs/prompts/Character Forger.md
+        - md/GPTs/prompts/Chat NeurIPS.md
+        - md/GPTs/prompts/ChatDB.md
+        - md/GPTs/prompts/Chibi Kohaku (猫音コハク).md
+        - md/GPTs/prompts/Choose your own adventure!.md
+        - md/GPTs/prompts/ClearGPT.md
+        - md/GPTs/prompts/Code Explainer.md
+        - md/GPTs/prompts/CodeCopilot.md
+        - md/GPTs/prompts/Codey.md
+        - md/GPTs/prompts/Coloring Book Hero.md
+        - md/GPTs/prompts/Consistency Crafter 2024.md
+        - md/GPTs/prompts/ConvertAnything.md
+        - md/GPTs/prompts/Cosmic Dream.md
+        - md/GPTs/prompts/Creative Writing Coach.md
+        - md/GPTs/prompts/Cross-Border Investigation Assistant 跨境偵查小助手.md
+        - md/GPTs/prompts/CuratorGPT.md
+        - md/GPTs/prompts/Customer Service GPT.md
+        - md/GPTs/prompts/Data Analysis.md
+        - md/GPTs/prompts/DesignerGPT.md
+        - md/GPTs/prompts/Diffusion Master.md
+        - md/GPTs/prompts/DomainsGPT.md
+        - md/GPTs/prompts/Dream Labyrinth(梦境跑团).md
+        - md/GPTs/prompts/Ebook Writer & Designer GPT.md
+        - md/GPTs/prompts/Email Proofreader.md
+        - md/GPTs/prompts/Email Responder Pro.md
+        - md/GPTs/prompts/EmojAI.md
+        - md/GPTs/prompts/Evolution Chamber.md
+        - md/GPTs/prompts/Executive f(x)n.md
+        - md/GPTs/prompts/Fantasy Book Weaver.md
+        - md/GPTs/prompts/FramerGPT.md
+        - md/GPTs/prompts/GPT Builder.md
+        - md/GPTs/prompts/GPT Customizer, File Finder & JSON Action Creator.md
+        - md/GPTs/prompts/GPT Idea Genie.md
+        - md/GPTs/prompts/GPT Shield.md
+        - md/GPTs/prompts/GPT Shop Keeper.md
+        - md/GPTs/prompts/GPTsdex.md
+        - md/GPTs/prompts/Game Time.md
+        - md/GPTs/prompts/Geopolitics GPT.md
+        - md/GPTs/prompts/Get Simpsonized!.md
+        - md/GPTs/prompts/Ghostwriters.md
+        - md/GPTs/prompts/Gif-PT.md
+        - md/GPTs/prompts/Girlfriend Emma.md
+        - md/GPTs/prompts/GoogleAnalytics Guru.md
+        - md/GPTs/prompts/Grimoire.md
+        - md/GPTs/prompts/GymStreak Workout Creator.md
+        - md/GPTs/prompts/High-Quality Review Analyzer.md
+        - md/GPTs/prompts/HongKongGPT.md
+        - md/GPTs/prompts/HormoziGPT.md
+        - md/GPTs/prompts/Hot Mods.md
+        - md/GPTs/prompts/HumanWriterGPT.md
+        - md/GPTs/prompts/Humanizer Pro.md
+        - md/GPTs/prompts/ID Photo Pro.md
+        - md/GPTs/prompts/Inkspire Tattoo Bot.md
+        - md/GPTs/prompts/Interview Coach.md
+        - md/GPTs/prompts/IstioGuru.md
+        - md/GPTs/prompts/KoeGPT.md
+        - md/GPTs/prompts/LangGPT.md
+        - md/GPTs/prompts/Laundry Buddy.md
+        - md/GPTs/prompts/LeetCode Problem Solver.md
+        - md/GPTs/prompts/LeetcodeProblemSolver.md
+        - md/GPTs/prompts/LogoGPT.md
+        - md/GPTs/prompts/Makise Kurisu.md
+        - md/GPTs/prompts/Manga Miko - Anime Girlfriend.md
+        - md/GPTs/prompts/Math Mentor.md
+        - md/GPTs/prompts/Media Magic Mike.md
+        - md/GPTs/prompts/Meme Magic.md
+        - md/GPTs/prompts/MetabolismBoosterGPT.md
+        - md/GPTs/prompts/MidJourney Prompt Generator.md
+        - md/GPTs/prompts/Midjourney Generator.md
+        - md/GPTs/prompts/Moby Dick RPG.md
+        - md/GPTs/prompts/Mocktail Mixologist.md
+        - md/GPTs/prompts/Mr. Ranedeer Config Wizard.md
+        - md/GPTs/prompts/Mr. Ranedeer.md
+        - md/GPTs/prompts/Music Writer.md
+        - md/GPTs/prompts/MuskGPT.md
+        - md/GPTs/prompts/Mystic 占卜🔮.md
+        - md/GPTs/prompts/Naruto GPT.md
+        - md/GPTs/prompts/Nomad List.md
+        - md/GPTs/prompts/OCR-GPT.md
+        - md/GPTs/prompts/Obscribe.md
+        - md/GPTs/prompts/OpenAPI Builder.md
+        - md/GPTs/prompts/OpenStorytelling Plus.md
+        - md/GPTs/prompts/PPT Expert.md
+        - md/GPTs/prompts/Packaging Expert.md
+        - md/GPTs/prompts/Paw Pal.md
+        - md/GPTs/prompts/Pepegen.md
+        - md/GPTs/prompts/Phoenix Ink.md
+        - md/GPTs/prompts/PhoneixInk.md
+        - md/GPTs/prompts/Photogasm 2.0.md
+        - md/GPTs/prompts/Pic-book Artist.md
+        - md/GPTs/prompts/Professor Synapse.md
+        - md/GPTs/prompts/Quality Raters SEO Guide.md
+        - md/GPTs/prompts/QuantFinance.md
+        - md/GPTs/prompts/Radical Selfishness.md
+        - md/GPTs/prompts/ResearchGPT.md
+        - md/GPTs/prompts/Retro Adventures.md
+        - md/GPTs/prompts/Riddle Master (燈謎天尊).md
+        - md/GPTs/prompts/RolePlayHumanWritingGPT.md
+        - md/GPTs/prompts/SEO GPT.md
+        - md/GPTs/prompts/SWOT Analysis.md
+        - md/GPTs/prompts/Sales Cold Email Coach.md
+        - md/GPTs/prompts/Samurai AI Summary.md
+        - md/GPTs/prompts/Sarcastic Humorist.md
+        - md/GPTs/prompts/ScholarAI.md
+        - md/GPTs/prompts/Screenplay GPT.md
+        - md/GPTs/prompts/ScriptCraft.md
+        - md/GPTs/prompts/Secret Code Guardian.md
+        - md/GPTs/prompts/Secret Keeper.md
+        - md/GPTs/prompts/Simpsonize Me.md
+        - md/GPTs/prompts/Small answer.md
+        - md/GPTs/prompts/Sous Chef.md
+        - md/GPTs/prompts/Starter Pack Generator.md
+        - md/GPTs/prompts/Sticker Whiz.md
+        - md/GPTs/prompts/Story Spock.md
+        - md/GPTs/prompts/Storybook Vision.md
+        - md/GPTs/prompts/Strap UI.md
+        - md/GPTs/prompts/Super Describe.md
+        - md/GPTs/prompts/Synthia 😋🌟.md
+        - md/GPTs/prompts/TailwindCSS Previewer.md
+        - md/GPTs/prompts/TailwindGPT.md
+        - md/GPTs/prompts/Take Code Captures.md
+        - md/GPTs/prompts/TaxGPT.md
+        - md/GPTs/prompts/Tech Support Advisor.md
+        - md/GPTs/prompts/The Greatest Computer Science Tutor.md
+        - md/GPTs/prompts/The Negotiator.md
+        - md/GPTs/prompts/The Rizz Game.md
+        - md/GPTs/prompts/The Secret of Monkey Island- Amsterdam.md
+        - md/GPTs/prompts/The Shaman.md
+        - md/GPTs/prompts/TherapistGPT.md
+        - md/GPTs/prompts/Toronto City Council Guide.md
+        - md/GPTs/prompts/Trending TikTok Hashtags Finder Tool.md
+        - md/GPTs/prompts/Trey Ratcliff's Photo Critique GPT.md
+        - md/GPTs/prompts/TweetX Enhancer.md
+        - md/GPTs/prompts/Unbreakable GPT.md
+        - md/GPTs/prompts/Universal Primer.md
+        - md/GPTs/prompts/Video Game Almanac.md
+        - md/GPTs/prompts/Video Script Generator.md
+        - md/GPTs/prompts/Video Scripter.md
+        - md/GPTs/prompts/Viral Hooks Generator.md
+        - md/GPTs/prompts/Virtual Sweetheart.md
+        - md/GPTs/prompts/Visual Weather Artist GPT.md
+        - md/GPTs/prompts/Watercolor Illustrator GPT.md
+        - md/GPTs/prompts/Weather Artist.md
+        - md/GPTs/prompts/WebGPT.md
+        - md/GPTs/prompts/What should I watch？.md
+        - md/GPTs/prompts/World Class Software Engineer.md
+        - md/GPTs/prompts/Writing Assistant.md
+        - md/GPTs/prompts/X Optimizer GPT.md
+        - md/GPTs/prompts/Xhs Writer - Mary.md
+        - md/GPTs/prompts/YT Summarizer.md
+        - md/GPTs/prompts/YT transcriber.md
+        - md/GPTs/prompts/YouTubeGPT.md
+        - md/GPTs/prompts/YouTubers Creative ToolBox.md
+        - md/GPTs/prompts/ask_ida-c++.md
+        - md/GPTs/prompts/chatssh.md
+        - md/GPTs/prompts/devrelguide.md
+        - md/GPTs/prompts/expert_front_end_developer_role.md
+        - md/GPTs/prompts/genz 4 meme.md
+        - md/GPTs/prompts/img2img.md
+        - md/GPTs/prompts/plugin surf.md
+        - md/GPTs/prompts/toonGPT.md
+        - md/GPTs/prompts/tsDoc Generator.md
+        - md/GPTs/prompts/✏️All-around Writer (Professional Version).md
+        - md/GPTs/prompts/中医专家.md
+        - md/GPTs/prompts/互联网+挑战杯大创竞赛导师.md
+        - md/GPTs/prompts/凌凤箫.md
+        - md/GPTs/prompts/嘴臭王.md
+        - md/GPTs/prompts/天官庙的刘半仙.md
+        - md/GPTs/prompts/子言女友.md
+        - md/GPTs/prompts/孫子 - saysay.ai.md
+        - md/GPTs/prompts/完蛋！我爱上了姐姐.md
+        - md/GPTs/prompts/完蛋，我被美女包围了(AI同人).md
+        - md/GPTs/prompts/小坏蛋.md
+        - md/GPTs/prompts/小红书写作专家.md
+        - md/GPTs/prompts/广告文案大师.md
+        - md/GPTs/prompts/悲慘世界 RPG.md
+        - md/GPTs/prompts/情感对话大师——帮你回复女生.md
+        - md/GPTs/prompts/攻击型领导.md
+        - md/GPTs/prompts/春霞つくし Tsukushi Harugasumi.md
+        - md/GPTs/prompts/极简翻译.md
+        - md/GPTs/prompts/枫叶林.md
+        - md/GPTs/prompts/武林秘传：江湖探险.md
+        - md/GPTs/prompts/猫耳美少女イラストメーカー.md
+        - md/GPTs/prompts/王阳明.md
+        - md/GPTs/prompts/留学文书大师 Essay Architect.md
+        - md/GPTs/prompts/痤疮治疗指南.md
+        - md/GPTs/prompts/知识渊博的健身教练.md
+        - md/GPTs/prompts/短视频脚本.md
+        - md/GPTs/prompts/科技文章翻译.md
+        - md/GPTs/prompts/老妈，我爱你.md
+        - md/GPTs/prompts/老爸，该怎么办？.md
+        - md/GPTs/prompts/脏话连篇.md
+        - md/GPTs/prompts/英文校正GPT.md
+        - md/GPTs/prompts/行业洞察家.md
+        - md/GPTs/prompts/解梦大师.md
+        - md/GPTs/prompts/超级Dalle.md
+        - md/GPTs/prompts/金庸群俠傳.md
+        - md/GPTs/prompts/鐵公雞.md
+        - md/GPTs/prompts/非虚构作品的阅读高手.md
+        - md/GPTs/prompts/骂醒恋爱脑.md
+        - md/GPTs/prompts/🎀My excellent classmates (Help with my homework!).md
+        - md/GPTs/prompts/🦾 ClubGPT - developer team in one GPT 🦾.md
+        - md/GPTs/prompts/🧙‍♂️算命先生.md
     - Gpt:
       - md/Gpt/gpt-20231206094446-Python-Fasapi-Example.md
       - md/Gpt/gpt-All-20231206094251-FastAPI-News-Server.md
@@ -40,6 +278,863 @@ nav:
       - md/Usage/사용법모음 copy.md
   Blob:
     md:
+      GPTs:
+        README.md:
+          title: Readme
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/README.md
+        prompts:
+          (A.I. Bestie).md:
+            title: (A.I. Bestie)
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/(A.I.
+              Bestie).md
+          10x Engineer.md:
+            title: 10X Engineer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/10x
+              Engineer.md
+          20K Vocab builder.md:
+            title: 20K Vocab Builder
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/20K
+              Vocab builder.md
+          42master-Beck.md:
+            title: 42Master Beck
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/42master-Beck.md
+          AI Doctor.md:
+            title: Ai Doctor
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/AI
+              Doctor.md
+          AI Lover.md:
+            title: Ai Lover
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/AI
+              Lover.md
+          AI PDF.md:
+            title: Ai Pdf
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/AI
+              PDF.md
+          AI Paper Polisher Pro.md:
+            title: Ai Paper Polisher Pro
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/AI
+              Paper Polisher Pro.md
+          AI算命.md:
+            title: Ai算命
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/AI算命.md
+          ALL IN GPT.md:
+            title: All In Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/ALL
+              IN GPT.md
+          AboutMe.md:
+            title: Aboutme
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/AboutMe.md
+          Academic Assistant Pro.md:
+            title: Academic Assistant Pro
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Academic
+              Assistant Pro.md
+          Ads Generator by Joe.md:
+            title: Ads Generator By Joe
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Ads
+              Generator by Joe.md
+          Agi.zip.md:
+            title: Agi.Zip
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Agi.zip.md
+          AllTrails.md:
+            title: Alltrails
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/AllTrails.md
+          Animal Chefs.md:
+            title: Animal Chefs
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Animal
+              Chefs.md
+          Assistente AI per CEO marketing oriented.md:
+            title: Assistente Ai Per Ceo Marketing Oriented
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Assistente
+              AI per CEO marketing oriented.md
+          Auto Stock Analyst Expert.md:
+            title: Auto Stock Analyst Expert
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Auto
+              Stock Analyst Expert.md
+          AutoGen Engineer.md:
+            title: Autogen Engineer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/AutoGen
+              Engineer.md
+          BabyAgi.txt.md:
+            title: Babyagi.Txt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/BabyAgi.txt.md
+          Bake Off.md:
+            title: Bake Off
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Bake
+              Off.md
+          Blog Expert.md:
+            title: Blog Expert
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Blog
+              Expert.md
+          Blog Post Generator.md:
+            title: Blog Post Generator
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Blog
+              Post Generator.md
+          Book to Prompt.md:
+            title: Book To Prompt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Book
+              to Prompt.md
+          Breakdown Outline Any Topic.md:
+            title: Breakdown Outline Any Topic
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Breakdown
+              Outline Any Topic.md
+          Briefly.md:
+            title: Briefly
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Briefly.md
+          CEO GPT.md:
+            title: Ceo Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/CEO
+              GPT.md
+          CIPHERON.md:
+            title: Cipheron
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/CIPHERON.md
+          Calendar GPT.md:
+            title: Calendar Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Calendar
+              GPT.md
+          Canva.md:
+            title: Canva
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Canva.md
+          Captain Action.md:
+            title: Captain Action
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Captain
+              Action.md
+          Cauldron.md:
+            title: Cauldron
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Cauldron.md
+          Character Forger.md:
+            title: Character Forger
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Character
+              Forger.md
+          Chat NeurIPS.md:
+            title: Chat Neurips
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Chat
+              NeurIPS.md
+          ChatDB.md:
+            title: Chatdb
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/ChatDB.md
+          Chibi Kohaku (猫音コハク).md:
+            title: Chibi Kohaku (猫音コハク)
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Chibi
+              Kohaku (猫音コハク).md
+          Choose your own adventure!.md:
+            title: Choose Your Own Adventure!
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Choose
+              your own adventure!.md
+          ClearGPT.md:
+            title: Cleargpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/ClearGPT.md
+          Code Explainer.md:
+            title: Code Explainer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Code
+              Explainer.md
+          CodeCopilot.md:
+            title: Codecopilot
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/CodeCopilot.md
+          Codey.md:
+            title: Codey
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Codey.md
+          Coloring Book Hero.md:
+            title: Coloring Book Hero
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Coloring
+              Book Hero.md
+          Consistency Crafter 2024.md:
+            title: Consistency Crafter 2024
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Consistency
+              Crafter 2024.md
+          ConvertAnything.md:
+            title: Convertanything
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/ConvertAnything.md
+          Cosmic Dream.md:
+            title: Cosmic Dream
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Cosmic
+              Dream.md
+          Creative Writing Coach.md:
+            title: Creative Writing Coach
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Creative
+              Writing Coach.md
+          Cross-Border Investigation Assistant 跨境偵查小助手.md:
+            title: Cross Border Investigation Assistant 跨境偵查小助手
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Cross-Border
+              Investigation Assistant 跨境偵查小助手.md
+          CuratorGPT.md:
+            title: Curatorgpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/CuratorGPT.md
+          Customer Service GPT.md:
+            title: Customer Service Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Customer
+              Service GPT.md
+          Data Analysis.md:
+            title: Data Analysis
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Data
+              Analysis.md
+          DesignerGPT.md:
+            title: Designergpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/DesignerGPT.md
+          Diffusion Master.md:
+            title: Diffusion Master
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Diffusion
+              Master.md
+          DomainsGPT.md:
+            title: Domainsgpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/DomainsGPT.md
+          Dream Labyrinth(梦境跑团).md:
+            title: Dream Labyrinth(梦境跑团)
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Dream
+              Labyrinth(梦境跑团).md
+          Ebook Writer & Designer GPT.md:
+            title: Ebook Writer & Designer Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Ebook
+              Writer & Designer GPT.md
+          Email Proofreader.md:
+            title: Email Proofreader
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Email
+              Proofreader.md
+          Email Responder Pro.md:
+            title: Email Responder Pro
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Email
+              Responder Pro.md
+          EmojAI.md:
+            title: Emojai
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/EmojAI.md
+          Evolution Chamber.md:
+            title: Evolution Chamber
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Evolution
+              Chamber.md
+          Executive f(x)n.md:
+            title: Executive F(X)N
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Executive
+              f(x)n.md
+          Fantasy Book Weaver.md:
+            title: Fantasy Book Weaver
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Fantasy
+              Book Weaver.md
+          FramerGPT.md:
+            title: Framergpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/FramerGPT.md
+          GPT Builder.md:
+            title: Gpt Builder
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/GPT
+              Builder.md
+          GPT Customizer, File Finder & JSON Action Creator.md:
+            title: Gpt Customizer, File Finder & Json Action Creator
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/GPT
+              Customizer, File Finder & JSON Action Creator.md
+          GPT Idea Genie.md:
+            title: Gpt Idea Genie
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/GPT
+              Idea Genie.md
+          GPT Shield.md:
+            title: Gpt Shield
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/GPT
+              Shield.md
+          GPT Shop Keeper.md:
+            title: Gpt Shop Keeper
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/GPT
+              Shop Keeper.md
+          GPTsdex.md:
+            title: Gptsdex
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/GPTsdex.md
+          Game Time.md:
+            title: Game Time
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Game
+              Time.md
+          Geopolitics GPT.md:
+            title: Geopolitics Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Geopolitics
+              GPT.md
+          Get Simpsonized!.md:
+            title: Get Simpsonized!
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Get
+              Simpsonized!.md
+          Ghostwriters.md:
+            title: Ghostwriters
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Ghostwriters.md
+          Gif-PT.md:
+            title: Gif Pt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Gif-PT.md
+          Girlfriend Emma.md:
+            title: Girlfriend Emma
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Girlfriend
+              Emma.md
+          GoogleAnalytics Guru.md:
+            title: Googleanalytics Guru
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/GoogleAnalytics
+              Guru.md
+          Grimoire.md:
+            title: Grimoire
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Grimoire.md
+          GymStreak Workout Creator.md:
+            title: Gymstreak Workout Creator
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/GymStreak
+              Workout Creator.md
+          High-Quality Review Analyzer.md:
+            title: High Quality Review Analyzer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/High-Quality
+              Review Analyzer.md
+          HongKongGPT.md:
+            title: Hongkonggpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/HongKongGPT.md
+          HormoziGPT.md:
+            title: Hormozigpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/HormoziGPT.md
+          Hot Mods.md:
+            title: Hot Mods
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Hot
+              Mods.md
+          HumanWriterGPT.md:
+            title: Humanwritergpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/HumanWriterGPT.md
+          Humanizer Pro.md:
+            title: Humanizer Pro
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Humanizer
+              Pro.md
+          ID Photo Pro.md:
+            title: Id Photo Pro
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/ID
+              Photo Pro.md
+          Inkspire Tattoo Bot.md:
+            title: Inkspire Tattoo Bot
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Inkspire
+              Tattoo Bot.md
+          Interview Coach.md:
+            title: Interview Coach
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Interview
+              Coach.md
+          IstioGuru.md:
+            title: Istioguru
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/IstioGuru.md
+          KoeGPT.md:
+            title: Koegpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/KoeGPT.md
+          LangGPT.md:
+            title: Langgpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/LangGPT.md
+          Laundry Buddy.md:
+            title: Laundry Buddy
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Laundry
+              Buddy.md
+          LeetCode Problem Solver.md:
+            title: Leetcode Problem Solver
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/LeetCode
+              Problem Solver.md
+          LeetcodeProblemSolver.md:
+            title: Leetcodeproblemsolver
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/LeetcodeProblemSolver.md
+          LogoGPT.md:
+            title: Logogpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/LogoGPT.md
+          Makise Kurisu.md:
+            title: Makise Kurisu
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Makise
+              Kurisu.md
+          Manga Miko - Anime Girlfriend.md:
+            title: Manga Miko   Anime Girlfriend
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Manga
+              Miko - Anime Girlfriend.md
+          Math Mentor.md:
+            title: Math Mentor
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Math
+              Mentor.md
+          Media Magic Mike.md:
+            title: Media Magic Mike
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Media
+              Magic Mike.md
+          Meme Magic.md:
+            title: Meme Magic
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Meme
+              Magic.md
+          MetabolismBoosterGPT.md:
+            title: Metabolismboostergpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/MetabolismBoosterGPT.md
+          MidJourney Prompt Generator.md:
+            title: Midjourney Prompt Generator
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/MidJourney
+              Prompt Generator.md
+          Midjourney Generator.md:
+            title: Midjourney Generator
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Midjourney
+              Generator.md
+          Moby Dick RPG.md:
+            title: Moby Dick Rpg
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Moby
+              Dick RPG.md
+          Mocktail Mixologist.md:
+            title: Mocktail Mixologist
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Mocktail
+              Mixologist.md
+          Mr. Ranedeer Config Wizard.md:
+            title: Mr. Ranedeer Config Wizard
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Mr.
+              Ranedeer Config Wizard.md
+          Mr. Ranedeer.md:
+            title: Mr. Ranedeer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Mr.
+              Ranedeer.md
+          Music Writer.md:
+            title: Music Writer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Music
+              Writer.md
+          MuskGPT.md:
+            title: Muskgpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/MuskGPT.md
+          Mystic 占卜🔮.md:
+            title: Mystic 占卜🔮
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Mystic
+              占卜🔮.md
+          Naruto GPT.md:
+            title: Naruto Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Naruto
+              GPT.md
+          Nomad List.md:
+            title: Nomad List
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Nomad
+              List.md
+          OCR-GPT.md:
+            title: Ocr Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/OCR-GPT.md
+          Obscribe.md:
+            title: Obscribe
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Obscribe.md
+          OpenAPI Builder.md:
+            title: Openapi Builder
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/OpenAPI
+              Builder.md
+          OpenStorytelling Plus.md:
+            title: Openstorytelling Plus
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/OpenStorytelling
+              Plus.md
+          PPT Expert.md:
+            title: Ppt Expert
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/PPT
+              Expert.md
+          Packaging Expert.md:
+            title: Packaging Expert
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Packaging
+              Expert.md
+          Paw Pal.md:
+            title: Paw Pal
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Paw
+              Pal.md
+          Pepegen.md:
+            title: Pepegen
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Pepegen.md
+          Phoenix Ink.md:
+            title: Phoenix Ink
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Phoenix
+              Ink.md
+          PhoneixInk.md:
+            title: Phoneixink
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/PhoneixInk.md
+          Photogasm 2.0.md:
+            title: Photogasm 2.0
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Photogasm
+              2.0.md
+          Pic-book Artist.md:
+            title: Pic Book Artist
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Pic-book
+              Artist.md
+          Professor Synapse.md:
+            title: Professor Synapse
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Professor
+              Synapse.md
+          Quality Raters SEO Guide.md:
+            title: Quality Raters Seo Guide
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Quality
+              Raters SEO Guide.md
+          QuantFinance.md:
+            title: Quantfinance
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/QuantFinance.md
+          Radical Selfishness.md:
+            title: Radical Selfishness
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Radical
+              Selfishness.md
+          ResearchGPT.md:
+            title: Researchgpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/ResearchGPT.md
+          Retro Adventures.md:
+            title: Retro Adventures
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Retro
+              Adventures.md
+          Riddle Master (燈謎天尊).md:
+            title: Riddle Master (燈謎天尊)
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Riddle
+              Master (燈謎天尊).md
+          RolePlayHumanWritingGPT.md:
+            title: Roleplayhumanwritinggpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/RolePlayHumanWritingGPT.md
+          SEO GPT.md:
+            title: Seo Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/SEO
+              GPT.md
+          SWOT Analysis.md:
+            title: Swot Analysis
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/SWOT
+              Analysis.md
+          Sales Cold Email Coach.md:
+            title: Sales Cold Email Coach
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Sales
+              Cold Email Coach.md
+          Samurai AI Summary.md:
+            title: Samurai Ai Summary
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Samurai
+              AI Summary.md
+          Sarcastic Humorist.md:
+            title: Sarcastic Humorist
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Sarcastic
+              Humorist.md
+          ScholarAI.md:
+            title: Scholarai
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/ScholarAI.md
+          Screenplay GPT.md:
+            title: Screenplay Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Screenplay
+              GPT.md
+          ScriptCraft.md:
+            title: Scriptcraft
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/ScriptCraft.md
+          Secret Code Guardian.md:
+            title: Secret Code Guardian
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Secret
+              Code Guardian.md
+          Secret Keeper.md:
+            title: Secret Keeper
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Secret
+              Keeper.md
+          Simpsonize Me.md:
+            title: Simpsonize Me
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Simpsonize
+              Me.md
+          Small answer.md:
+            title: Small Answer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Small
+              answer.md
+          Sous Chef.md:
+            title: Sous Chef
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Sous
+              Chef.md
+          Starter Pack Generator.md:
+            title: Starter Pack Generator
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Starter
+              Pack Generator.md
+          Sticker Whiz.md:
+            title: Sticker Whiz
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Sticker
+              Whiz.md
+          Story Spock.md:
+            title: Story Spock
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Story
+              Spock.md
+          Storybook Vision.md:
+            title: Storybook Vision
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Storybook
+              Vision.md
+          Strap UI.md:
+            title: Strap Ui
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Strap
+              UI.md
+          Super Describe.md:
+            title: Super Describe
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Super
+              Describe.md
+          Synthia 😋🌟.md:
+            title: Synthia 😋🌟
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Synthia
+              😋🌟.md
+          TailwindCSS Previewer.md:
+            title: Tailwindcss Previewer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/TailwindCSS
+              Previewer.md
+          TailwindGPT.md:
+            title: Tailwindgpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/TailwindGPT.md
+          Take Code Captures.md:
+            title: Take Code Captures
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Take
+              Code Captures.md
+          TaxGPT.md:
+            title: Taxgpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/TaxGPT.md
+          Tech Support Advisor.md:
+            title: Tech Support Advisor
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Tech
+              Support Advisor.md
+          The Greatest Computer Science Tutor.md:
+            title: The Greatest Computer Science Tutor
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/The
+              Greatest Computer Science Tutor.md
+          The Negotiator.md:
+            title: The Negotiator
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/The
+              Negotiator.md
+          The Rizz Game.md:
+            title: The Rizz Game
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/The
+              Rizz Game.md
+          The Secret of Monkey Island- Amsterdam.md:
+            title: The Secret Of Monkey Island  Amsterdam
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/The
+              Secret of Monkey Island- Amsterdam.md
+          The Shaman.md:
+            title: The Shaman
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/The
+              Shaman.md
+          TherapistGPT.md:
+            title: Therapistgpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/TherapistGPT.md
+          Toronto City Council Guide.md:
+            title: Toronto City Council Guide
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Toronto
+              City Council Guide.md
+          Trending TikTok Hashtags Finder Tool.md:
+            title: Trending Tiktok Hashtags Finder Tool
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Trending
+              TikTok Hashtags Finder Tool.md
+          Trey Ratcliff's Photo Critique GPT.md:
+            title: Trey Ratcliff'S Photo Critique Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Trey
+              Ratcliff's Photo Critique GPT.md
+          TweetX Enhancer.md:
+            title: Tweetx Enhancer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/TweetX
+              Enhancer.md
+          Unbreakable GPT.md:
+            title: Unbreakable Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Unbreakable
+              GPT.md
+          Universal Primer.md:
+            title: Universal Primer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Universal
+              Primer.md
+          Video Game Almanac.md:
+            title: Video Game Almanac
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Video
+              Game Almanac.md
+          Video Script Generator.md:
+            title: Video Script Generator
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Video
+              Script Generator.md
+          Video Scripter.md:
+            title: Video Scripter
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Video
+              Scripter.md
+          Viral Hooks Generator.md:
+            title: Viral Hooks Generator
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Viral
+              Hooks Generator.md
+          Virtual Sweetheart.md:
+            title: Virtual Sweetheart
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Virtual
+              Sweetheart.md
+          Visual Weather Artist GPT.md:
+            title: Visual Weather Artist Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Visual
+              Weather Artist GPT.md
+          Watercolor Illustrator GPT.md:
+            title: Watercolor Illustrator Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Watercolor
+              Illustrator GPT.md
+          Weather Artist.md:
+            title: Weather Artist
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Weather
+              Artist.md
+          WebGPT.md:
+            title: Webgpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/WebGPT.md
+          What should I watch？.md:
+            title: What Should I Watch？
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/What
+              should I watch？.md
+          World Class Software Engineer.md:
+            title: World Class Software Engineer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/World
+              Class Software Engineer.md
+          Writing Assistant.md:
+            title: Writing Assistant
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Writing
+              Assistant.md
+          X Optimizer GPT.md:
+            title: X Optimizer Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/X
+              Optimizer GPT.md
+          Xhs Writer - Mary.md:
+            title: Xhs Writer   Mary
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/Xhs
+              Writer - Mary.md
+          YT Summarizer.md:
+            title: Yt Summarizer
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/YT
+              Summarizer.md
+          YT transcriber.md:
+            title: Yt Transcriber
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/YT
+              transcriber.md
+          YouTubeGPT.md:
+            title: Youtubegpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/YouTubeGPT.md
+          YouTubers Creative ToolBox.md:
+            title: Youtubers Creative Toolbox
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/YouTubers
+              Creative ToolBox.md
+          ask_ida-c++.md:
+            title: Ask_Ida C++
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/ask_ida-c++.md
+          chatssh.md:
+            title: Chatssh
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/chatssh.md
+          devrelguide.md:
+            title: Devrelguide
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/devrelguide.md
+          expert_front_end_developer_role.md:
+            title: Expert_Front_End_Developer_Role
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/expert_front_end_developer_role.md
+          genz 4 meme.md:
+            title: Genz 4 Meme
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/genz
+              4 meme.md
+          img2img.md:
+            title: Img2Img
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/img2img.md
+          plugin surf.md:
+            title: Plugin Surf
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/plugin
+              surf.md
+          toonGPT.md:
+            title: Toongpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/toonGPT.md
+          tsDoc Generator.md:
+            title: Tsdoc Generator
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/tsDoc
+              Generator.md
+          ✏️All-around Writer (Professional Version).md:
+            title: ✏️All Around Writer (Professional Version)
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/✏️All-around
+              Writer (Professional Version).md
+          中医专家.md:
+            title: 中医专家
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/中医专家.md
+          互联网+挑战杯大创竞赛导师.md:
+            title: 互联网+挑战杯大创竞赛导师
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/互联网+挑战杯大创竞赛导师.md
+          凌凤箫.md:
+            title: 凌凤箫
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/凌凤箫.md
+          嘴臭王.md:
+            title: 嘴臭王
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/嘴臭王.md
+          天官庙的刘半仙.md:
+            title: 天官庙的刘半仙
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/天官庙的刘半仙.md
+          子言女友.md:
+            title: 子言女友
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/子言女友.md
+          孫子 - saysay.ai.md:
+            title: 孫子   Saysay.Ai
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/孫子
+              - saysay.ai.md
+          完蛋！我爱上了姐姐.md:
+            title: 完蛋！我爱上了姐姐
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/完蛋！我爱上了姐姐.md
+          完蛋，我被美女包围了(AI同人).md:
+            title: 完蛋，我被美女包围了(Ai同人)
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/完蛋，我被美女包围了(AI同人).md
+          小坏蛋.md:
+            title: 小坏蛋
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/小坏蛋.md
+          小红书写作专家.md:
+            title: 小红书写作专家
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/小红书写作专家.md
+          广告文案大师.md:
+            title: 广告文案大师
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/广告文案大师.md
+          悲慘世界 RPG.md:
+            title: 悲慘世界 Rpg
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/悲慘世界
+              RPG.md
+          情感对话大师——帮你回复女生.md:
+            title: 情感对话大师——帮你回复女生
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/情感对话大师——帮你回复女生.md
+          攻击型领导.md:
+            title: 攻击型领导
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/攻击型领导.md
+          春霞つくし Tsukushi Harugasumi.md:
+            title: 春霞つくし Tsukushi Harugasumi
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/春霞つくし
+              Tsukushi Harugasumi.md
+          极简翻译.md:
+            title: 极简翻译
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/极简翻译.md
+          枫叶林.md:
+            title: 枫叶林
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/枫叶林.md
+          武林秘传：江湖探险.md:
+            title: 武林秘传：江湖探险
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/武林秘传：江湖探险.md
+          猫耳美少女イラストメーカー.md:
+            title: 猫耳美少女イラストメーカー
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/猫耳美少女イラストメーカー.md
+          王阳明.md:
+            title: 王阳明
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/王阳明.md
+          留学文书大师 Essay Architect.md:
+            title: 留学文书大师 Essay Architect
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/留学文书大师
+              Essay Architect.md
+          痤疮治疗指南.md:
+            title: 痤疮治疗指南
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/痤疮治疗指南.md
+          知识渊博的健身教练.md:
+            title: 知识渊博的健身教练
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/知识渊博的健身教练.md
+          短视频脚本.md:
+            title: 短视频脚本
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/短视频脚本.md
+          科技文章翻译.md:
+            title: 科技文章翻译
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/科技文章翻译.md
+          老妈，我爱你.md:
+            title: 老妈，我爱你
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/老妈，我爱你.md
+          老爸，该怎么办？.md:
+            title: 老爸，该怎么办？
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/老爸，该怎么办？.md
+          脏话连篇.md:
+            title: 脏话连篇
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/脏话连篇.md
+          英文校正GPT.md:
+            title: 英文校正Gpt
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/英文校正GPT.md
+          行业洞察家.md:
+            title: 行业洞察家
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/行业洞察家.md
+          解梦大师.md:
+            title: 解梦大师
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/解梦大师.md
+          超级Dalle.md:
+            title: 超级Dalle
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/超级Dalle.md
+          金庸群俠傳.md:
+            title: 金庸群俠傳
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/金庸群俠傳.md
+          鐵公雞.md:
+            title: 鐵公雞
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/鐵公雞.md
+          非虚构作品的阅读高手.md:
+            title: 非虚构作品的阅读高手
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/非虚构作品的阅读高手.md
+          骂醒恋爱脑.md:
+            title: 骂醒恋爱脑
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/骂醒恋爱脑.md
+          🎀My excellent classmates (Help with my homework!).md:
+            title: 🎀My Excellent Classmates (Help With My Homework!)
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/🎀My
+              excellent classmates (Help with my homework!).md
+          🦾 ClubGPT - developer team in one GPT 🦾.md:
+            title: 🦾 Clubgpt   Developer Team In One Gpt 🦾
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/🦾
+              ClubGPT - developer team in one GPT 🦾.md
+          🧙‍♂️算命先生.md:
+            title: 🧙‍♂️算命先生
+            contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/GPTs/prompts/🧙‍♂️算命先生.md
       Gpt:
         gpt-20231206094446-Python-Fasapi-Example.md:
           title: Gpt 20231206094446 Python Fasapi Example
