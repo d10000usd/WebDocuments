@@ -3,6 +3,7 @@ nav:
     md:
     - Gpt:
       - md/Gpt/gpt-20231206094446-Python-Fasapi-Example.md
+      - md/Gpt/gpt-20240118110403-Axios-vs-Fetch.md
       - md/Gpt/gpt-All-20231206094251-FastAPI-News-Server.md
       - md/Gpt/gpt-All-20231206094357-HTML로-광학-내용-20.md
       - md/Gpt/gpt-All-20231206094419-Fetch-전략-최적화.md
@@ -20,6 +21,7 @@ nav:
       - md/Gpt/gpt-All-20240114081913-SEO-Strategies_-20-Tips.md
       - md/Gpt/gpt-All-20240117083842-ChatGPT.md
       - md/Gpt/gpt-All-20240117083850-로드밸런싱-5개-서버-3분할.md
+      - md/Gpt/gpt-All-20240118110353-Axios-사용해서-수정.md
     - Post:
       - md/Post/Welcome!!.md
       - md/Post/gpt-All-20240114081755-MVC-패턴-특징-6개.md
@@ -46,6 +48,9 @@ nav:
         gpt-20231206094446-Python-Fasapi-Example.md:
           title: Gpt 20231206094446 Python Fasapi Example
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20231206094446-Python-Fasapi-Example.md
+        gpt-20240118110403-Axios-vs-Fetch.md:
+          title: Gpt 20240118110403 Axios Vs Fetch
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-20240118110403-Axios-vs-Fetch.md
         gpt-All-20231206094251-FastAPI-News-Server.md:
           title: Gpt All 20231206094251 Fastapi News Server
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20231206094251-FastAPI-News-Server.md
@@ -97,6 +102,9 @@ nav:
         gpt-All-20240117083850-로드밸런싱-5개-서버-3분할.md:
           title: Gpt All 20240117083850 로드밸런싱 5개 서버 3분할
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20240117083850-로드밸런싱-5개-서버-3분할.md
+        gpt-All-20240118110353-Axios-사용해서-수정.md:
+          title: Gpt All 20240118110353 Axios 사용해서 수정
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20240118110353-Axios-사용해서-수정.md
       Post:
         Welcome!!.md:
           title: Welcome!!
