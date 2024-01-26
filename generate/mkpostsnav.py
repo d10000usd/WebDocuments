@@ -126,14 +126,25 @@ def main():
     # with open('/Users/hg/DEV/hg-project-bootstrap/public/json/kdocs_posts_nav.yml', 'w', encoding='utf-8') as file:
     #     file.write(nav_yaml)
 
-
     p = '/Users/hg/PROJECT/WebDocuments/public/mkdocs_posts_nav.json'
     nav_yaml = yaml.dump({'nav': nav_structure}, allow_unicode=True, sort_keys=False)
     with open(f'{p}', 'w',encoding='utf-8') as json_file:
         json_file.write(json.dumps(nav_structure, indent=4, ensure_ascii=False,))
 
+
+    p = '/Users/hg/PROJECT/frontend/hg-project-bootstrap/src/assets/json/mkdocs_posts_nav.json'
+    nav_yaml = yaml.dump({'nav': nav_structure}, allow_unicode=True, sort_keys=False)
+    with open(f'{p}', 'w',encoding='utf-8') as json_file:
+        json_file.write(json.dumps(nav_structure, indent=4, ensure_ascii=False,))
+
+
+
     with open('/Users/hg/PROJECT/WebDocuments/public/mkdocs_posts_nav.yml', 'w', encoding='utf-8') as file:
         file.write(nav_yaml)
+
+
+
+
 
     return nav_structure
     # data = read_yaml_file('/Users/hg/DEV/hg-project-bootstrap/public/md/mkdocs_posts_nav_pp.yml')
