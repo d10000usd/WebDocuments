@@ -36,7 +36,7 @@
         const now = new Date();
         const dateString = `${now.getFullYear()}${(now.getMonth() + 1).toString().padStart(2, '0')}${now.getDate().toString().padStart(2, '0')}${now.getHours().toString().padStart(2, '0')}${now.getMinutes().toString().padStart(2, '0')}${now.getSeconds().toString().padStart(2, '0')}`;
 
-        const fileName = `gpt-${document.title.replace(/\s+/g, '-')}-${dateString}.md`;
+        const fileName = `gpt-All-${dateString}-${document.title.replace(/\s+/g, '-')}.md`;
         const downloadLink = document.createElement("a");
         downloadLink.download = fileName;
         downloadLink.href = URL.createObjectURL(blob);
@@ -59,7 +59,7 @@
         // 20231206094251
         
         // gpt-All-20231206094251-FastAPI-News-Server
-        const fileName = `gpt-All-${document.title.replace(/\s+/g, '-')}-${dateString}.md`;
+        const fileName = `gpt-All-${dateString}-${document.title.replace(/\s+/g, '-')}.md`;
         const blob = new Blob([allMd], { type: "text/markdown" });
         const downloadLink = document.createElement("a");
         downloadLink.download = fileName;
