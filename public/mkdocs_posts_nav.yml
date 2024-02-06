@@ -2,10 +2,10 @@ nav:
   Public:
     md:
     - Gpt:
-      - md/Gpt/gpt-All-20240114081755-MVC-패턴-특징-6개.md
       - md/Gpt/gpt-All-20240206122625-Data-Fetching-Loop.md
       - md/Gpt/gpt-All-20240206123248-한글-코드-디버깅.md
       - md/Gpt/gpt-All-20240206123253-한글-코드-디버깅.md
+      - md/Gpt/gpt-All-DateTime-ISO-Format-20240206122226.md
     - Post:
       - md/Post/Welcome!!.md
       - md/Post/gpt-All-20240114081755-MVC-패턴-특징-6개.md
@@ -29,9 +29,6 @@ nav:
   Blob:
     md:
       Gpt:
-        gpt-All-20240114081755-MVC-패턴-특징-6개.md:
-          title: Gpt All 20240114081755 Mvc 패턴 특징 6개
-          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20240114081755-MVC-패턴-특징-6개.md
         gpt-All-20240206122625-Data-Fetching-Loop.md:
           title: Gpt All 20240206122625 Data Fetching Loop
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20240206122625-Data-Fetching-Loop.md
@@ -41,6 +38,9 @@ nav:
         gpt-All-20240206123253-한글-코드-디버깅.md:
           title: Gpt All 20240206123253 한글 코드 디버깅
           contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-20240206123253-한글-코드-디버깅.md
+        gpt-All-DateTime-ISO-Format-20240206122226.md:
+          title: Gpt All Datetime Iso Format 20240206122226
+          contentUrl: https://raw.githubusercontent.com/d10000usd/WebDocuments/main/public/md/Gpt/gpt-All-DateTime-ISO-Format-20240206122226.md
       Post:
         Welcome!!.md:
           title: Welcome!!
